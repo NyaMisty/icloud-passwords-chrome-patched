@@ -1,0 +1,110 @@
+name: CRX Updater
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
+        required: false
+        default: false
+  repository_dispatch:
+  schedule:
+   - cron: "0 */4 * * *" # min hour day week year
+
+
+env:
+  CHROME_EXT_ID: pejdijmoenmkgeppbflobdenhhabjlaj
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      ##########################################################
+      ###
+      ### XXX: Pre-init steps here
+      ###
+      ##########################################################
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: recursive
+      - name: Generate timestamp
+        id: timestamp # output: value
+        run: |
+          TIMESTAMP="$(date +"%Y%m%d%H%M%S")"
+          echo "Timestamp: ${TIMESTAMP}"
+          echo "::set-output name=value::${TIMESTAMP}"
+      
+      - name: Setup committer
+        run: |
+          git config --global user.email "gh-worker@misty.moe"
+          git config --global user.name "NyaMisty BuildWorker"
+
+      ### XXX: Keep alive cron-type workflows
+      - uses: gautamkrishnar/keepalive-workflow@master
+
+      ##########################################################
+      ###
+      ### XXX: Env-setup steps here
+      ###
+      ##########################################################
+      ### Python
+      ##
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+          architecture: x64
+      - name: Setup Python Dependencies
+        run:
+          pip3 install crx_unpack
+      
+
+      ##########################################################
+      ###
+      ### XXX: Pre-build steps here (checking, debugging)
+      ###
+      ##########################################################
+        
+      # Enable tmate debugging of manually-triggered workflows if the input option was provided
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled }}
+        env:
+          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+      
+
+      ##########################################################
+      ###
+      ### XXX: Main building steps here
+      ###
+      ##########################################################
+            
+      - name: Download Chrome Extension
+        run: |
+          curl -Lvv -o ${CHROME_EXT_ID}_ori.crx "https://clients2.google.com/service/update2/crx?response=redirect&prodversion=91.0&acceptformat=crx2,crx3&x=id%3D$CHROME_EXT_ID%26uc"
+      - name: Extract CRX
+        run: |
+          rm -rf ${CHROME_EXT_ID}_patched
+          unpack xo ${CHROME_EXT_ID}_ori.crx ${CHROME_EXT_ID}_patched
+      - name: Patch CRX
+        run: |
+          python3 patcher.py ${CHROME_EXT_ID}_patched
+      
+      - name: Commit Update
+        run: |
+          if [ ! -z "$(git status --porcelain)" ]; then
+            echo "Plugin Changed! Commiting update..."
+            git status
+            git add .
+            git commit -m "Auto Plugin Update ${{ steps.timestamp.outputs.value }}"
+          fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          force: true
