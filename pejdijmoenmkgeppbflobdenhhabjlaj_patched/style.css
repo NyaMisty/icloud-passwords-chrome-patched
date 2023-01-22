@@ -103,6 +103,7 @@ input.PIN {
     height: 40px;
     text-align: center;
     font-size: 25px;
+    display: inline-block;
 }
 input.PIN:focus {
     border: 2px solid rgba(0,120,215,1);
@@ -338,13 +339,15 @@ img.iCloudIcon {
 }
 .pinbox {
     margin-top: 1em;
+    white-space: nowrap;
 }
 [dir="rtl"] img.iCloudIcon {
     float: right;
 }
 [dir="rtl"] .pinbox {
     direction: ltr;
-    padding-inline-start: 75px;
+    white-space: nowrap;
+    padding-inline-start: 23px;
 }
 div, #iCloudIconId {
     animation: fadein 0.25s;
