@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Stáhnout"
   },
-  "downloadMessage": {
-    "message": "Pokud chcete používat Hesla na iCloudu, stáhněte si iCloud pro Windows."
+  "downloadMessage_windows": {
+    "message": "Chcete‑li používat Hesla na iCloudu, stáhněte si iCloud pro Windows."
+  },
+  "downloadMessage_macos": {
+    "message": "Toto rozšíření vyžaduje betaverzi macOS 14."
   },
   "extDescription": {
-    "message": "Hesla na iCloudu umožňují vyplnit hesla vytvořená v Safari a aplikacích na iPhonu, iPadu a Macu do webových stránek v Chromu."
+    "message": "Rozšíření Hesla na iCloudu vám umožňuje vyplňovat hesla z Klíčenky na iCloudu při přihlašování k webovým stránkám v Chromu."
   },
   "extName": {
     "message": "Hesla na iCloudu"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Chcete‑li v Chromu používat rozšíření Hesla na iCloudu, zapněte v aplikaci iCloud pro Windows funkci Hesla."
   },
-  "unsupportedOS": {
-    "message": "Toto rozšíření je určené pro systém Windows 10 nebo novější. Pokud používáte Mac, vaše hesla se budou automaticky synchronizovat s iPhonem, iPadem a Macem, když se přihlásíte na iCloud."
+  "unsupportedOS_windows": {
+    "message": "Toto rozšíření je určené pro Windows 10 nebo novější. Pokud používáte Mac, vaše hesla se automaticky synchronizují s iPhonem, iPadem a Macem při přihlášení k iCloudu."
+  },
+  "unsupportedOS_macos": {
+    "message": "Toto rozšíření vyžaduje betaverzi macOS 13 nebo Safari 16."
   },
   "divPINTitle": {
     "message": "Zapnutí automatického vyplňování hesel"
   },
-  "divPINMessage": {
-    "message": "iCloud pro Windows vám poslal oznámení s ověřovacím kódem. Tento kód zadejte, než budete pokračovat."
+  "divPINMessage_windows": {
+    "message": "Aplikace iCloud pro Windows vám poslala oznámení s ověřovacím kódem. Před pokračováním tento kód zadejte."
+  },
+  "divPINMessage_macos": {
+    "message": "Na Macu byl vygenerován ověřovací kód. Před pokračováním ho zadejte."
   },
   "divICsMessage": {
     "message": "Vyberte uložené heslo, které chcete použít:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Vaše hesla se synchronizují s Klíčenkou na iCloudu"
   },
-  "divNoPasswordsMessage": {
-    "message": "Uložená hesla si můžete prohlížet a upravovat v aplikaci Hesla na iCloudu."
+  "divNoPasswordsMessage_windows": {
+    "message": "Uložená hesla můžete zobrazit a upravit v aplikaci Hesla na iCloudu."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Uložená hesla můžete vyhledat a spravovat v nastavení Hesla."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Uložená hesla můžete spravovat na panelu Hesla v Předvolbách systému."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Uložená hesla můžete spravovat na panelu Hesla v předvolbách Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Pro tuto webovou stránku jste ukládání hesel zakázali."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Nastavit ověřovací kód"
+  },
+  "strongPasswordSuggestion": {
+    "message": "V nastavení Hesla nebo v Safari můžete vytvořit silné heslo."
+  },
+  "openThisPageInSafari": {
+    "message": "Otevřít stránku v Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Otevřít nastavení Hesla…"
   }
 }

@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "下载"
   },
-  "downloadMessage": {
-    "message": "下载 Windows 版 iCloud 以使用 iCloud 密码。"
+  "downloadMessage_windows": {
+    "message": "下载 Windows 版 iCloud 来使用 iCloud 密码。"
+  },
+  "downloadMessage_macos": {
+    "message": "此扩展需要安装 macOS 14 Beta 版。"
   },
   "extDescription": {
-    "message": "iCloud 密码可让你将 Safari 浏览器以及 iPhone、iPad 和 Mac 上的 App 中创建的密码填充到 Chrome 中的网站上。"
+    "message": "iCloud 密码可让你在 Chrome 中登录网站时，从 iCloud 钥匙串填充密码。"
   },
   "extName": {
     "message": "iCloud 密码"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "在 Windows 版 iCloud 中启用“密码”以配合 Chrome 使用 iCloud 密码。"
   },
-  "unsupportedOS": {
-    "message": "此扩展设计运行于 Windows 10 或更高版本。如果使用的是 Mac，你的密码将在登录 iCloud 时自动与你的 iPhone、iPad 和 Mac 同步。"
+  "unsupportedOS_windows": {
+    "message": "此扩展设计运行于 Windows 10 或更高版本。如果使用的是 Mac，登录 iCloud 后，你的密码会自动与 iPhone、iPad 和 Mac 同步。"
+  },
+  "unsupportedOS_macos": {
+    "message": "此扩展需要 macOS 13 Beta 版或 Safari 16 Beta 版才能运行。"
   },
   "divPINTitle": {
     "message": "启用密码自动填充"
   },
-  "divPINMessage": {
-    "message": "Windows 版 iCloud 向你发送了带有验证码的通知。输入验证码以继续。"
+  "divPINMessage_windows": {
+    "message": "Windows 版 iCloud 已向你发送包含验证码的通知。请输入该验证码以继续。"
+  },
+  "divPINMessage_macos": {
+    "message": "Mac 已生成验证码。请输入该验证码以继续。"
   },
   "divICsMessage": {
     "message": "选取并使用已保存的密码："
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "你的密码已与 iCloud 钥匙串同步"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "你可以在 iCloud 密码 App 中查看和编辑已保存的密码。"
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "你可以在“密码”设置中查找和管理已保存的密码。"
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "你可以在“系统偏好设置”的“密码”面板中管理已存储的密码。"
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "你可以在 Safari 浏览器偏好设置的“密码”标签页中管理已存储的密码。"
   },
   "divDoNotRememberTitle": {
     "message": "你之前已选择永不保存此网站的密码。"
@@ -54,7 +72,7 @@
     "message": "管理密码…"
   },
   "divOpenPasswordsSubtitle": {
-    "message": "查询和创建密码。"
+    "message": "查找和创建密码。"
   },
   "browserName": {
     "message": "Chrome"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "设置验证码"
+  },
+  "strongPasswordSuggestion": {
+    "message": "你可以在“密码设置”或 Safari 浏览器中创建强密码。"
+  },
+  "openThisPageInSafari": {
+    "message": "在 Safari 浏览器中打开此页面…"
+  },
+  "openPasswordsSettings": {
+    "message": "打开密码设置…"
   }
 }

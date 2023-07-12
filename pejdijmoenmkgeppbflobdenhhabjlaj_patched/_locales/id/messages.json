@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Unduh"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Unduh iCloud untuk Windows untuk menggunakan Kata Sandi iCloud."
   },
+  "downloadMessage_macos": {
+    "message": "Ekstensi ini memerlukan macOS 14 beta untuk diinstal."
+  },
   "extDescription": {
-    "message": "Kata Sandi iCloud memungkinkan Anda untuk mengisikan kata sandi yang dibuat di Safari dan app di iPhone, iPad, dan Mac ke situs web di Chrome."
+    "message": "Kata Sandi iCloud memungkinkan Anda untuk mengisi kata sandi dari Rantai Kunci iCloud saat masuk ke situs web menggunakan Chrome."
   },
   "extName": {
     "message": "Kata Sandi iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Aktifkan Kata Sandi di iCloud untuk Windows untuk memakai Kata Sandi iCloud di Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Ekstensi ini dirancang untuk dijalankan di Windows 10 atau lebih baru. Jika Anda menggunakan Mac, kata sandi Anda akan diselaraskan secara otomatis dengan iPhone, iPad, dan Mac Anda saat Anda masuk ke iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Ekstensi ini memerlukan macOS 13 beta atau Safari 16 beta untuk dijalankan."
   },
   "divPINTitle": {
     "message": "Aktifkan Isi-Auto Kata Sandi"
   },
-  "divPINMessage": {
-    "message": "iCloud untuk Windows mengirimi Anda pemberitahuan yang berisi kode verifikasi. Masukkan kode untuk melanjutkan."
+  "divPINMessage_windows": {
+    "message": "iCloud untuk Windows mengirimi Anda pemberitahuan dengan kode verifikasi. Masukkan kode untuk melanjutkan."
+  },
+  "divPINMessage_macos": {
+    "message": "Kode verifikasi telah dibuat oleh Mac Anda. Masukkan kode untuk melanjutkan."
   },
   "divICsMessage": {
     "message": "Pilih kata sandi yang disimpan untuk digunakan:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Kata sandi Anda diselaraskan dengan Rantai Kunci iCloud"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Anda dapat melihat dan mengedit kata sandi yang disimpan di app Kata Sandi iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Anda dapat mencari dan mengelola kata sandi yang disimpan di pengaturan Kata Sandi."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Anda dapat mengelola kata sandi yang disimpan di panel Kata Sandi di Preferensi Sistem."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Anda dapat mengelola kata sandi yang disimpan di tab Kata Sandi pada preferensi Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Sebelumnya Anda meminta agar jangan pernah menyimpan kata sandi untuk situs web ini."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Atur Kode Verifikasi"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Anda dapat membuat kata sandi kuat di Pengaturan Kata Sandi atau di Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Buka Halaman Ini di Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Buka Pengaturan Kata Sandi…"
   }
 }

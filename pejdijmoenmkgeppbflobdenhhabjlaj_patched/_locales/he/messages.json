@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "הורדה"
   },
-  "downloadMessage": {
-    "message": "יש להוריד את iCloud עבור Windows כדי להשתמש ב״סיסמאות iCloud״."
+  "downloadMessage_windows": {
+    "message": "כדי להשתמש ב״סיסמאות iCloud״ יש להוריד את ״iCloud עבור Windows״."
+  },
+  "downloadMessage_macos": {
+    "message": "כדי להוריד הרחבה זו נדרשת גירסת בטא של macOS 14."
   },
   "extDescription": {
-    "message": "סיסמאות iCloud״ מאפשר לך למלא סיסמאות שנוצרו ב-Safari וביישומים ב-iPhone, ב-iPad וב-Mac לתוך אתרים ב-Chrome."
+    "message": "בעזרת ״סיסמאות iCloud״ באפשרותך למלא סיסמאות מצרור המפתחות של iCloud בעת ההתחברות לאתרים דרך Chrome."
   },
   "extName": {
     "message": "סיסמאות iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "אפשר את ״סיסמאות״ ב-iCloud עבור Windows כדי לאפשר שימוש ב״סיסמאות iCloud״ עם Chrome."
   },
-  "unsupportedOS": {
-    "message": "הרחבה זו נועדה לפעול ב-Windows 10 ואילך. כאשר משתמשים ב-Mac, הסיסמאות מסתנכרנות באופן אוטומטי עם iPhone, iPad, ו-Mac כאשר מתחברים ל-iCloud."
+  "unsupportedOS_windows": {
+    "message": "הרחבה זו נועדה לפעול ב-Windows 10 ואילך. במקרה של שימוש ב-Mac, הסיסמאות שלך יסתנכרנו באופן אוטומטי עם ה-iPhone, ה-iPad וה-Mac שלך בעת ההתחברות אל iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "להפעלת הרחבה זו נדרשת גירסת בטא של macOS 13 או גירסת בטא של Safari 16."
   },
   "divPINTitle": {
     "message": "הפעלת ״מילוי אוטומטי של סיסמאות״"
   },
-  "divPINMessage": {
-    "message": "קיבלת מ-iCloud עבור Windows עדכון עם קוד אימות. יש להזין את הקוד כדי להמשיך."
+  "divPINMessage_windows": {
+    "message": "״iCloud עבור Windows״ שלח לך עדכון עם קוד אימות. יש להזין את הקוד כדי להמשיך."
+  },
+  "divPINMessage_macos": {
+    "message": "ה-Mac יצר קוד אימות. יש להזין את הקוד כדי להמשיך."
   },
   "divICsMessage": {
     "message": "יש לבחור בסיסמה שנשמרה לשימוש:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "הסיסמאות שלך מסונכרנות עם ״צרור המפתחות של iCloud״"
   },
-  "divNoPasswordsMessage": {
-    "message": "ניתן להציג ולערוך סיסמאות שנשמרו ביישום ״סיסמאות iCloud״."
+  "divNoPasswordsMessage_windows": {
+    "message": "ניתן להציג ולערוך סיסמאות שמורות ביישום ״סיסמאות iCloud״."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "ניתן לחפש ולנהל סיסמאות שמורות בהגדרות ״סיסמאות״."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "ניתן לנהל סיסמאות שמורות בחלונית ״סיסמאות״ ב״העדפות המערכת״."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "ניתן לנהל סיסמאות שמורות בכרטיסיה ״סיסמאות״ של העדפות Safari."
   },
   "divDoNotRememberTitle": {
     "message": "בחרת בעבר אף פעם לא לשמור סיסמאות עבור אתר האינטרנט הזה."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "הגדרת קוד אימות"
+  },
+  "strongPasswordSuggestion": {
+    "message": "ניתן ליצור סיסמה חזקה בהגדרות ״סיסמאות״ או ב-Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "פתיחת עמוד זה ב-Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "פתיחת הגדרות ״סיסמאות״…"
   }
 }

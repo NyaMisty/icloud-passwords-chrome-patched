@@ -201,6 +201,9 @@ ul.credential-list, .credential-list li {
     height: 44px;
     padding: 2px 12px;
 }
+.credential-list.inline li.credential div {
+    float: left;
+}
 .popup .credential-list {
     margin-top: 10px;
 }
@@ -210,12 +213,8 @@ ul.credential-list, .credential-list li {
 .popup .credential-list li:last-child {
     margin-bottom: 1px;
 }
-
 .credential-list li.selectable.active {
     background-color: var(--table-cell-hover-color);
-}
-.completionList .credential-list li.credential {
-    border-bottom: 1px solid var(--separator-color);
 }
 .credential-list li.credential img {
     margin: 0;
@@ -241,8 +240,10 @@ ul.credential-list, .credential-list li {
 [dir="rtl"] .credential-list li.credential img {
     float: right;
 }
-.popup .credential-list li.open-password-manager
-{
+.popup .credential-list li.open-password-manager {
+    border-top: 1px solid var(--separator-color);
+}
+.popup .credential-list li.open-safari {
     border-top: 1px solid var(--separator-color);
 }
 .credential-list li.credential .name, .credential-list li.credential .website, .credential-list li.open-password-manager .totpwebsite{
@@ -273,10 +274,18 @@ ul.credential-list, .credential-list li {
 }
 
 .credential-list li.open-password-manager
+,.credential-list li.open-safari
 {
     font-size: 14px;
     line-height: 26px;
     padding: 5px 12px 5px 12px;
+}
+.credential-list li.strongPasswordSuggestion {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 8px 12px 8px 12px;
+    opacity: 0.8;
+    width: 240px;
 }
 .credential-list li.iCloudPasswords, #fromiCloudPasswords {
     font-weight: 500;
@@ -291,9 +300,6 @@ ul.credential-list, .credential-list li {
 }
 .credential-list li.iCloudPasswords img, #fromiCloudPasswords img {
     opacity: 0.8;
-}
-.completionList .iCloudPasswords, #fromiCloudPasswords {
-    border-bottom: 1px solid var(--separator-color);
 }
 .credential-list li.iCloudPasswords {
     height: 16px;
@@ -310,6 +316,9 @@ ul.credential-list, .credential-list li {
 .credential-list.inline li.iCloudPasswords {
     width: 200px;
 }
+.completionList .credential-list > li + li {
+    border-top: 1px solid var(--separator-color);
+}
 .credential-list li.open-password-manager p.title {
     margin-top: 0;
     margin-bottom: 0;
@@ -321,6 +330,7 @@ ul.credential-list, .credential-list li {
     font-size: 12px;
 }
 .popup .credential-list li.open-password-manager
+, .popup .credential-list li.open-safari
 {
     padding: 7px 24px 7px 24px;
 }

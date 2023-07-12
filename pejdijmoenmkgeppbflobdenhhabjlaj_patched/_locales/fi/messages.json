@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Lataa"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Lataa iCloud Windowsille, jotta voit käyttää iCloud-salasanoja."
   },
+  "downloadMessage_macos": {
+    "message": "Tämä laajennus vaatii, että macOS 14 beta on asennettu."
+  },
   "extDescription": {
-    "message": "iCloud-salasanoilla voit käyttää Safarissa sekä iPhonen, iPadin ja Macin apeissa luotuja salasanoja Chromessa."
+    "message": "iCloud-salasanat mahdollistaa salasanojen automaattisen täyttämisen iCloud-avainnipusta, kun kirjaudutaan sivustoille Chromella."
   },
   "extName": {
     "message": "iCloud-salasanat"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Ota Salasanat käyttöön Windowsin iCloudissa, jotta voit käyttää iCloud-salasanoja Chromessa."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Tämä laajennus on suunniteltu Windows 10:lle tai uudemmalle. Jos käytät Macia, salasanasi synkronoidaan automaattisesti iPhonen, iPadin ja Macin välillä, kun kirjaudut iCloudiin."
+  },
+  "unsupportedOS_macos": {
+    "message": "Tämä laajennus vaatii macOS 13 betan tai Safari 16 betan."
   },
   "divPINTitle": {
     "message": "Ota salasanojen automaattinen täyttö käyttöön"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud Windowsille lähetti sinulle ilmoituksen, jossa on vahvistuskoodi. Jatka syöttämällä koodi."
+  },
+  "divPINMessage_macos": {
+    "message": "Mac on generoinut vahvistuskoodin. Jatka syöttämällä koodi."
   },
   "divICsMessage": {
     "message": "Valitse tallennettu salasana käytettäväksi:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Salasanasi on synkronoitu iCloud-avainnipun kanssa"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Voit katsella ja muokata tallennettuja salasanoja iCloud-salasanat-sovelluksessa."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Voit etsiä ja hallita tallennettuja salasanoja Salasanat-asetuksissa."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Voit hallita tallennettuja salasanoja Järjestelmäasetusten Salasanat-paneelissa."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Voit hallita tallennettuja salasanoja Safari-asetusten Salasanat-välilehdellä."
   },
   "divDoNotRememberTitle": {
     "message": "Olet aikaisemmin valinnut, että salasanoja tälle verkkosivustolle ei tallenneta."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Ota vahvistuskoodi käyttöön"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Voit luoda vahvan salasanan Salasanat-asetuksissa tai Safarissa."
+  },
+  "openThisPageInSafari": {
+    "message": "Avaa tämä sivu Safarissa…"
+  },
+  "openPasswordsSettings": {
+    "message": "Avaa Salasanat-asetukset…"
   }
 }

@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Descarregar"
   },
-  "downloadMessage": {
-    "message": "Descarrega l’iCloud per a Windows per utilitzar l’extensió de contrasenyes a l’iCloud."
+  "downloadMessage_windows": {
+    "message": "Per utilitzar l’extensió de contrasenyes a l’iCloud, descarrega’t l’iCloud per a Windows."
+  },
+  "downloadMessage_macos": {
+    "message": "Cal que instal·lis el macOS 14 beta per poder utilitzar l’extensió."
   },
   "extDescription": {
-    "message": "L’extensió de contrasenyes a l’iCloud serveix per emplenar les contrasenyes que has creat al Safari i a les apps de l’iPhone, l’iPad o el Mac als llocs web del Chrome."
+    "message": "L’extensió de contrasenyes a l’iCloud et permet emplenar les contrasenyes desades al clauer de l’iCloud quan inicies sessió en llocs web des del Chrome."
   },
   "extName": {
     "message": "Extensió de contrasenyes a l’iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Ves a l’iCloud per a Windows i activa l’opció Contrasenyes per utilitzar l’extensió de contrasenyes a l’iCloud amb el Chrome."
   },
-  "unsupportedOS": {
-    "message": "L’extensió s’ha dissenyat per funcionar a partir del Windows 10. Si tens un Mac, les contrasenyes se sincronitzaran automàticament amb l’iPhone, l’iPad i el Mac quan iniciïs sessió a l’iCloud."
+  "unsupportedOS_windows": {
+    "message": "L’extensió s’ha dissenyat per al Windows 10 i versions posteriors. Si tens un Mac, les contrasenyes se sincronitzaran automàticament entre l’iPhone, l’iPad i el Mac quan iniciïs sessió a l’iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Per utilitzar l’extensió, cal que instal·lis el macOS 13 beta o el Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Activar l‘autocompleció de contrasenyes"
   },
-  "divPINMessage": {
-    "message": "L‘iCloud per al Windows t’ha enviat una notificació amb un codi de verificació. Introdueix‑lo per continuar."
+  "divPINMessage_windows": {
+    "message": "Has rebut una notificació de l’iCloud for Windows amb un codi de verificació. Introdueix-lo per continuar."
+  },
+  "divPINMessage_macos": {
+    "message": "S’ha generat un codi de verificació al Mac. Introdueix-lo per continuar."
   },
   "divICsMessage": {
     "message": "Selecciona la contrasenya desada que vols utilitzar:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Les contrasenyes estan sincronitzades amb el clauer de l’iCloud"
   },
-  "divNoPasswordsMessage": {
-    "message": "Pots veure i editar les contrasenyes desades a l’app Contrasenyes a l’iCloud."
+  "divNoPasswordsMessage_windows": {
+    "message": "Per consultar i editar les contrasenyes desades, ves a l’app Contrasenyes a l’iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Per consultar i gestionar les contrasenyes desades, ves a la configuració de les contrasenyes."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Per gestionar les contrasenyes desades, obre les preferències del sistema i ves a la secció de contrasenyes."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Per gestionar les contrasenyes desades, obre les preferències del Safari i ves a la pestanya de contrasenyes."
   },
   "divDoNotRememberTitle": {
     "message": "Abans has indicat que no es desin mai les contrasenyes per a aquest lloc web."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Configurar un codi de verificació"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Crea una contrasenya segura a la configuració de les contrasenyes o al Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Obrir la pàgina al Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Obrir la configuració de les contrasenyes…"
   }
 }

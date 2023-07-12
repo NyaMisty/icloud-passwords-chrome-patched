@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Muat Turun"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Muat turun iCloud untuk Windows bagi menggunakan Kata Laluan iCloud."
   },
+  "downloadMessage_macos": {
+    "message": "Sambungan ini memerlukan macOS 14 beta untuk dipasang."
+  },
   "extDescription": {
-    "message": "Kata Laluan iCloud membolehkan anda mengisi kata laluan yang dicipta dalam Safari dan app pada iPhone, iPad dan Mac ke dalam tapak web dalam Chrome."
+    "message": "Kata Laluan iCloud mengisi kata laluan daripada Rantai Kunci iCloud apabila daftar masuk ke tapak web menggunakan Chrome."
   },
   "extName": {
     "message": "Kata Laluan iCloud"
@@ -18,16 +21,22 @@
     "message": "Buka iCloud untuk Windows"
   },
   "CheckEngineMessage": {
-    "message": "Dayakan Kata Laluan dalam iCloud untuk Windows bagi menggunakan Kata Laluan iCloud dengan Chrome."
+    "message": "Dayakan Kata Laluan iCloud untuk Windows untuk gunakan Kata Laluan iCloud dengan Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Sambungan ini direka bentuk untuk dijalankan pada Windows 10 atau lebih baharu. Jika anda menggunakan Mac, kata laluan anda akan diselaraskan secara automatik dengan iPhone, iPad dan Mac anda apabila anda mendaftar masuk ke iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Sambungan ini memerlukan macOS 13 beta atau Safari 16 beta untuk dijalankan."
   },
   "divPINTitle": {
     "message": "Dayakan Isi Auto Kata Laluan"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud untuk Windows menghantar pemberitahuan dengan kod pengesahan kepada anda. Masukkan kod untuk meneruskan."
+  },
+  "divPINMessage_macos": {
+    "message": "Kod pengesahan telah dijana oleh Mac anda. Masukkan kod untuk meneruskan."
   },
   "divICsMessage": {
     "message": "Pilih kata laluan disimpan untuk digunakan:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Kata laluan anda diselaraskan dengan Rantai Kunci iCloud"
   },
-  "divNoPasswordsMessage": {
-    "message": "Anda boleh melihat dan mengedit kata laluan yang disimpan dalam app Kata Laluan iCloud."
+  "divNoPasswordsMessage_windows": {
+    "message": "Anda boleh melihat dan mengedit kata laluan disimpan dalam app Kata Laluan iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Anda boleh mencari dan mengurus kata laluan disimpan dalam seting Kata Laluan."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Anda boleh mengurus kata laluan disimpan dalam anak tetingkap Kata Laluan dalam Keutamaan Sistem."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Anda boleh mengurus kata laluan disimpan dalam tab Kata Laluan keutamaan Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Anda sebelum ini menandakan untuk jangan menyimpan kata laluan bagi tapak web ini."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Sediakan Kod Pengesahan"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Anda boleh mencipta kata laluan kukuh dalam Seting Kata Laluan atau dalam Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Buka Halaman Ini dalam Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Buka Seting Kata Laluan…"
   }
 }

@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Descargar"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Descarga iCloud para Windows para usar Contraseñas en iCloud."
   },
+  "downloadMessage_macos": {
+    "message": "Para instalarse, esta extensión requiere la versión beta de macOS 14."
+  },
   "extDescription": {
-    "message": "Contraseñas en iCloud te permite rellenar en los sitios web visitados en Chrome las contraseñas creadas desde Safari y las apps de tu iPhone, iPad y Mac."
+    "message": "Contraseñas en iCloud te permite rellenar tus contraseñas del llavero de iCloud al iniciar sesión en sitios web desde Chrome."
   },
   "extName": {
     "message": "Contraseñas en iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Activa Contraseñas en la app iCloud para Windows para usar la extensión Contraseñas en iCloud con Chrome."
   },
-  "unsupportedOS": {
-    "message": "Esta extensión está diseñada para ejecutarse en Windows 10 o posterior. Si estás usando una Mac, tus contraseñas se sincronizarán automáticamente con tu iPhone, iPad y Mac cuando inicies sesión en iCloud."
+  "unsupportedOS_windows": {
+    "message": "Esta extensión está diseñada para ejecutarse en Windows 10 o posterior. Si estás usando una Mac, tus contraseñas se sincronizarán automáticamente con tu iPhone, iPad y Mac si inicias sesión en iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Para ejecutarse, esta extensión requiere la versión beta de macOS 13 o la de Safari 16."
   },
   "divPINTitle": {
     "message": "Activar autorrelleno de contraseñas"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud para Windows te envió una notificación con un código de verificación. Ingrésalo para continuar."
+  },
+  "divPINMessage_macos": {
+    "message": "Tu Mac generó un código de verificación. Ingrésalo para continuar."
   },
   "divICsMessage": {
     "message": "Elige una contraseña guardada para usarla:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Tus contraseñas están sincronizadas con el llavero de iCloud"
   },
-  "divNoPasswordsMessage": {
-    "message": "Puedes ver y editar las contraseñas guardadas en la app Contraseñas en iCloud."
+  "divNoPasswordsMessage_windows": {
+    "message": "Puedes consultar y editar las contraseñas guardadas en la app Contraseñas en iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Puedes consultar y administrar las contraseñas guardadas desde la configuración de Contraseñas."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Puedes administrar las contraseñas guardadas en el panel Contraseñas de Preferencias del Sistema."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Puedes administrar las contraseñas guardadas en la pestaña Contraseñas de las preferencias de Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Habías indicado que no querías guardar nunca contraseñas para este sitio web."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Configurar código de verificación"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Puedes crear una contraseña segura desde la configuración de Contraseñas o en Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Abrir esta página en Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Abrir la configuración de Contraseñas…"
   }
 }

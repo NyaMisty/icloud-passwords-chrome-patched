@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Pobierz"
   },
-  "downloadMessage": {
-    "message": "Aby używać haseł iCloud, pobierz aplikację iCloud dla Windows."
+  "downloadMessage_windows": {
+    "message": "Aby używać rozszerzenia Hasła iCloud, pobierz aplikację iCloud dla Windows."
+  },
+  "downloadMessage_macos": {
+    "message": "To rozszerzenie wymaga zainstalowania systemu macOS 14 beta."
   },
   "extDescription": {
-    "message": "Rozszerzenie Hasła iCloud pozwala używać haseł utworzonych w Safari i innych aplikacjach na iPhonie, iPadzie i Macu do wypełniania pól haseł w witrynach w przeglądarce Chrome."
+    "message": "Rozszerzenie Hasła iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy iCloud."
   },
   "extName": {
     "message": "Hasła iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Aby używać rozszerzenia Hasła iCloud w Chrome, włącz Hasła w iCloud dla Windows."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "To rozszerzenie zostało zaprojektowane dla systemu Windows 10 lub nowszego. Jeżeli używasz Maca, Twoje hasła będą automatycznie synchronizowane z Twoim iPhone’em, iPadem i Makiem, gdy zalogujesz się w iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Uruchomienie tego rozszerzenia wymaga systemu macOS 13 beta lub aplikacji Safari 16."
   },
   "divPINTitle": {
     "message": "Włącz wypełnianie haseł"
   },
-  "divPINMessage": {
-    "message": "Aby kontynuować, podaj kod weryfikacyjny z powiadomienia od aplikacji iCloud dla Windows."
+  "divPINMessage_windows": {
+    "message": "Aplikacja iCloud dla Windows wysłała Ci powiadomienie z kodem weryfikacyjnym. Aby kontynuować, podaj go."
+  },
+  "divPINMessage_macos": {
+    "message": "Twój Mac wygenerował kod weryfikacyjny. Aby kontynuować, podaj go."
   },
   "divICsMessage": {
     "message": "Wybierz zachowane hasło, którego chcesz użyć:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Twoje hasła są synchronizowane z pękiem kluczy iCloud."
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Zachowane hasła możesz wyświetlać i edytować w aplikacji Hasła iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Aby wyszukiwać zachowane hasła lub nimi zarządzać, przejdź do ustawień haseł."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Zachowanymi hasłami możesz zarządzać w panelu Hasła w Preferencjach systemowych."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Zachowanymi hasłami możesz zarządzać na karcie Hasła w preferencjach Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Twój wcześniejszy wybór to nigdy nie zachowywać haseł do tej witryny."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Skonfiguruj kod weryfikacyjny"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Silne hasła możesz tworzyć w panelu Hasła w Ustawieniach lub w Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Otwórz tę stronę w Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Otwórz ustawienia haseł…"
   }
 }

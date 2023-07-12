@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "डाउनलोड करें"
   },
-  "downloadMessage": {
-    "message": "iCloud पासवर्ड उपयोग करने के लिए Windows के लिए iCloud डाउनलोड करें।"
+  "downloadMessage_windows": {
+    "message": "iCloud पासवर्ड का उपयोग करने के लिए Windows के लिए iCloud डाउनलोड करें।"
+  },
+  "downloadMessage_macos": {
+    "message": "इस एक्सटेंशन को स्थापित करने के लिए macOS 14 बीटा आवश्यक है।"
   },
   "extDescription": {
-    "message": "iCloud पासवर्ड आपको Safari में और iPhone, iPad और Mac पर ऐप्स में बनाए गए पासवर्ड Chrome पर वेबसाइट में भरने की सुविधा देता है।"
+    "message": "Chrome का उपयोग करके वेबसाइटों में साइन इन करते समय iCloud पासवर्ड आपको iCloud कीचेन से पासवर्ड भरने की अनुमति देता है।"
   },
   "extName": {
     "message": "iCloud पासवर्ड"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Chrome के साथ iCloud पासवर्ड उपयोग करने के लिए Windows के लिए iCloud में पासवर्ड सक्षम करें।"
   },
-  "unsupportedOS": {
-    "message": "इस एक्सटेंशन को Windows 10 या बाद के संस्करण पर रन करने के लिए डिज़ाइन किया गया है। यदि आप Mac का उपयोग कर रहे हैं, तो iCloud में साइन इन करने पर आपके पासवर्ड ऑटोमैटिकली आपके iPhone, iPad और Mac के साथ सिंक हो जाएँगे।"
+  "unsupportedOS_windows": {
+    "message": "यह एक्सटेंशन Windows 10 या बाद के संस्करण पर चलने के लिए डिज़ाइन किया गया है। यदि आप Mac का उपयोग कर रहे हैं, तो जब आप iCloud में साइन इन करते हैं तो आपके पासवर्ड ऑटोमैटिकली आपके iPhone, iPad और Mac के साथ सिंक हो जाएँगे।"
+  },
+  "unsupportedOS_macos": {
+    "message": "इस एक्सटेंशन को चलाने के लिए macOS 13 बीटा या Safari 16 बीटा आवश्यकता है।"
   },
   "divPINTitle": {
     "message": "पासवर्ड ऑटोफ़िल सक्षम करें"
   },
-  "divPINMessage": {
-    "message": "Windows के लिए iCloud की ओर से सत्यापन कोड के साथ सूचना भेजी गई है। जारी रखने के लिए कोड दर्ज करें।"
+  "divPINMessage_windows": {
+    "message": "Windows के लिए iCloud ने आपको सत्यापन कोड के साथ सूचना भेजी है। जारी रखने के लिए कोड दर्ज करें।"
+  },
+  "divPINMessage_macos": {
+    "message": "आपके Mac ने सत्यापन कोड जनरेट किया है। जारी रखने के लिए कोड दर्ज करें।"
   },
   "divICsMessage": {
     "message": "उपयोग करने के लिए सहेजा गया पासवर्ड चुनें:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "आपके पासवर्ड iCloud कीचेन के साथ सिंक हैं"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "आप iCloud पासवर्ड ऐप में सहेजे गए पासवर्ड देख और संपादित कर सकते हैं।"
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "आप पासवर्ड सेटिंग में सहेजे गए पासवर्ड को देख और प्रबंधित कर सकते हैं।"
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "आप सिस्टम प्राथमिकता में पासवर्ड पैन में सहेजे गए पासवर्ड प्रबंधित कर सकते हैं।"
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "आप Safari प्राथमिकता के पासवर्ड टैब में सहेजे गए पासवर्ड प्रबंधित कर सकते हैं।"
   },
   "divDoNotRememberTitle": {
     "message": "आपने पहले इस वेबसाइट के लिए कभी पासवर्ड न सहेजने का संकेत दिया था।"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "सत्यापन कोड सेटअप करें"
+  },
+  "strongPasswordSuggestion": {
+    "message": "आप पासवर्ड सेटिंग्ज़ या Safari में एक मज़बूत पासवर्ड बना सकते हैं।"
+  },
+  "openThisPageInSafari": {
+    "message": "Safari में यह पृष्ठ खोलें…"
+  },
+  "openPasswordsSettings": {
+    "message": "पासवर्ड सेटिंग्ज़ खोलें…"
   }
 }

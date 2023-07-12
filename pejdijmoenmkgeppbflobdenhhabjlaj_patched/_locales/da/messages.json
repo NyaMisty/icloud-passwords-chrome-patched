@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Hent"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Hent iCloud til Windows for at bruge iCloud-adgangskoder."
   },
+  "downloadMessage_macos": {
+    "message": "Denne udvidelse kræver macOS 14 beta, før den kan installeres."
+  },
   "extDescription": {
-    "message": "iCloud-adgangskoder gør det muligt at udfylde adgangskoder, der er oprettet i Safari og andre apps på iPhone, iPad og Mac, på websteder i Chrome."
+    "message": "iCloud-adgangskoder gør det muligt at udfylde adgangskoder fra iCloud-nøglering, når du logger ind på websteder i Chrome."
   },
   "extName": {
     "message": "iCloud-adgangskoder"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Slå adgangskoder til i iCloud til Windows for at bruge iCloud-adgangskoder i Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Denne udvidelse er beregnet til Windows 10 og nyere versioner. Hvis du bruger en Mac, bliver dine adgangskoder automatisk synkroniseret med din iPhone, iPad og Mac, når du logger ind på iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Denne udvidelse kræver macOS 13 beta eller Safari 16 beta, før den kan bruges."
   },
   "divPINTitle": {
     "message": "Slå Autoudfyld adgangskode til"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud til Windows sendte en notifikation med en bekræftelseskode. Indtast koden for at fortsætte."
+  },
+  "divPINMessage_macos": {
+    "message": "Der er genereret en bekræftelseskode på din Mac. Indtast koden for at fortsætte."
   },
   "divICsMessage": {
     "message": "Vælg en gemt adgangskode, du vil bruge:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Dine adgangskoder synkroniseres med iCloud-nøglering"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Du kan se og redigere gemte adgangskoder i appen iCloud-adgangskoder."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Du kan slå gemte adgangskoder op og administrere dem i indstillingerne til Adgangskoder."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Du kan administrere gemte adgangskoder i vinduet Adgangskoder i Systemindstillinger."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Du kan administrere gemte adgangskoder på fanen Adgangskoder i indstillingerne til Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Du har tidligere angivet, at adgangskoder til dette websted aldrig skulle gemmes."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Indstil bekræftelseskode"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Du kan oprette en stærk adgangskode i indstillingerne til Adgangskoder eller i Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Åbn denne side i Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Åbn indstillingerne til Adgangskoder…"
   }
 }

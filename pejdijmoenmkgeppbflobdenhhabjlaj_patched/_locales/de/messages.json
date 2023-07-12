@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Laden"
   },
-  "downloadMessage": {
-    "message": "Lade „iCloud für Windows“, um „iCloud-Passwörter“ zu verwenden."
+  "downloadMessage_windows": {
+    "message": "Lade „iCloud für Windows“, um „iCloud-Passwörter“ verwenden zu können."
+  },
+  "downloadMessage_macos": {
+    "message": "Um diese Erweiterung installieren zu können, ist macOS 14 beta erforderlich."
   },
   "extDescription": {
-    "message": "Mit „iCloud-Passwörter“ können in Safari und in Apps auf dem iPhone, iPad und Mac erstellte Passwörter automatisch in Websites mit Chrome ausgefüllt werden."
+    "message": "Mit „iCloud-Passwörter“ kannst du bei der Anmeldung auf Websites in Chrome Passwörter aus dem iCloud-Schlüsselbund verwenden."
   },
   "extName": {
     "message": "iCloud-Passwörter"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Aktiviere Passwörter in „iCloud für Windows“, um „iCloud-Passwörter“ mit Chrome zu verwenden."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Diese Erweiterung wurde für Windows 10 oder neuer entwickelt. Wenn du einen Mac verwendest, werden deine Passwörter automatisch mit deinem iPhone, iPad und Mac synchronisiert, sobald du dich bei iCloud anmeldest."
+  },
+  "unsupportedOS_macos": {
+    "message": "Um diese Erweiterung ausführen zu können, ist macOS 13 beta oder Safari 16 beta erforderlich."
   },
   "divPINTitle": {
     "message": "Automatisches Ausfüllen von Passwörtern aktivieren"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "„iCloud für Windows“ hat dir eine Mitteilung mit einem Bestätigungscode gesendet. Gib den Code ein, um fortzufahren."
+  },
+  "divPINMessage_macos": {
+    "message": "Dein Mac hat einen Bestätigungscode erzeugt. Gib den Code ein, um fortzufahren."
   },
   "divICsMessage": {
     "message": "Zu verwendendes gespeichertes Passwort auswählen:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Deine Passwörter sind mit „iCloud-Schlüsselbund“ synchronisiert"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Du kannst gespeicherte Passwörter in der App „iCloud-Passwörter“ sehen und bearbeiten."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Du kannst gespeicherte Passwörter in den Einstellungen für Passwörter nachschlagen und verwalten."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Du kannst gespeicherte Passwörter im Tab „Passwörter“ der Systemeinstellungen verwalten."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Du kannst gespeicherte Passwörter im Tab „Passwörter“ der Einstellungen von Safari verwalten."
   },
   "divDoNotRememberTitle": {
     "message": "Du hast zuvor angegeben, Passwörter für diese Website nie zu speichern."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Bestätigungscode konfigurieren"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für Passwörter oder in Safari erstellen."
+  },
+  "openThisPageInSafari": {
+    "message": "Diese Seite in Safari öffnen …"
+  },
+  "openPasswordsSettings": {
+    "message": "Einstellungen für Passwörter öffnen …"
   }
 }

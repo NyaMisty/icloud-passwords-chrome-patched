@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Викачати"
   },
-  "downloadMessage": {
-    "message": "Викачайте iCloud для Windows, щоб використовувати паролі iCloud."
+  "downloadMessage_windows": {
+    "message": "Викачайте iCloud для Windows, щоб користуватися Паролями iCloud."
+  },
+  "downloadMessage_macos": {
+    "message": "Для роботи цього розширення потрібно інсталювати бета-версію macOS 14."
   },
   "extDescription": {
-    "message": "«Паролі iCloud» дозволяє заповнювати паролі, створені в Safari і програмах на iPhone, iPad і Mac, на вебсайтах у Chrome."
+    "message": "Завдяки Паролям iCloud можна вводити паролі з В’язки iCloud під час входу на вебсайти в Chrome."
   },
   "extName": {
     "message": "Паролі iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Увімкніть паролі в iCloud для Windows, щоб використовувати «Паролі iCloud» у Chrome."
   },
-  "unsupportedOS": {
-    "message": "Це розширення розроблене для запуску на Windows 10 або новіших версіях. Якщо ви використовуєте Mac, ваші паролі автоматично синхронізуються з вашим iPhone, iPad і Mac, коли ви входите в iCloud."
+  "unsupportedOS_windows": {
+    "message": "Це розширення розроблено для роботи в Windows 10 або новішої версії. Коли ви працюєте на Mac, ваші паролі автоматично синхронізуватимуться з вашими iPhone, iPad і Mac, якщо ви виконали вхід в iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Це розширення підтримується у бета-версії macOS 13 і бета-версії Safari 16."
   },
   "divPINTitle": {
     "message": "Увімкнення автозаповнення паролів"
   },
-  "divPINMessage": {
-    "message": "Програма iCloud для Windows надіслала вам повідомлення з кодом підтвердження. Введіть код для продовження."
+  "divPINMessage_windows": {
+    "message": "Служба «iCloud для Windows» надіслала вам сповіщення з кодом підтвердження. Введіть цей код, щоб продовжити."
+  },
+  "divPINMessage_macos": {
+    "message": "На вашому Mac згенеровано код підтвердження. Введіть цей код, щоб продовжити."
   },
   "divICsMessage": {
     "message": "Виберіть збережений пароль для використання:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Ваші паролі синхронізуються з В’язкою iCloud"
   },
-  "divNoPasswordsMessage": {
-    "message": "Ви можете переглядати і редагувати збережені паролі у програмі «Паролі iCloud»."
+  "divNoPasswordsMessage_windows": {
+    "message": "Переглядати й редагувати збережені паролі можна в програмі «Паролі iCloud»."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Переглядати й керувати збереженими паролями можна у параметрах Паролів."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Керувати збереженими паролями можна на панелі «Паролі» у меню «Системні параметри»."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Керувати збереженими паролями можна у вкладці «Паролі» в параметрах Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Раніше ви вказали, що не хочете зберігати паролі для цього вебсайту."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Налаштувати код перевірки"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Створити надійний пароль можна в меню «Параметри паролів» або в Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Відкрити цю сторінку в Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Відкрийте меню «Параметри паролів»…"
   }
 }

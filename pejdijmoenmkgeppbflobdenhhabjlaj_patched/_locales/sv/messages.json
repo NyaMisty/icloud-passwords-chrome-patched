@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Hämta"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Hämta iCloud för Windows om du vill använda iCloud-lösenord."
   },
+  "downloadMessage_macos": {
+    "message": "Det här tillägget kräver att betaversionen av macOS 14 är installerad."
+  },
   "extDescription": {
-    "message": "Med iCloud-lösenord kan du fylla i lösenord som du har skapat i Safari och appar på en iPhone, iPad och Mac på webbplatser i Chrome."
+    "message": "Med iCloud-lösenord kan du fylla i lösenord från iCloud-nyckelring när du loggar in på webbplatser med Chrome."
   },
   "extName": {
     "message": "iCloud-lösenord"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Aktivera Lösenord i iCloud för Windows om du vill använda iCloud-lösenord med Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Det här tillägget är utformat för användning med Windows 10 eller senare. Om du använder en Mac blir dina lösenord automatiskt synkroniserade med din iPhone, iPad och Mac när du loggar in på iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Det här tillägget kräver betaversionen av macOS 13 eller betaversionen av Safari 16."
   },
   "divPINTitle": {
     "message": "Aktivera Autofyll lösenord"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud för Windows skickade en notis med en verifieringskod. Ange koden för att fortsätta."
+  },
+  "divPINMessage_macos": {
+    "message": "En verifieringskod har skapats av din Mac. Ange koden för att fortsätta."
   },
   "divICsMessage": {
     "message": "Välj ett sparat lösenord att använda:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Dina lösenord synkroniseras med iCloud-nyckelring"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Du kan visa och redigera sparade lösenord i appen iCloud-lösenord."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Du kan slå upp och hantera sparade lösenord i Lösenordsinställningar."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Du kan hantera sparade lösenord på panelen Lösenord i Systeminställningar."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Du kan hantera sparade lösenord på fliken Lösenord i Safari-inställningarna."
   },
   "divDoNotRememberTitle": {
     "message": "Du har tidigare valt att aldrig spara lösenord för den här webbplatsen."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Ställ in verifieringskod"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Öppna den här sidan i Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Öppna Lösenordsinställningar…"
   }
 }

@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Last ned"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Last ned iCloud for Windows for å bruke iCloud-passord."
   },
+  "downloadMessage_macos": {
+    "message": "Dette tillegget krever at macOS 14 beta er installert."
+  },
   "extDescription": {
-    "message": "Bruk iCloud-passord til å fylle ut passord opprettet i Safari og apper på iPhone, iPad og Mac, på nettsteder i Chrome."
+    "message": "Med iCloud-passord kan du logge på nettsteder i Chrome med passord fra iCloud-nøkkelring."
   },
   "extName": {
     "message": "iCloud-passord"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Aktiver Passord i iCloud for Windows for å bruke iCloud-passord med Chrome."
   },
-  "unsupportedOS": {
-    "message": "Dette tillegget er laget for bruk med Windows 10 og nyere. Hvis du bruker en Mac, vil passordene dine automatisk synkroniseres med din iPhone, iPad og Mac når du logger på iCloud."
+  "unsupportedOS_windows": {
+    "message": "Dette tillegget er laget for bruk på Windows 10 eller nyere. Hvis du bruker en Mac, vil passordene dine automatisk synkroniseres med iPhone, iPad og Mac når du logger på iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Dette tillegget krever macOS 13 beta eller Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Aktiver autoutfylling av passord"
   },
-  "divPINMessage": {
-    "message": "iCloud for Windows har sendt deg en varsling med en verifiseringskode. Oppgi koden for å fortsette."
+  "divPINMessage_windows": {
+    "message": "iCloud for Windows har sendt deg en varsling med en verifiseringskode. Skriv den inn for å fortsette."
+  },
+  "divPINMessage_macos": {
+    "message": "En verifiseringskode er generert av Macen din. Skriv inn denne koden for å fortsette."
   },
   "divICsMessage": {
     "message": "Velg et lagret passord:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Passordene dine synkroniseres med iCloud-nøkkelring"
   },
-  "divNoPasswordsMessage": {
-    "message": "Du kan vise og endre lagrede passord i iCloud-passord-appen."
+  "divNoPasswordsMessage_windows": {
+    "message": "Du kan vise og redigere lagrede passord i iCloud-passord-appen."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Du kan slå opp og administrere passord i Passord-innstillinger."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Lagrede passord kan administreres i Passord-panelet i Systemvalg."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Lagrede passord kan administreres i Passord-fanen i Safari-valgene."
   },
   "divDoNotRememberTitle": {
     "message": "Du har tidligere angitt at passord aldri skal lagres for dette nettstedet."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Konfigurer verifiseringskode"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Du kan opprette et sterkt passord i Passord-innstillinger eller i Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Åpne siden i Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Åpne Passord-innstillinger…"
   }
 }

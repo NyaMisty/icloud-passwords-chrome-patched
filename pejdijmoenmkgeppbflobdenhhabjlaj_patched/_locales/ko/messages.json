@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "다운로드"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "iCloud 암호를 사용하려면 Windows용 iCloud를 다운로드하십시오."
   },
+  "downloadMessage_macos": {
+    "message": "이 확장 프로그램을 설치하려면 macOS 14 베타가 필요합니다."
+  },
   "extDescription": {
-    "message": "iCloud 암호를 사용하면 Safari 및 iPhone, iPad, Mac의 앱에서 생성된 암호를 Chrome의 웹 사이트에 입력할 수 있습니다."
+    "message": "iCloud 암호는 Chrome을 사용하여 웹 사이트에 로그인할 때 iCloud 키체인에서 암호를 채울 수 있게 해줍니다."
   },
   "extName": {
     "message": "iCloud 암호"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Chrome에서 iCloud 암호를 사용하려면 Windows용 iCloud의 암호를 활성화하십시오."
   },
-  "unsupportedOS": {
-    "message": "이 확장 프로그램은 Windows 10 이상에서 실행되도록 설계되었습니다. Mac을 사용 중인 경우 iCloud에 로그인하면 암호가 iPhone, iPad 및 Mac과 자동으로 동기화됩니다."
+  "unsupportedOS_windows": {
+    "message": "이 확장 프로그램은 Windows 10 이상에서 실행되도록 설계되었습니다. Mac을 사용할 경우, iCloud에 로그인할 때 암호가 자동으로 iPhone, iPad 및 Mac과 동기화됩니다."
+  },
+  "unsupportedOS_macos": {
+    "message": "이 확장 프로그램을 실행하려면 macOS 13 베타 또는 Safari 16이 필요합니다."
   },
   "divPINTitle": {
     "message": "암호 자동 완성 활성화"
   },
-  "divPINMessage": {
-    "message": "Windows용 iCloud에서 확인 코드가 있는 알림을 보냈습니다. 계속하려면 코드를 입력하십시오."
+  "divPINMessage_windows": {
+    "message": "Windows용 iCloud가 사용자에게 확인 코드가 포함된 알림을 전송했습니다. 계속하려면 해당 코드를 입력하십시오."
+  },
+  "divPINMessage_macos": {
+    "message": "Mac에 의해 새로운 확인 코드가 생성되었습니다. 계속하려면 해당 코드를 입력하십시오."
   },
   "divICsMessage": {
     "message": "다음을 사용하려면 저장된 암호를 선택하십시오."
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "암호가 iCloud 키체인과 동기화되어 있음"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "iCloud 암호 앱에서 저장된 암호를 보고 편집할 수 있습니다."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "암호 설정에서 저장된 암호를 찾고 관리할 수 있습니다."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "시스템 환경설정의 암호 패널에서 저장된 암호를 관리할 수 있습니다."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Safari의 환경설정에 있는 암호 탭에서 저장된 암호를 관리할 수 있습니다."
   },
   "divDoNotRememberTitle": {
     "message": "이전에 이 웹 사이트에 대해 암호를 저장하지 않도록 지정했습니다."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "확인 코드 설정"
+  },
+  "strongPasswordSuggestion": {
+    "message": "암호 설정 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
+  },
+  "openThisPageInSafari": {
+    "message": "Safari에서 이 페이지 열기…"
+  },
+  "openPasswordsSettings": {
+    "message": "암호 설정 열기…"
   }
 }

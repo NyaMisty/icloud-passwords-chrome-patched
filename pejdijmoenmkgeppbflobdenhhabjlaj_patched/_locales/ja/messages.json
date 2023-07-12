@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "ダウンロード"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "iCloudパスワードを使用するにはiCloud for Windowsをダウンロードしてください。"
   },
+  "downloadMessage_macos": {
+    "message": "この拡張機能をインストールするには、macOS 14ベータ版が必要です。"
+  },
   "extDescription": {
-    "message": "iCloudパスワードを使用すると、iPhone、iPad、MacのSafariやAppで作成したパスワードをChromeで閲覧するWebサイトに入力できます。"
+    "message": "iCloudパスワードを使用すると、ChromeでWebサイトにサインインするときにiCloudキーチェーンからパスワードを入力できます。"
   },
   "extName": {
     "message": "iCloudパスワード"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "iCloudパスワードをChromeで使用するにはiCloud for Windowsでパスワードを有効にしてください。"
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "この拡張機能は、Windows 10以降で動作するように設計されています。Macを使用している場合は、iPhone、iPad、MacでiCloudにサインインしているときにパスワードがすべてのデバイスで自動的に同期されます。"
+  },
+  "unsupportedOS_macos": {
+    "message": "この拡張機能を実行するには、macOS 13ベータ版またはSafari 16ベータ版が必要です。"
   },
   "divPINTitle": {
     "message": "パスワードの自動入力を有効にする"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud for Windowsから確認コードを記載した通知が送信されました。続けるには、そのコードをしてください。"
+  },
+  "divPINMessage_macos": {
+    "message": "確認コードがMacで生成されました。続けるには、そのコードを入力してください。"
   },
   "divICsMessage": {
     "message": "使用するには保存されているパスワードを選択してください:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "パスワードはiCloudキーチェーンと同期されます"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "iCloudパスワードAppで、保存済みのパスワードを表示/編集できます。"
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "“パスワード”設定で、保存されているパスワードを調べたり管理したりできます。"
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "保存済みのパスワードはシステム環境設定の“パスワード”パネルで管理できます。"
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "保存済みのパスワードはSafariの環境設定にある“パスワード”タブで管理できます。"
   },
   "divDoNotRememberTitle": {
     "message": "このWebサイトのパスワードを保存しないように以前に指定しました。"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "確認コードを設定"
+  },
+  "strongPasswordSuggestion": {
+    "message": "“パスワード”設定またはSafariで強力なパスワードを作成することができます。"
+  },
+  "openThisPageInSafari": {
+    "message": "このページをSafariで開く…"
+  },
+  "openPasswordsSettings": {
+    "message": "“パスワード”設定を開く…"
   }
 }

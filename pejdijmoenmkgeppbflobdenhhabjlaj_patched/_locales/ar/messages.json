@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "تنزيل"
   },
-  "downloadMessage": {
-    "message": "قم بتنزيل iCloud لـ Windows لاستخدام كلمات سر iCloud."
+  "downloadMessage_windows": {
+    "message": "يرجى تنزيل iCloud لـ Windows لاستخدام كلمات سر iCloud."
+  },
+  "downloadMessage_macos": {
+    "message": "يتطلب هذا الملحق تثبيت الإصدار التجريبي من macOS 14."
   },
   "extDescription": {
-    "message": "يسمح لك ملحق كلمات سر iCloud بالتعبئة التلقائية لكلمات السر التي أنشأتها في سفاري والتطبيقات على iPhone و iPad و Mac، في المواقع الإلكترونية في Chrome."
+    "message": "يسمح لك تطبيق كلمات سر iCloud بتعبئة كلمات السر من سلسلة مفاتيح iCloud عند تسجيل الدخول إلى المواقع الإلكترونية باستخدام Chrome."
   },
   "extName": {
     "message": "كلمات سر iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "⁨ يرجى تمكين كلمات السر في iCloud لـ Windows لاستخدام كلمات سر iCloud مع Chrome.⁩"
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "هذا الملحق مصمم للتشغيل على Windows 10 أو أحدث. إذا كنت تستخدم Mac، فستتم مزامنة كلمات السر تلقائيًا مع iPhone و iPad و Mac عند تسجيل الدخول إلى iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "يتطلب هذا الملحق تشغيل الإصدار التجريبي من macOS 13 أو الإصدار التجريبي من Safari 16."
   },
   "divPINTitle": {
     "message": "تمكين التعبئة التلقائية لكلمات السر"
   },
-  "divPINMessage": {
-    "message": "أرسل إليك iCloud لـ Windows إشعارًا يتضمن رمز تحقق. يرجى إدخال الرمز للمتابعة."
+  "divPINMessage_windows": {
+    "message": "أرسل إليك \"iCloud لـ Windows\" إشعارًا يتضمن رمز تحقق. يرجى إدخال الرمز للمتابعة."
+  },
+  "divPINMessage_macos": {
+    "message": "تم إنشاء رمز تحقق بواسطة Mac. يرجى إدخال الرمز للمتابعة."
   },
   "divICsMessage": {
     "message": "اختر كلمة السر المحفوظة المراد استخدامها:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "تتم مزامنة كلمات السر مع سلسلة مفاتيح iCloud"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "يمكنك عرض وتعديل كلمات السر المحفوظة في تطبيق كلمات سر iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "يمكنك البحث في كلمات السر المحفوظة وإدارتها في إعدادات كلمات السر."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "يمكنك إدارة كلمات السر المحفوظة في جزء كلمات السر في تفضيلات النظام."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "يمكنك إدارة كلمات السر المحفوظة في علامة تبويب كلمات السر ضمن تفضيلات سفاري."
   },
   "divDoNotRememberTitle": {
     "message": "لقد أشرت سابقًا إلى عدم حفظ كلمات السر إطلاقًا لهذا الموقع الإلكتروني."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "إعداد رمز التحقق"
+  },
+  "strongPasswordSuggestion": {
+    "message": "يمكنك إنشاء كلمة سر قوية في إعدادات كلمات السر في سفاري."
+  },
+  "openThisPageInSafari": {
+    "message": "فتح هذه الصفحة في سفاري…"
+  },
+  "openPasswordsSettings": {
+    "message": "فتح إعدادات كلمات السر…"
   }
 }

@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Télécharger"
   },
-  "downloadMessage": {
-    "message": "Téléchargez iCloud pour Windows pour utiliser Mots de passe iCloud."
+  "downloadMessage_windows": {
+    "message": "Téléchargez iCloud pour Windows pour utiliser « Mots de passe iCloud »."
+  },
+  "downloadMessage_macos": {
+    "message": "L’installation de cette extension requiert la version bêta de macOS 14."
   },
   "extDescription": {
-    "message": "Mots de passe iCloud vous permet de remplir sur des sites Web dans Chrome des mots de passe créés dans Safari et des apps sur des iPhone, iPad et Mac."
+    "message": "« Mots de passe iCloud » vous permet d’utiliser les mots de passe du trousseau iCloud lorsque vous vous connectez à des sites Web dans Chrome."
   },
   "extName": {
     "message": "Mots de passe iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Activez les mots de passe dans iCloud pour Windows pour utiliser Mots de passe iCloud avec Chrome."
   },
-  "unsupportedOS": {
-    "message": "Cette extension est conçue pour Windows 10 ou une version ultérieure. Si vous utilisez un Mac, vos mots de passe seront automatiquement synchronisés avec vos iPhone, iPad et Mac lorsque vous vous connecterez à iCloud."
+  "unsupportedOS_windows": {
+    "message": "Cette extension est conçue pour fonctionner sous Windows 10 ou une version ultérieure. Si vous utilisez un Mac, vos mots de passe se synchroniseront automatiquement avec vos iPhone, iPad et Mac lorsque vous vous connecterez à iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "L’exécution de cette extension requiert les versions bêta de macOS 13 ou de Safari 16."
   },
   "divPINTitle": {
     "message": "Activer le remplissage automatique des mots de passe"
   },
-  "divPINMessage": {
-    "message": "iCloud pour Windows vous a envoyé une notification avec un code de validation. Saisissez le code pour continuer."
+  "divPINMessage_windows": {
+    "message": "iCloud pour Windows vous a envoyé une notification contenant un code de validation. Entrez-le pour continuer."
+  },
+  "divPINMessage_macos": {
+    "message": "Un code de validation a été généré par votre Mac. Entrez-le pour continuer."
   },
   "divICsMessage": {
     "message": "Choisissez le mot de passe enregistré à utiliser :"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Vos mots de passe sont synchronisés avec le trousseau iCloud"
   },
-  "divNoPasswordsMessage": {
-    "message": "Vous pouvez consulter et modifier les mots de passe enregistrés dans l’app Mots de passe iCloud."
+  "divNoPasswordsMessage_windows": {
+    "message": "Vous pouvez consulter et modifier les mots de passe enregistrés dans l’app « Mots de passe iCloud »."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Vous pouvez rechercher et gérer les mots de passe enregistrés dans les réglages Mots de passe."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Vous pouvez gérer les mots de passe enregistrés dans la sous-fenêtre Mots de passe de Préférences Système."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Vous pouvez gérer les mots de passe enregistrés dans l’onglet Mots de passe des préférences de Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Vous avez précédemment indiqué de n’enregistrer aucun mot de passe pour ce site Web."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Configurer un code de validation"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Ouvrir cette page dans Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Ouvrir les réglages Mots de passe…"
   }
 }

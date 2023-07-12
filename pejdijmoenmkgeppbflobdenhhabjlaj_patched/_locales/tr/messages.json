@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "İndir"
   },
-  "downloadMessage": {
-    "message": "iCloud Parolaları’nı kullanmak için Windows için iCloud’u indirin."
+  "downloadMessage_windows": {
+    "message": "iCloud Parolaları’nı kullanmak üzere Windows için iCloud’u indirin."
+  },
+  "downloadMessage_macos": {
+    "message": "Bu genişletme macOS 14 beta’nın yüklenmesini gerektirir."
   },
   "extDescription": {
-    "message": "iCloud Parolaları, Safari'de ve iPhone, iPad ve Mac'teki uygulamalarda yaratılan parolaları Chrome'daki web sitelerinde doldurmanızı sağlar."
+    "message": "iCloud Parolaları, Chrome’u kullanarak web sitelerine giriş yaparken parolaları iCloud Anahtar Zinciri’nden doldurmanızı sağlar."
   },
   "extName": {
     "message": "iCloud Parolaları"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "iCloud Parolaları’nı Chrome ile kullanmak istiyorsanız Windows için iCloud’da Parolalar’ı etkinleştirin."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Bu genişletme Windows 10 veya daha yenisinde çalışacak şekilde tasarlandı. Mac kullanıyorsanız iCloud'a giriş yaptığınızda parolalarınız iPhone, iPad ve Mac aygıtlarınızla otomatik olarak eşzamanlanır."
+  },
+  "unsupportedOS_macos": {
+    "message": "Bu genişletme, macOS 13 beta’nın veya Safari 16 beta’nın çalışmasını gerektirir."
   },
   "divPINTitle": {
     "message": "Otomatik Parola Doldurma’yı Etkinleştirin"
   },
-  "divPINMessage": {
-    "message": "Windows için iCloud size doğrulama kodu içeren bir bildirim gönderdi. Sürdürmek için bu kodu girin."
+  "divPINMessage_windows": {
+    "message": "Windows için iCloud, doğrulama kodu içeren bir bildirim gönderdi. Sürdürmek için bu kodu girin."
+  },
+  "divPINMessage_macos": {
+    "message": "Mac’iniz tarafından bir doğrulama kodu oluşturuldu. Sürdürmek için bu kodu girin."
   },
   "divICsMessage": {
     "message": "Kullanmak istediğiniz kaydedilmiş parolayı seçin:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Parolalarınız iCloud Anahtar Zinciri ile eşzamanlanıyor"
   },
-  "divNoPasswordsMessage": {
-    "message": "iCloud Parolaları uygulamasında kayıtlı parolaları görüntüleyebilir ve düzenleyebilirsiniz."
+  "divNoPasswordsMessage_windows": {
+    "message": "Kaydedilen parolaları iCloud Parolaları uygulamasında görüntüleyebilir ve düzenleyebilirsiniz."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Parolalar ayarlarında yönetilen parolalara bakabilir ve bunları yönetebilirsiniz."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Kaydedilen parolaları Sistem Tercihleri’nin Parolalar bölümünde yönetebilirsiniz."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Kaydedilen parolaları Safari tercihlerinin Parolalar sekmesinde yönetebilirsiniz."
   },
   "divDoNotRememberTitle": {
     "message": "Daha önce bu web sitesi için asla parola kaydedilmemesini belirttiniz."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Doğrulama Kodunu Ayarla"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Parolalar ayarlarında veya Safari’de güçlü bir parola yaratabilirsiniz."
+  },
+  "openThisPageInSafari": {
+    "message": "Bu Sayfayı Safari’de Aç…"
+  },
+  "openPasswordsSettings": {
+    "message": "Parolalar Ayarlarını Aç…"
   }
 }

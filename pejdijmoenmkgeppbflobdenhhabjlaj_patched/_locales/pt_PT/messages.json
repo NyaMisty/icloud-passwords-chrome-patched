@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Descarregar"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Descarregue iCloud para Windows para usar Palavras-passe em iCloud."
   },
+  "downloadMessage_macos": {
+    "message": "Esta extensão requer a instalação do macOS 14 beta."
+  },
   "extDescription": {
-    "message": "Palavras-passe em iCloud permite preencher em sites no Chrome as palavras-passe criadas no Safari e em aplicações no iPhone, iPad e Mac."
+    "message": "Palavras-passe em iCloud permite preencher palavras-passe do Porta-chaves em iCloud ao iniciar sessão em sites através do Chrome."
   },
   "extName": {
     "message": "Palavras-passe em iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Ative Palavras-passe em iCloud para Windows, para poder usar a extensão Palavras-passe em iCloud no Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Esta extensão foi concebida para execução no Windows 10 ou posterior. Se estiver a usar um Mac, as suas palavras-passe serão automaticamente sincronizadas com o seu iPhone, iPad e Mac, quando iniciar sessão em iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Esta extensão requer a execução do macOS 13 beta ou do Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Ativar preenchimento automático de palavras-passe"
   },
-  "divPINMessage": {
-    "message": "iCloud para Windows enviou-lhe uma notificação com um código de verificação. Digite o código para continuar."
+  "divPINMessage_windows": {
+    "message": "iCloud para Windows enviou-lhe uma notificação com um código de confirmação. Digite o código para continuar."
+  },
+  "divPINMessage_macos": {
+    "message": "O seu Mac gerou um código de confirmação. Digite o código para continuar."
   },
   "divICsMessage": {
     "message": "Escolha uma palavra-passe guardada para usar:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "As suas palavras-passe estão sincronizadas com o Porta-chaves em iCloud"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Pode ver e editar as palavras-passe guardadas na aplicação Palavras-passe em iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Pode procurar e gerir as palavras-passe guardadas nas definições de Palavras-passe."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Pode gerir as palavras-passe guardadas no painel Palavras-passe das Preferências do Sistema."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Pode gerir as palavras-passe guardadas no separador Palavras-passe das preferências do Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Indicou que, para este site, as palavras-passe nunca deviam ser guardadas."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Configurar código de confirmação"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Pode criar uma palavra-passe segura nas definições de Palavras-passe ou no Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Abrir esta página no Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Abrir as definições de Palavras-passe…"
   }
 }

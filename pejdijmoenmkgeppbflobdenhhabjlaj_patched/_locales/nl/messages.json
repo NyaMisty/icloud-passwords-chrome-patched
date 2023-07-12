@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Downloaden"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Download iCloud voor Windows om iCloud-wachtwoorden te gebruiken."
   },
+  "downloadMessage_macos": {
+    "message": "Voor deze extensie moet macOS 14 bèta zijn geïnstalleerd."
+  },
   "extDescription": {
-    "message": "Met iCloud-wachtwoorden kun je wachtwoorden die zijn aangemaakt in Safari en apps op je iPhone, iPad en Mac invullen in websites in Chrome."
+    "message": "Met iCloud-wachtwoorden kun je wachtwoorden invullen vanuit de iCloud-sleutelhanger wanneer je je aanmeldt bij websites in Chrome."
   },
   "extName": {
     "message": "iCloud-wachtwoorden"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Schakel Wachtwoorden in in iCloud voor Windows om iCloud-wachtwoorden te gebruiken in Chrome."
   },
-  "unsupportedOS": {
-    "message": "Deze extensie is ontworpen voor Windows 10 en nieuwer. Als je een Mac gebruikt, worden je wachtwoorden automatisch gesynchroniseerd met je iPhone, iPad en Mac wanneer je inlogt bij iCloud."
+  "unsupportedOS_windows": {
+    "message": "Deze extensie is ontworpen voor gebruik met Windows 10 of nieuwer. Als je een Mac gebruikt, worden je wachtwoorden automatisch gesynchroniseerd met je iPhone, iPad en Mac wanneer je inlogt bij iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Deze extensie vereist macOS 13 bèta of Safari 16 bèta."
   },
   "divPINTitle": {
     "message": "Automatisch invullen van wachtwoorden inschakelen"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud voor Windows heeft je een melding met een verificatiecode verzonden. Voer de code in om verder te gaan."
+  },
+  "divPINMessage_macos": {
+    "message": "Er is een verificatiecode gegenereerd door je Mac. Voer de code in om verder te gaan."
   },
   "divICsMessage": {
     "message": "Kies een opgeslagen wachtwoord om te gebruiken:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Je wachtwoorden zijn met iCloud-sleutelhanger gesynchroniseerd"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Je kunt opgeslagen wachtwoorden bekijken en bewerken in de app iCloud-wachtwoorden."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Je kunt opgeslagen wachtwoorden openen en beheren in de wachtwoordinstellingen."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Je kunt opgeslagen wachtwoorden beheren in het paneel Wachtwoorden in Systeemvoorkeuren."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Je kunt opgeslagen wachtwoorden beheren in het tabblad Wachtwoorden in de voorkeuren van Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Je hebt eerder aangegeven dat je nooit wachtwoorden voor deze website wilt opslaan."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Verificatiecode configureren"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Je kunt een sterk wachtwoord aanmaken in de wachtwoordinstellingen of in Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Open deze pagina in Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Wachtwoordinstellingen openen…"
   }
 }

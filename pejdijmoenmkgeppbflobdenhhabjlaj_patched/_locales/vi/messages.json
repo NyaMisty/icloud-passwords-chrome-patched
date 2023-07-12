@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Tải về"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Tải về iCloud cho Windows để sử dụng Mật khẩu iCloud."
   },
+  "downloadMessage_macos": {
+    "message": "Phần mở rộng này yêu cầu cài đặt macOS 14 beta."
+  },
   "extDescription": {
-    "message": "Mật khẩu iCloud cho phép bạn điền các mật khẩu được tạo trong Safari và các ứng dụng trên iPhone, iPad và máy Mac vào các trang web trong Chrome."
+    "message": "Mật khẩu iCloud cho phép bạn điền mật khẩu từ Chuỗi khóa iCloud khi đăng nhập vào các trang web bằng Chrome."
   },
   "extName": {
     "message": "Mật khẩu iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Bật Mật khẩu trong iCloud cho Windows để sử dụng Mật khẩu iCloud với Chrome."
   },
-  "unsupportedOS": {
+  "unsupportedOS_windows": {
     "message": "Phần mở rộng này được thiết kế để chạy trên Windows 10 trở lên. Nếu bạn đang sử dụng máy Mac thì các mật khẩu sẽ tự động đồng bộ hóa với iPhone, iPad và máy Mac khi bạn đăng nhập vào iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Phần mở rộng này yêu cầu macOS 13 beta hoặc Safari 16 beta để chạy."
   },
   "divPINTitle": {
     "message": "Bật Tự động điền mật khẩu"
   },
-  "divPINMessage": {
-    "message": "iCloud cho Windows đã gửi cho bạn một thông báo có mã xác minh. Hãy nhập mã đó để tiếp tục."
+  "divPINMessage_windows": {
+    "message": "iCloud cho Windows đã gửi cho bạn một thông báo với mã xác minh. Hãy nhập mã để tiếp tục."
+  },
+  "divPINMessage_macos": {
+    "message": "Một mã xác minh đã được tạo bởi máy Mac của bạn. Hãy nhập mã để tiếp tục."
   },
   "divICsMessage": {
     "message": "Chọn một mật khẩu đã lưu để sử dụng:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Các mật khẩu của bạn được đồng bộ hóa với Chuỗi khóa iCloud"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Bạn có thể xem và sửa các mật khẩu đã lưu trong ứng dụng Mật khẩu iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Bạn có thể tra cứu và quản lý các mật khẩu đã lưu trong cài đặt Mật khẩu."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Bạn có thể quản lý các mật khẩu đã lưu trong khung Mật khẩu trong Tùy chọn hệ thống."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Bạn có thể quản lý các mật khẩu đã lưu trong tab Mật khẩu của tùy chọn Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Trước đây, bạn đã cho biết không bao giờ lưu mật khẩu cho trang web này."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Thiết lập mã xác minh"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Bạn có thể tạo một mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Mở trang này trong Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Mở cài đặt Mật khẩu…"
   }
 }

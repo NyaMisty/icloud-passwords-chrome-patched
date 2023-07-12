@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Descărcați"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "Pentru a utiliza Parole iCloud, descărcați iCloud pentru Windows."
   },
+  "downloadMessage_macos": {
+    "message": "Această extensie necesită instalarea macOS 14 beta."
+  },
   "extDescription": {
-    "message": "Parole iCloud vă permite să completați parolele create în Safari și în aplicațiile de pe iPhone, iPad și Mac pe site‑urile web din Chrome."
+    "message": "Parole iCloud vă permite să completați parolele din Portchei iCloud atunci când vă autentificați pe site-urile web folosind Chrome."
   },
   "extName": {
     "message": "Parole iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Pentru a utiliza parolele iCloud cu Chrome, activați opțiunea Parole în iCloud."
   },
-  "unsupportedOS": {
-    "message": "Această extensie este concepută pentru rularea pe Windows 10 sau versiuni ulterioare. Dacă utilizați un Mac, parolele se vor sincroniza automat pe iPhone‑ul, iPad‑ul și Mac‑ul dvs. când vă autentificați pe iCloud."
+  "unsupportedOS_windows": {
+    "message": "Această extensie este concepută pentru a rula pe Windows 10 sau versiuni ulterioare. Dacă utilizați un Mac, parolele dvs. se vor sincroniza automat cu iPhone-ul, iPad-ul sau Mac-ul dvs. atunci când vă autentificați pe iCloud."
+  },
+  "unsupportedOS_macos": {
+    "message": "Pentru a funcționa, această extensie necesită macOS 13 beta sau Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Activați Auto-completare parole"
   },
-  "divPINMessage": {
+  "divPINMessage_windows": {
     "message": "iCloud pentru Windows v‑a trimis o notificare cu un cod de verificare. Introduceți codul pentru a continua."
+  },
+  "divPINMessage_macos": {
+    "message": "Un cod de verificare a fost generat de Mac-ul dvs. Introduceți codul pentru a continua."
   },
   "divICsMessage": {
     "message": "Alegeți o parolă salvată de utilizat:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "Parolele dvs. sunt sincronizate cu portcheiul iCloud"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "Puteți vedea și edita parolele salvate în aplicația Parole iCloud."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "Puteți căuta și gestiona parolele salvate în configurările Parole."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "Puteți gestiona parolele salvate în fila Parole din Preferințe sistem."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "Puteți gestiona parolele salvate în fila Parole din preferințele Safari."
   },
   "divDoNotRememberTitle": {
     "message": "Ați optat anterior ca parolele pentru acest site web să nu fie salvate niciodată."
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Configurați un cod de verificare"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
+  },
+  "openThisPageInSafari": {
+    "message": "Deschidere pagină în Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "Deschidere configurări Parole…"
   }
 }

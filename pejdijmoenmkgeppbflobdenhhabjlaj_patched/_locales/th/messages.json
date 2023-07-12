@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "ดาวน์โหลด"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "ดาวน์โหลด iCloud สำหรับ Windows เพื่อใช้รหัสผ่าน iCloud"
   },
+  "downloadMessage_macos": {
+    "message": "ส่วนขยายนี้ต้องใช้ macOS 14 รุ่นเบต้าที่ติดตั้งแล้ว"
+  },
   "extDescription": {
-    "message": "รหัสผ่าน iCloud ช่วยให้คุณสามารถป้อนรหัสผ่านที่สร้างใน Safari และแอปบน iPhone, iPad และ Mac ลงในเว็บไซต์ใน Chrome ได้"
+    "message": "รหัสผ่าน iCloud ช่วยให้คุณป้อนรหัสผ่านจากพวงกุญแจ iCloud ได้เมื่อคุณลงชื่อเข้าเว็บไซต์โดยใช้ Chrome"
   },
   "extName": {
     "message": "รหัสผ่าน iCloud"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "เปิดใช้งานรหัสผ่านบน iCloud สำหรับ Windows เพื่อใช้รหัสผ่าน iCloud กับ Chrome"
   },
-  "unsupportedOS": {
-    "message": "ส่วนขยายนี้ออกแบบมาเพื่อให้ทำงานบน Windows 10 ขึ้นไป ถ้าคุณกำลังใช้ Mac รหัสผ่านของคุณจะเชื่อมข้อมูลกับ iPhone, iPad และ Mac ของคุณโดยอัตโนมัติเมื่อคุณลงชื่อเข้า iCloud"
+  "unsupportedOS_windows": {
+    "message": "ส่วนขยายนี้ออกแบบมาให้ใช้งานบน Windows 10 ขึ้นไป ถ้าคุณใช้ Mac อยู่ รหัสผ่านของคุณจะเชื่อมข้อมูลกับ iPhone, iPad และ Mac ของคุณโดยอัตโนมัติเมื่อคุณลงชื่อเข้า iCloud"
+  },
+  "unsupportedOS_macos": {
+    "message": "ส่วนขยายนี้ต้องใช้ macOS 13 รุ่นเบต้าหรือ Safari 16 รุ่นเบต้าเพื่อใช้งาน"
   },
   "divPINTitle": {
     "message": "เปิดใช้งานการป้อนรหัสผ่านโดยอัตโนมัติ"
   },
-  "divPINMessage": {
-    "message": "iCloud สำหรับ Windows ได้ส่งการแจ้งเตือนพร้อมรหัสการตรวจสอบยืนยันให้กับคุณ ป้อนรหัสเพื่อดำเนินการต่อ"
+  "divPINMessage_windows": {
+    "message": "iCloud สำหรับ Windows ส่งการแจ้งเตือนที่มีรหัสการตรวจสอบยืนยันให้กับคุณแล้ว ป้อนรหัสนี้เพื่อดำเนินการต่อ"
+  },
+  "divPINMessage_macos": {
+    "message": "Mac ได้สร้างรหัสการตรวจสอบยืนยันของคุณแล้ว ป้อนรหัสนี้เพื่อดำเนินการต่อ"
   },
   "divICsMessage": {
     "message": "เลือกรหัสผ่านที่บันทึกไว้เพื่อใช้งาน:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "รหัสผ่านของคุณเชื่อมข้อมูลกับพวงกุญแจ iCloud แล้ว"
   },
-  "divNoPasswordsMessage": {
-    "message": "คุณสามารถดูและแก้ไขรหัสผ่านที่บันทึกไว้ในแอปรหัสผ่าน iCloud ได้"
+  "divNoPasswordsMessage_windows": {
+    "message": "คุณสามารถดูและแก้ไขรหัสผ่านที่บันทึกไว้ได้ในแอปรหัสผ่าน iCloud"
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "คุณสามารถค้นดูและจัดการรหัสผ่านที่บันทึกไว้ได้ในการตั้งค่ารหัสผ่าน"
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "คุณสามารถจัดการรหัสผ่านที่บันทึกไว้ได้ในบานหน้าต่างรหัสผ่านในการตั้งค่าระบบ"
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "คุณสามารถจัดการรหัสผ่านที่บันทึกไว้ได้ในแถบรหัสผ่านของการตั้งค่าของ Safari"
   },
   "divDoNotRememberTitle": {
     "message": "คุณได้ระบุไว้ก่อนหน้านี้ว่าไม่ต้องบันทึกรหัสผ่านของเว็บไซต์นี้"
@@ -45,7 +63,7 @@
     "message": "ในการเปลี่ยนแปลงสิ่งนี้ ให้เอารายการสำหรับเว็บไซต์นี้ออกจากพวงกุญแจ iCloud ของคุณ แล้วเข้าสู่ระบบเว็บไซต์นี้อีกครั้ง"
   },
   "GettingPasswords": {
-    "message": "กำลังดาวน์โหลดรหัสผ่าน…"
+    "message": "กำลังโหลดรหัสผ่าน…"
   },
   "NoUserName": {
     "message": "ไม่มีชื่อผู้ใช้"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "ตั้งค่ารหัสการตรวจสอบยืนยัน"
+  },
+  "strongPasswordSuggestion": {
+    "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในการตั้งค่ารหัสผ่านหรือใน Safari"
+  },
+  "openThisPageInSafari": {
+    "message": "เปิดหน้านี้ใน Safari…"
+  },
+  "openPasswordsSettings": {
+    "message": "เปิดการตั้งค่ารหัสผ่าน…"
   }
 }

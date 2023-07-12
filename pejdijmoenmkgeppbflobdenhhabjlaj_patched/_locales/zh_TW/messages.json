@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "下載"
   },
-  "downloadMessage": {
+  "downloadMessage_windows": {
     "message": "下載「Windows 版 iCloud」來使用「iCloud 密碼」。"
   },
+  "downloadMessage_macos": {
+    "message": "此延伸功能需要 macOS 14 Beta 版才能安裝。"
+  },
   "extDescription": {
-    "message": "「iCloud 密碼」能讓你將在 Safari 和 iPhone、iPad 與 Mac 的 App 中製作的密碼填寫到 Chrome 的網站中。"
+    "message": "「iCloud 密碼」能讓你在 Chrome 中登入網站時，從「iCloud 鑰匙圈」填寫密碼。"
   },
   "extName": {
     "message": "iCloud 密碼"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "啟用「Windows 版 iCloud」中的「密碼」來在 Chrome 中使用「iCloud 密碼」。"
   },
-  "unsupportedOS": {
-    "message": "此延伸功能是設計在 Windows 10 或以上版本中執行。若你使用 Mac，當你登入 iCloud 時，你的密碼將自動與 iPhone、iPad、和 Mac 同步。"
+  "unsupportedOS_windows": {
+    "message": "此延伸功能是設計在 Windows 10 或以上版本中執行。若你是使用 Mac，你的密碼會在你登入 iCloud 時自動與你的 iPhone、iPad 和 Mac 同步。"
+  },
+  "unsupportedOS_macos": {
+    "message": "此延伸功能需要 macOS 13 Beta 版或 Safari 16 Beta 版才能執行。"
   },
   "divPINTitle": {
     "message": "啟用密碼自動填寫"
   },
-  "divPINMessage": {
-    "message": "「Windows 版 iCloud」會傳送包含驗證碼的通知給你。請輸入驗證碼來繼續。"
+  "divPINMessage_windows": {
+    "message": "「Windows 版 iCloud」已傳送驗證碼通知給你。請輸入驗證碼來繼續執行。"
+  },
+  "divPINMessage_macos": {
+    "message": "你的 Mac 已產生一個驗證碼。請輸入驗證碼來繼續執行。"
   },
   "divICsMessage": {
     "message": "選擇已儲存的密碼來使用："
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "你的密碼已和「iCloud 鑰匙圈」同步"
   },
-  "divNoPasswordsMessage": {
+  "divNoPasswordsMessage_windows": {
     "message": "你可以在「iCloud 密碼」App 中檢視和編輯已儲存的密碼。"
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "你可以在「密碼設定」中查詢和管理已儲存的密碼。"
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "你可以在「系統偏好設定」的「密碼」面板中管理已儲存的密碼。"
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "你可以在 Safari 偏好設定的「密碼」標籤頁中管理已儲存的密碼。"
   },
   "divDoNotRememberTitle": {
     "message": "你先前指示永不儲存此網站的密碼。"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "設定驗證碼"
+  },
+  "strongPasswordSuggestion": {
+    "message": "你可以在「密碼設定」或 Safari 中建立高強度的密碼。"
+  },
+  "openThisPageInSafari": {
+    "message": "在 Safari 中開啟此網頁..."
+  },
+  "openPasswordsSettings": {
+    "message": "打開密碼設定..."
   }
 }

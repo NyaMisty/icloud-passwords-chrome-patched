@@ -5,11 +5,14 @@
   "downloadButton": {
     "message": "Letöltés"
   },
-  "downloadMessage": {
-    "message": "Töltse le az iCloud Windows-verzióját az iCloud-jelszavak használatához."
+  "downloadMessage_windows": {
+    "message": "Az iCloud-jelszavak használatához töltse le az iCloud Windowshoz appot."
+  },
+  "downloadMessage_macos": {
+    "message": "Ehhez a bővítményhez a macOS 14 bétaverziójának telepítve kell lennie."
   },
   "extDescription": {
-    "message": "Az iCloud-jelszavakkal kitöltheti az iPhone-on, iPaden és Macen a Safarival és egyéb appokkal létrehozott jelszavakat a Chrome-ban megnyitott webhelyeken."
+    "message": "Az iCloud-jelszavak lehetővé teszi, hogy az iCloud-kulcskarikáról töltsön ki jelszavakat, amikor webhelyeken jelentkezik be a Chrome használatával."
   },
   "extName": {
     "message": "iCloud-jelszavak"
@@ -20,14 +23,20 @@
   "CheckEngineMessage": {
     "message": "Engedélyezze a jelszavakat az iCloud Windowshoz alkalmazásban, ha az iCloud-jelszavakat a Chrome-mal szeretné használni."
   },
-  "unsupportedOS": {
-    "message": "Ezt a bővítményt Windows 10 vagy újabb rendszeren való futtatáshoz tervezték. Ha Ön Macet használ, a jelszavai automatikusan szinkronizálva lesznek az iPhone-jával, iPadjével és Macjével, amikor bejelentkezik az iCloudba."
+  "unsupportedOS_windows": {
+    "message": "Ezt a bővítményt a Windows 10 vagy újabb rendszeren való használatra tervezték. Ha Macet használ, a jelszavai automatikusan szinkronizálva lesznek az iPhone-jával, iPadjével és Macjével, amikor bejelentkezik az iCloudba."
+  },
+  "unsupportedOS_macos": {
+    "message": "Ennek a bővítménynek a futtatásához a macOS 13 bétaverziója vagy a Safari 16 bétaverziója szükséges."
   },
   "divPINTitle": {
     "message": "Jelszó automatikus kitöltésének engedélyezése"
   },
-  "divPINMessage": {
-    "message": "Az iCloud Windowshoz egy ellenőrzőkódot tartalmazó értesítést küldött Önnek. A folytatáshoz adja meg a kódot."
+  "divPINMessage_windows": {
+    "message": "Az iCloud Windowshoz app küldött Önnek egy ellenőrzőkódot tartalmazó értesítést. A folytatáshoz adja meg a kódot."
+  },
+  "divPINMessage_macos": {
+    "message": "A Macje generált egy ellenőrzőkódot. A folytatáshoz adja meg a kódot."
   },
   "divICsMessage": {
     "message": "Válassza ki a használni kívánt mentett jelszót:"
@@ -35,8 +44,17 @@
   "GenericPopupTitle": {
     "message": "A jelszavai szinkronizálva vannak az iCloud-kulcskarikával"
   },
-  "divNoPasswordsMessage": {
-    "message": "A mentett jelszavakat megtekintheti és szerkesztheti az iCloud-jelszavak appban."
+  "divNoPasswordsMessage_windows": {
+    "message": "A mentett jelszavakat az iCloud-jelszavak appban tekintheti meg és kezelheti."
+  },
+  "divNoPasswordsMessage_macos": {
+    "message": "A mentett jelszavakat a Jelszóbeállításokban tekintheti meg és kezelheti."
+  },
+  "divNoPasswordsMessage_macos_12": {
+    "message": "A mentett jelszavakat a Rendszerbeállítások Jelszavak paneljén kezelheti."
+  },
+  "divNoPasswordsMessage_macos_11": {
+    "message": "A mentett jelszavakat a Safari beállításainak Jelszavak lapján kezelheti."
   },
   "divDoNotRememberTitle": {
     "message": "Ön korábban jelezte, hogy a jelszavak soha ne legyenek mentve ehhez a webhelyhez."
@@ -60,7 +78,7 @@
     "message": "Chrome"
   },
   "totpVerificationCodeNameWithDomain": {
-    "message": "Ellenőrőzkód a következőhöz: „$1”"
+    "message": "Ellenőrzőkód a következőhöz: „$1”"
   },
   "setupTOTPVerificationCodeNameWithDomain": {
     "message": "Ellenőrzőkód beállítása a következőhöz: „$1”"
@@ -94,5 +112,14 @@
   },
   "divTOTPMenu": {
     "message": "Ellenőrzőkód beállítása"
+  },
+  "strongPasswordSuggestion": {
+    "message": "Erős jelszavakat létrehozhat a Jelszóbeállításokban vagy a Safariban."
+  },
+  "openThisPageInSafari": {
+    "message": "Az oldal megnyitása a Safariban…"
+  },
+  "openPasswordsSettings": {
+    "message": "Jelszóbeállítások megnyitása…"
   }
 }
