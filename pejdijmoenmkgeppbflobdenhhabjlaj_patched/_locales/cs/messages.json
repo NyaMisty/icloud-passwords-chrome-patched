@@ -9,7 +9,7 @@
     "message": "Chcete‑li používat Hesla na iCloudu, stáhněte si iCloud pro Windows."
   },
   "downloadMessage_macos": {
-    "message": "Toto rozšíření vyžaduje betaverzi macOS 14."
+    "message": "Toto rozšíření vyžaduje instalaci macOS Sonoma."
   },
   "extDescription": {
     "message": "Rozšíření Hesla na iCloudu vám umožňuje vyplňovat hesla z Klíčenky na iCloudu při přihlašování k webovým stránkám v Chromu."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Toto rozšíření je určené pro Windows 10 nebo novější. Pokud používáte Mac, vaše hesla se automaticky synchronizují s iPhonem, iPadem a Macem při přihlášení k iCloudu."
-  },
-  "unsupportedOS_macos": {
-    "message": "Toto rozšíření vyžaduje betaverzi macOS 13 nebo Safari 16."
   },
   "divPINTitle": {
     "message": "Zapnutí automatického vyplňování hesel"

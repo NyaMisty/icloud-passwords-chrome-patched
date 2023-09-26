@@ -9,7 +9,7 @@
     "message": "Descarga iCloud para Windows para usar “Contraseñas en iCloud”."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensión requiere la instalación de la versión beta de macOS 14."
+    "message": "Esta extensión precisa la instalación de macOS Sonoma."
   },
   "extDescription": {
     "message": "Contraseñas en iCloud te permite rellenar las contraseñas desde el llavero de iCloud al iniciar sesión en sitios web en Chrome."
@@ -26,9 +26,6 @@
   "unsupportedOS_windows": {
     "message": "Esta extensión está pensada para usarla en Windows Esta extensión está diseñada para Windows 10 o una versión superior. Si utilizas un Mac, tus contraseñas se sincronizarán automáticamente con el iPhone, el iPad y el Mac al iniciar sesión en iCloud."
   },
-  "unsupportedOS_macos": {
-    "message": "Esta extensión requiere la instalación de la versión beta de macOS 13 o de la versión beta de Safari 16 para poder usarla."
-  },
   "divPINTitle": {
     "message": "Activa el autorrelleno de contraseñas"
   },
@@ -36,7 +33,7 @@
     "message": "iCloud para Windows te ha enviado una notificación con un código de verificación. Introduce el código para continuar."
   },
   "divPINMessage_macos": {
-    "message": "En Mac ha generado un código de verificación. Introduce el código para continuar."
+    "message": "El Mac ha generado un código de verificación. Introduce el código para continuar."
   },
   "divICsMessage": {
     "message": "Selecciona la contraseña guardada a usar:"

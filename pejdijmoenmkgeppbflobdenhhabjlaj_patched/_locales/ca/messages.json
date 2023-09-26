@@ -9,13 +9,13 @@
     "message": "Per utilitzar l’extensió de contrasenyes a l’iCloud, descarrega’t l’iCloud per a Windows."
   },
   "downloadMessage_macos": {
-    "message": "Cal que instal·lis el macOS 14 beta per poder utilitzar l’extensió."
+    "message": "Per poder fer servir l’extensió, cal que instal·lis el macOS Sonoma."
   },
   "extDescription": {
-    "message": "L’extensió de contrasenyes a l’iCloud et permet emplenar les contrasenyes desades al clauer de l’iCloud quan inicies sessió en llocs web des del Chrome."
+    "message": "Autocompleta les contrasenyes desades al clauer de l’iCloud en iniciar sessió als llocs web amb el Chrome."
   },
   "extName": {
-    "message": "Extensió de contrasenyes a l’iCloud"
+    "message": "Contrasenyes a l’iCloud"
   },
   "openiCloudForWindowsButtonText": {
     "message": "Obre l’iCloud per a Windows"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "L’extensió s’ha dissenyat per al Windows 10 i versions posteriors. Si tens un Mac, les contrasenyes se sincronitzaran automàticament entre l’iPhone, l’iPad i el Mac quan iniciïs sessió a l’iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Per utilitzar l’extensió, cal que instal·lis el macOS 13 beta o el Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Activar l‘autocompleció de contrasenyes"

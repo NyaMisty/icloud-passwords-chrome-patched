@@ -9,7 +9,7 @@
     "message": "Lataa iCloud Windowsille, jotta voit käyttää iCloud-salasanoja."
   },
   "downloadMessage_macos": {
-    "message": "Tämä laajennus vaatii, että macOS 14 beta on asennettu."
+    "message": "Tämä laajennus vaatii, että macOS Sonoma on asennettu."
   },
   "extDescription": {
     "message": "iCloud-salasanat mahdollistaa salasanojen automaattisen täyttämisen iCloud-avainnipusta, kun kirjaudutaan sivustoille Chromella."
@@ -21,13 +21,10 @@
     "message": "Avaa iCloud Windowsille"
   },
   "CheckEngineMessage": {
-    "message": "Ota Salasanat käyttöön Windowsin iCloudissa, jotta voit käyttää iCloud-salasanoja Chromessa."
+    "message": "Ota Salasanat käyttöön iCloud Windowsille -apissa, jotta voit käyttää iCloud-salasanoja Chromessa."
   },
   "unsupportedOS_windows": {
     "message": "Tämä laajennus on suunniteltu Windows 10:lle tai uudemmalle. Jos käytät Macia, salasanasi synkronoidaan automaattisesti iPhonen, iPadin ja Macin välillä, kun kirjaudut iCloudiin."
-  },
-  "unsupportedOS_macos": {
-    "message": "Tämä laajennus vaatii macOS 13 betan tai Safari 16 betan."
   },
   "divPINTitle": {
     "message": "Ota salasanojen automaattinen täyttö käyttöön"

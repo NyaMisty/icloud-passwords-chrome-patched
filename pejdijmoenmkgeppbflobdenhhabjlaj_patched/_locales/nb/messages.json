@@ -9,7 +9,7 @@
     "message": "Last ned iCloud for Windows for å bruke iCloud-passord."
   },
   "downloadMessage_macos": {
-    "message": "Dette tillegget krever at macOS 14 beta er installert."
+    "message": "Dette tillegget krever at macOS Sonoma er installert."
   },
   "extDescription": {
     "message": "Med iCloud-passord kan du logge på nettsteder i Chrome med passord fra iCloud-nøkkelring."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Dette tillegget er laget for bruk på Windows 10 eller nyere. Hvis du bruker en Mac, vil passordene dine automatisk synkroniseres med iPhone, iPad og Mac når du logger på iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Dette tillegget krever macOS 13 beta eller Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Aktiver autoutfylling av passord"

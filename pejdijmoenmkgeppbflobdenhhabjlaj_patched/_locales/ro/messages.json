@@ -9,7 +9,7 @@
     "message": "Pentru a utiliza Parole iCloud, descărcați iCloud pentru Windows."
   },
   "downloadMessage_macos": {
-    "message": "Această extensie necesită instalarea macOS 14 beta."
+    "message": "Această extensie necesită instalarea macOS Sonoma."
   },
   "extDescription": {
     "message": "Parole iCloud vă permite să completați parolele din Portchei iCloud atunci când vă autentificați pe site-urile web folosind Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Această extensie este concepută pentru a rula pe Windows 10 sau versiuni ulterioare. Dacă utilizați un Mac, parolele dvs. se vor sincroniza automat cu iPhone-ul, iPad-ul sau Mac-ul dvs. atunci când vă autentificați pe iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Pentru a funcționa, această extensie necesită macOS 13 beta sau Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Activați Auto-completare parole"

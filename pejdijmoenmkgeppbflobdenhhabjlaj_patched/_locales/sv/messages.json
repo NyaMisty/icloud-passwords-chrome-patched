@@ -9,7 +9,7 @@
     "message": "Hämta iCloud för Windows om du vill använda iCloud-lösenord."
   },
   "downloadMessage_macos": {
-    "message": "Det här tillägget kräver att betaversionen av macOS 14 är installerad."
+    "message": "Det här tillägget kräver att macOS Sonoma är installerat."
   },
   "extDescription": {
     "message": "Med iCloud-lösenord kan du fylla i lösenord från iCloud-nyckelring när du loggar in på webbplatser med Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Det här tillägget är utformat för användning med Windows 10 eller senare. Om du använder en Mac blir dina lösenord automatiskt synkroniserade med din iPhone, iPad och Mac när du loggar in på iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Det här tillägget kräver betaversionen av macOS 13 eller betaversionen av Safari 16."
   },
   "divPINTitle": {
     "message": "Aktivera Autofyll lösenord"

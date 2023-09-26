@@ -9,7 +9,7 @@
     "message": "Aby używać rozszerzenia Hasła iCloud, pobierz aplikację iCloud dla Windows."
   },
   "downloadMessage_macos": {
-    "message": "To rozszerzenie wymaga zainstalowania systemu macOS 14 beta."
+    "message": "To rozszerzenie wymaga systemu macOS Sonoma."
   },
   "extDescription": {
     "message": "Rozszerzenie Hasła iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy iCloud."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "To rozszerzenie zostało zaprojektowane dla systemu Windows 10 lub nowszego. Jeżeli używasz Maca, Twoje hasła będą automatycznie synchronizowane z Twoim iPhone’em, iPadem i Makiem, gdy zalogujesz się w iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Uruchomienie tego rozszerzenia wymaga systemu macOS 13 beta lub aplikacji Safari 16."
   },
   "divPINTitle": {
     "message": "Włącz wypełnianie haseł"
@@ -78,10 +75,10 @@
     "message": "Chrome"
   },
   "totpVerificationCodeNameWithDomain": {
-    "message": "Kod weryfikacyjny „$1”"
+    "message": "Kod weryfikacyjny \"$1\""
   },
   "setupTOTPVerificationCodeNameWithDomain": {
-    "message": "Skonfiguruj kod weryfikacyjny dla „$1”"
+    "message": "Skonfiguruj kod weryfikacyjny dla \"$1\""
   },
   "totpVerificationCodeName": {
     "message": "Kod weryfikacyjny"

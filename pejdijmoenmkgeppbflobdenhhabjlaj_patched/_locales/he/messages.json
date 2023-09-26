@@ -9,7 +9,7 @@
     "message": "כדי להשתמש ב״סיסמאות iCloud״ יש להוריד את ״iCloud עבור Windows״."
   },
   "downloadMessage_macos": {
-    "message": "כדי להוריד הרחבה זו נדרשת גירסת בטא של macOS 14."
+    "message": "ההרחבה הזו דורשת התקנה של macOS Sonoma."
   },
   "extDescription": {
     "message": "בעזרת ״סיסמאות iCloud״ באפשרותך למלא סיסמאות מצרור המפתחות של iCloud בעת ההתחברות לאתרים דרך Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "הרחבה זו נועדה לפעול ב-Windows 10 ואילך. במקרה של שימוש ב-Mac, הסיסמאות שלך יסתנכרנו באופן אוטומטי עם ה-iPhone, ה-iPad וה-Mac שלך בעת ההתחברות אל iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "להפעלת הרחבה זו נדרשת גירסת בטא של macOS 13 או גירסת בטא של Safari 16."
   },
   "divPINTitle": {
     "message": "הפעלת ״מילוי אוטומטי של סיסמאות״"

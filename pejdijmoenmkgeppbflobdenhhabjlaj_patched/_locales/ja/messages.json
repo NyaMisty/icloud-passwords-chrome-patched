@@ -9,7 +9,7 @@
     "message": "iCloudパスワードを使用するにはiCloud for Windowsをダウンロードしてください。"
   },
   "downloadMessage_macos": {
-    "message": "この拡張機能をインストールするには、macOS 14ベータ版が必要です。"
+    "message": "この拡張機能を使用するにはmacOS Sonomaがインストールされている必要があります。"
   },
   "extDescription": {
     "message": "iCloudパスワードを使用すると、ChromeでWebサイトにサインインするときにiCloudキーチェーンからパスワードを入力できます。"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "この拡張機能は、Windows 10以降で動作するように設計されています。Macを使用している場合は、iPhone、iPad、MacでiCloudにサインインしているときにパスワードがすべてのデバイスで自動的に同期されます。"
-  },
-  "unsupportedOS_macos": {
-    "message": "この拡張機能を実行するには、macOS 13ベータ版またはSafari 16ベータ版が必要です。"
   },
   "divPINTitle": {
     "message": "パスワードの自動入力を有効にする"
@@ -45,7 +42,7 @@
     "message": "パスワードはiCloudキーチェーンと同期されます"
   },
   "divNoPasswordsMessage_windows": {
-    "message": "iCloudパスワードAppで、保存済みのパスワードを表示/編集できます。"
+    "message": "iCloudパスワードアプリで、保存済みのパスワードを表示/編集できます。"
   },
   "divNoPasswordsMessage_macos": {
     "message": "“パスワード”設定で、保存されているパスワードを調べたり管理したりできます。"

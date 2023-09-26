@@ -9,7 +9,7 @@
     "message": "Baixe o iCloud para Windows para usar as Senhas do iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensão requer que o macOS 14 beta esteja instalado."
+    "message": "Esta extensão requer que o macOS Sonoma esteja instalado."
   },
   "extDescription": {
     "message": "As Senhas do iCloud permitem que você preencha senhas das Chaves do iCloud ao iniciar uma sessão em sites com o Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Esta extensão é feita para ser usada no Windows 10 ou posterior. Se você estiver usando um Mac, as senhas serão sincronizadas automaticamente com o seu iPhone, iPad e Mac quando você iniciar uma sessão no iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Esta extensão requer o macOS 13 beta ou o Safari 16 beta para funcionar."
   },
   "divPINTitle": {
     "message": "Ativar Preenchimento Automático de Senha"

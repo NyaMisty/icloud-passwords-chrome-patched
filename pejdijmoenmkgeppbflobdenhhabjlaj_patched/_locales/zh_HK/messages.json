@@ -9,7 +9,7 @@
     "message": "下載 Windows 版 iCloud 以使用「iCloud 密碼」。"
   },
   "downloadMessage_macos": {
-    "message": "此延伸功能需要安裝 macOS 14 Beta。"
+    "message": "此延伸功能需要安裝 macOS Sonoma。"
   },
   "extDescription": {
     "message": "「iCloud 密碼」讓可你在使用 Chrome 登入網站時填寫來自「iCloud 鑰匙圈」的密碼。"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "此延伸功能設計為在 Windows 10 或較新版本上執行。如你使用 Mac，你的密碼將會在你登入 iCloud 時與你的 iPhone、iPad 和 Mac 自動同步。"
-  },
-  "unsupportedOS_macos": {
-    "message": "此延伸功能需要 macOS 13 Beta 或 Safari 16 Beta 以執行。"
   },
   "divPINTitle": {
     "message": "啟用自動填寫密碼"

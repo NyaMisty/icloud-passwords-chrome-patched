@@ -9,7 +9,7 @@
     "message": "下載「Windows 版 iCloud」來使用「iCloud 密碼」。"
   },
   "downloadMessage_macos": {
-    "message": "此延伸功能需要 macOS 14 Beta 版才能安裝。"
+    "message": "此延伸功能需要安裝 macOS Sonoma。"
   },
   "extDescription": {
     "message": "「iCloud 密碼」能讓你在 Chrome 中登入網站時，從「iCloud 鑰匙圈」填寫密碼。"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "此延伸功能是設計在 Windows 10 或以上版本中執行。若你是使用 Mac，你的密碼會在你登入 iCloud 時自動與你的 iPhone、iPad 和 Mac 同步。"
-  },
-  "unsupportedOS_macos": {
-    "message": "此延伸功能需要 macOS 13 Beta 版或 Safari 16 Beta 版才能執行。"
   },
   "divPINTitle": {
     "message": "啟用密碼自動填寫"
@@ -63,13 +60,13 @@
     "message": "若要更改此設定，請在你的「iCloud 鑰匙圈」中移除此網站的項目，並且重新登入此網站。"
   },
   "GettingPasswords": {
-    "message": "正在載入密碼..."
+    "message": "正在載入密碼…"
   },
   "NoUserName": {
     "message": "沒有使用者名稱"
   },
   "divOpenPasswords": {
-    "message": "管理密碼..."
+    "message": "管理密碼…"
   },
   "divOpenPasswordsSubtitle": {
     "message": "查詢和建立密碼。"
@@ -117,9 +114,9 @@
     "message": "你可以在「密碼設定」或 Safari 中建立高強度的密碼。"
   },
   "openThisPageInSafari": {
-    "message": "在 Safari 中開啟此網頁..."
+    "message": "在 Safari 中開啟此網頁…"
   },
   "openPasswordsSettings": {
-    "message": "打開密碼設定..."
+    "message": "打開密碼設定…"
   }
 }

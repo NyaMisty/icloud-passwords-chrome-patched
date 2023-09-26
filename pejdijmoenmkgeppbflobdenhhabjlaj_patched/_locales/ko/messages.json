@@ -9,7 +9,7 @@
     "message": "iCloud 암호를 사용하려면 Windows용 iCloud를 다운로드하십시오."
   },
   "downloadMessage_macos": {
-    "message": "이 확장 프로그램을 설치하려면 macOS 14 베타가 필요합니다."
+    "message": "이 확장 프로그램은 macOS Sonoma를 설치해야 합니다."
   },
   "extDescription": {
     "message": "iCloud 암호는 Chrome을 사용하여 웹 사이트에 로그인할 때 iCloud 키체인에서 암호를 채울 수 있게 해줍니다."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "이 확장 프로그램은 Windows 10 이상에서 실행되도록 설계되었습니다. Mac을 사용할 경우, iCloud에 로그인할 때 암호가 자동으로 iPhone, iPad 및 Mac과 동기화됩니다."
-  },
-  "unsupportedOS_macos": {
-    "message": "이 확장 프로그램을 실행하려면 macOS 13 베타 또는 Safari 16이 필요합니다."
   },
   "divPINTitle": {
     "message": "암호 자동 완성 활성화"

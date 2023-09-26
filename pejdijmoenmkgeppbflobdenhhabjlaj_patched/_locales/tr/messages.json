@@ -9,7 +9,7 @@
     "message": "iCloud Parolaları’nı kullanmak üzere Windows için iCloud’u indirin."
   },
   "downloadMessage_macos": {
-    "message": "Bu genişletme macOS 14 beta’nın yüklenmesini gerektirir."
+    "message": "Bu genişletme, macOS Sonoma’nın yüklü olmasını gerektirir."
   },
   "extDescription": {
     "message": "iCloud Parolaları, Chrome’u kullanarak web sitelerine giriş yaparken parolaları iCloud Anahtar Zinciri’nden doldurmanızı sağlar."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Bu genişletme Windows 10 veya daha yenisinde çalışacak şekilde tasarlandı. Mac kullanıyorsanız iCloud'a giriş yaptığınızda parolalarınız iPhone, iPad ve Mac aygıtlarınızla otomatik olarak eşzamanlanır."
-  },
-  "unsupportedOS_macos": {
-    "message": "Bu genişletme, macOS 13 beta’nın veya Safari 16 beta’nın çalışmasını gerektirir."
   },
   "divPINTitle": {
     "message": "Otomatik Parola Doldurma’yı Etkinleştirin"

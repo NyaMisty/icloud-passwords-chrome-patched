@@ -9,7 +9,7 @@
     "message": "Ak chcete používať iCloud Heslá, stiahnite si iCloud pre Windows."
   },
   "downloadMessage_macos": {
-    "message": "Toto rozšírenie vyžaduje, aby bol nainštalovaný systém macOS 14 beta."
+    "message": "Toto rozšírenie vyžaduje, aby bol nainštalovaný systém macOS Sonoma."
   },
   "extDescription": {
     "message": "Rozšírenie iCloud Heslá vám umožňuje vypĺňať heslá z iCloud Kľúčenky pri prihlasovaní na webstránkach v prehliadači Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Toto rozšírenie bolo navrhnuté pre Windows 10 a novšie verzie systému. Ak používate Mac, vaše heslá sa po prihlásení do iCloudu budú automaticky synchronizovať s vaším iPhonom, iPadom a Macom."
-  },
-  "unsupportedOS_macos": {
-    "message": "Na spustenie tohto rozšírenia sa vyžaduje macOS 13 beta alebo Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Zapnúť automatické vypĺňanie hesiel"

@@ -9,7 +9,7 @@
     "message": "Unduh iCloud untuk Windows untuk menggunakan Kata Sandi iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Ekstensi ini memerlukan macOS 14 beta untuk diinstal."
+    "message": "Ekstensi ini memerlukan diinstalnya macOS Sonoma."
   },
   "extDescription": {
     "message": "Kata Sandi iCloud memungkinkan Anda untuk mengisi kata sandi dari Rantai Kunci iCloud saat masuk ke situs web menggunakan Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Ekstensi ini dirancang untuk dijalankan di Windows 10 atau lebih baru. Jika Anda menggunakan Mac, kata sandi Anda akan diselaraskan secara otomatis dengan iPhone, iPad, dan Mac Anda saat Anda masuk ke iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Ekstensi ini memerlukan macOS 13 beta atau Safari 16 beta untuk dijalankan."
   },
   "divPINTitle": {
     "message": "Aktifkan Isi-Auto Kata Sandi"

@@ -9,7 +9,7 @@
     "message": "Scarica iCloud per Windows per utilizzare Password di iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Per installare l'estensione è richiesto macOS 14 beta."
+    "message": "Questa estensione richiede che sul computer sia installato macOS Sonoma."
   },
   "extDescription": {
     "message": "Password di iCloud ti consente di inserire le password dal portachiavi iCloud quando accedi ai siti web utilizzando Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Questa estensione è progettata per Windows 10 o versioni successive. Se utilizzi un Mac, le tue password verranno automaticamente sincronizzate su iPhone, su iPad e sul Mac quando accedi ad iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Per eseguire l'estensione è richiesto macOS 13 beta o Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Abilita inserimento automatico password"

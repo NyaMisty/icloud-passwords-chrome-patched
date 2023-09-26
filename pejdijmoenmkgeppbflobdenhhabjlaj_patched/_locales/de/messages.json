@@ -9,10 +9,10 @@
     "message": "Lade „iCloud für Windows“, um „iCloud-Passwörter“ verwenden zu können."
   },
   "downloadMessage_macos": {
-    "message": "Um diese Erweiterung installieren zu können, ist macOS 14 beta erforderlich."
+    "message": "Für diese Erweiterung muss macOS Sonoma installiert sein."
   },
   "extDescription": {
-    "message": "Mit „iCloud-Passwörter“ kannst du bei der Anmeldung auf Websites in Chrome Passwörter aus dem iCloud-Schlüsselbund verwenden."
+    "message": "Verwende mit „iCloud-Passwörter“ bei der Anmeldung auf Websites in Chrome Passwörter aus dem iCloud-Schlüsselbund."
   },
   "extName": {
     "message": "iCloud-Passwörter"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Diese Erweiterung wurde für Windows 10 oder neuer entwickelt. Wenn du einen Mac verwendest, werden deine Passwörter automatisch mit deinem iPhone, iPad und Mac synchronisiert, sobald du dich bei iCloud anmeldest."
-  },
-  "unsupportedOS_macos": {
-    "message": "Um diese Erweiterung ausführen zu können, ist macOS 13 beta oder Safari 16 beta erforderlich."
   },
   "divPINTitle": {
     "message": "Automatisches Ausfüllen von Passwörtern aktivieren"

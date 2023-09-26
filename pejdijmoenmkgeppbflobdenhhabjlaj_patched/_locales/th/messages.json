@@ -9,7 +9,7 @@
     "message": "ดาวน์โหลด iCloud สำหรับ Windows เพื่อใช้รหัสผ่าน iCloud"
   },
   "downloadMessage_macos": {
-    "message": "ส่วนขยายนี้ต้องใช้ macOS 14 รุ่นเบต้าที่ติดตั้งแล้ว"
+    "message": "ส่วนขยายนี้ต้องติดตั้ง macOS Sonoma"
   },
   "extDescription": {
     "message": "รหัสผ่าน iCloud ช่วยให้คุณป้อนรหัสผ่านจากพวงกุญแจ iCloud ได้เมื่อคุณลงชื่อเข้าเว็บไซต์โดยใช้ Chrome"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "ส่วนขยายนี้ออกแบบมาให้ใช้งานบน Windows 10 ขึ้นไป ถ้าคุณใช้ Mac อยู่ รหัสผ่านของคุณจะเชื่อมข้อมูลกับ iPhone, iPad และ Mac ของคุณโดยอัตโนมัติเมื่อคุณลงชื่อเข้า iCloud"
-  },
-  "unsupportedOS_macos": {
-    "message": "ส่วนขยายนี้ต้องใช้ macOS 13 รุ่นเบต้าหรือ Safari 16 รุ่นเบต้าเพื่อใช้งาน"
   },
   "divPINTitle": {
     "message": "เปิดใช้งานการป้อนรหัสผ่านโดยอัตโนมัติ"

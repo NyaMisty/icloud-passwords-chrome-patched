@@ -9,7 +9,7 @@
     "message": "Download iCloud for Windows to use iCloud Passwords."
   },
   "downloadMessage_macos": {
-    "message": "This extension requires macOS 14 beta to be installed."
+    "message": "This extension requires macOS Sonoma to be installed."
   },
   "extDescription": {
     "message": "iCloud Passwords lets you fill passwords from iCloud Keychain when signing in to websites using Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "This extension is designed to run on Windows 10 or later. If you are using a Mac, your passwords will automatically sync with your iPhone, iPad, and Mac when you sign in to iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "This extension requires macOS 13 beta or Safari 16 beta to run."
   },
   "divPINTitle": {
     "message": "Enable Password AutoFill"

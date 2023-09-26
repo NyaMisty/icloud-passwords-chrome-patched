@@ -9,7 +9,7 @@
     "message": "Muat turun iCloud untuk Windows bagi menggunakan Kata Laluan iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Sambungan ini memerlukan macOS 14 beta untuk dipasang."
+    "message": "Sambungan ini memerlukan macOS Sonoma untuk dipasang."
   },
   "extDescription": {
     "message": "Kata Laluan iCloud mengisi kata laluan daripada Rantai Kunci iCloud apabila daftar masuk ke tapak web menggunakan Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Sambungan ini direka bentuk untuk dijalankan pada Windows 10 atau lebih baharu. Jika anda menggunakan Mac, kata laluan anda akan diselaraskan secara automatik dengan iPhone, iPad dan Mac anda apabila anda mendaftar masuk ke iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Sambungan ini memerlukan macOS 13 beta atau Safari 16 beta untuk dijalankan."
   },
   "divPINTitle": {
     "message": "Dayakan Isi Auto Kata Laluan"

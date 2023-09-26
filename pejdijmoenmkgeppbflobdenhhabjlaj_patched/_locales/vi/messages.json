@@ -9,7 +9,7 @@
     "message": "Tải về iCloud cho Windows để sử dụng Mật khẩu iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Phần mở rộng này yêu cầu cài đặt macOS 14 beta."
+    "message": "Phần mở rộng này yêu cầu cài đặt macOS Sonoma."
   },
   "extDescription": {
     "message": "Mật khẩu iCloud cho phép bạn điền mật khẩu từ Chuỗi khóa iCloud khi đăng nhập vào các trang web bằng Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Phần mở rộng này được thiết kế để chạy trên Windows 10 trở lên. Nếu bạn đang sử dụng máy Mac thì các mật khẩu sẽ tự động đồng bộ hóa với iPhone, iPad và máy Mac khi bạn đăng nhập vào iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Phần mở rộng này yêu cầu macOS 13 beta hoặc Safari 16 beta để chạy."
   },
   "divPINTitle": {
     "message": "Bật Tự động điền mật khẩu"

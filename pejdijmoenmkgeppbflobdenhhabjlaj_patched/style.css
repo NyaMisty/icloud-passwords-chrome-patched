@@ -270,7 +270,7 @@ ul.credential-list, .credential-list li {
 .credential-list li.credential .totpwebsite {
     margin-top: 0.8em;
     margin-bottom: 0;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 .credential-list li.open-password-manager
@@ -329,8 +329,7 @@ ul.credential-list, .credential-list li {
     opacity: 0.6;
     font-size: 12px;
 }
-.popup .credential-list li.open-password-manager
-, .popup .credential-list li.open-safari
+.popup .credential-list li.open-password-manager, .popup .credential-list li.open-safari
 {
     padding: 7px 24px 7px 24px;
 }
@@ -378,28 +377,26 @@ ul.credential-list, .credential-list li {
     height: 9px;
 }
 .dismiss {
-    display: block;
+    display: block flex;
+    align-items: center;
+    justify-content: center;
     width: 20px;
     height: 20px;
     position: absolute;
-    margin-top: -1px;
-    inset-block-start: -3px;
+    top: 0;
+    right: 0;
+    inset-block-start: -4px;
     inset-inline-end: -3px;
     color: var(--dismiss-button-color);
-    font-size: 25px text-decoration: none;
+    text-decoration: none;
     text-align: center;
     cursor: default;
     border-radius: 10px;
     transition: background-color 0.25s ease;
     user-select: none;
-    line-height: 18px;
 }
 .dismiss:hover {
     background-color: rgba(0, 0, 0, 0.08);
-}
-
-.completionList .dismiss {
-    display: none;
 }
 img.iCloudIcon {
     float: left;

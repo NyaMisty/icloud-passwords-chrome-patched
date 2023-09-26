@@ -9,7 +9,7 @@
     "message": "Download iCloud voor Windows om iCloud-wachtwoorden te gebruiken."
   },
   "downloadMessage_macos": {
-    "message": "Voor deze extensie moet macOS 14 bèta zijn geïnstalleerd."
+    "message": "Voor deze extensie moet macOS Sonoma zijn geïnstalleerd."
   },
   "extDescription": {
     "message": "Met iCloud-wachtwoorden kun je wachtwoorden invullen vanuit de iCloud-sleutelhanger wanneer je je aanmeldt bij websites in Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Deze extensie is ontworpen voor gebruik met Windows 10 of nieuwer. Als je een Mac gebruikt, worden je wachtwoorden automatisch gesynchroniseerd met je iPhone, iPad en Mac wanneer je inlogt bij iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Deze extensie vereist macOS 13 bèta of Safari 16 bèta."
   },
   "divPINTitle": {
     "message": "Automatisch invullen van wachtwoorden inschakelen"

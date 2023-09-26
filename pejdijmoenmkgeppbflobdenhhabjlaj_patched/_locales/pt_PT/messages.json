@@ -9,7 +9,7 @@
     "message": "Descarregue iCloud para Windows para usar Palavras-passe em iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensão requer a instalação do macOS 14 beta."
+    "message": "Para usar esta extensão, é necessário ter o macOS Sonoma instalado."
   },
   "extDescription": {
     "message": "Palavras-passe em iCloud permite preencher palavras-passe do Porta-chaves em iCloud ao iniciar sessão em sites através do Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Esta extensão foi concebida para execução no Windows 10 ou posterior. Se estiver a usar um Mac, as suas palavras-passe serão automaticamente sincronizadas com o seu iPhone, iPad e Mac, quando iniciar sessão em iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Esta extensão requer a execução do macOS 13 beta ou do Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Ativar preenchimento automático de palavras-passe"

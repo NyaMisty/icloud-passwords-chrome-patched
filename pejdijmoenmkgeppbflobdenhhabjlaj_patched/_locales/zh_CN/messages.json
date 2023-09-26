@@ -9,7 +9,7 @@
     "message": "下载 Windows 版 iCloud 来使用 iCloud 密码。"
   },
   "downloadMessage_macos": {
-    "message": "此扩展需要安装 macOS 14 Beta 版。"
+    "message": "此扩展需要安装 macOS Sonoma。"
   },
   "extDescription": {
     "message": "iCloud 密码可让你在 Chrome 中登录网站时，从 iCloud 钥匙串填充密码。"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "此扩展设计运行于 Windows 10 或更高版本。如果使用的是 Mac，登录 iCloud 后，你的密码会自动与 iPhone、iPad 和 Mac 同步。"
-  },
-  "unsupportedOS_macos": {
-    "message": "此扩展需要 macOS 13 Beta 版或 Safari 16 Beta 版才能运行。"
   },
   "divPINTitle": {
     "message": "启用密码自动填充"

@@ -9,7 +9,7 @@
     "message": "Hent iCloud til Windows for at bruge iCloud-adgangskoder."
   },
   "downloadMessage_macos": {
-    "message": "Denne udvidelse kræver macOS 14 beta, før den kan installeres."
+    "message": "Denne udvidelse kræver macOS Sonoma, før den kan installeres."
   },
   "extDescription": {
     "message": "iCloud-adgangskoder gør det muligt at udfylde adgangskoder fra iCloud-nøglering, når du logger ind på websteder i Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Denne udvidelse er beregnet til Windows 10 og nyere versioner. Hvis du bruger en Mac, bliver dine adgangskoder automatisk synkroniseret med din iPhone, iPad og Mac, når du logger ind på iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Denne udvidelse kræver macOS 13 beta eller Safari 16 beta, før den kan bruges."
   },
   "divPINTitle": {
     "message": "Slå Autoudfyld adgangskode til"

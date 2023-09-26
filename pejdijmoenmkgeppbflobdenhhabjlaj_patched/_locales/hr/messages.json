@@ -9,10 +9,10 @@
     "message": "Preuzmite iCloud za Windows za uporabu iCloud lozinki."
   },
   "downloadMessage_macos": {
-    "message": "Ova ekstenzija zahtijeva instaliranje sustava macOS 14 beta."
+    "message": "Ova ekstenzija zahtijeva instaliranje sustava macOS Sonoma."
   },
   "extDescription": {
-    "message": "iCloud lozinke omogućavaju vam ispunjavanje lozinki iz iCloud privjeska ključeva prilikom prijavljivanja na web stranice pomoću preglednika Chrome."
+    "message": "Omogućuje ispunjavanje lozinki iz iCloud privjeska ključeva prilikom prijavljivanja na web stranice Chromeom."
   },
   "extName": {
     "message": "iCloud lozinke"
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Ova ekstenzija dizajnirana je za rad u sustavu Windows 10 ili novijem. Ako koristite Mac, vaše lozinke automatski će se sinkronizirati s vašim iPhoneom, iPadom i Macom kad se prijavite na iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "Ova ekstenzija zahtijeva pokretanje sustava macOS 13 beta ili aplikacije Safari 16 beta."
   },
   "divPINTitle": {
     "message": "Omogući Auto ispunu lozinke"
@@ -90,7 +87,7 @@
     "message": "Omogući Auto ispunu lozinke"
   },
   "enableAutoFillPasswordsMessage": {
-    "message": "Kliknite tipku alatne trake za omogućavanje ekstenzije iCloud lozinke za Chrome."
+    "message": "Kliknite tipku alatne trake za omogućavanje ekstenzije \"iCloud lozinke\" za Chrome."
   },
   "optionsTitle": {
     "message": "Opcije za iCloud lozinke"

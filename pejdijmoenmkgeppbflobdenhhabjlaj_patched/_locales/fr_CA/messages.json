@@ -9,7 +9,7 @@
     "message": "Téléchargez iCloud pour Windows pour utiliser « Mots de passe iCloud »."
   },
   "downloadMessage_macos": {
-    "message": "L’installation de cette extension requiert la version bêta de macOS 14."
+    "message": "Cette extension requiert l’installation de macOS Sonoma."
   },
   "extDescription": {
     "message": "« Mots de passe iCloud » vous permet d’utiliser les mots de passe du trousseau iCloud lorsque vous vous connectez à des sites Web dans Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Cette extension est conçue pour fonctionner sous Windows 10 ou une version ultérieure. Si vous utilisez un Mac, vos mots de passe se synchroniseront automatiquement avec vos iPhone, iPad et Mac lorsque vous vous connecterez à iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "L’exécution de cette extension requiert les versions bêta de macOS 13 ou de Safari 16."
   },
   "divPINTitle": {
     "message": "Activer le remplissage automatique des mots de passe"

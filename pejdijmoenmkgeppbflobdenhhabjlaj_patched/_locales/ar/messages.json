@@ -9,7 +9,7 @@
     "message": "يرجى تنزيل iCloud لـ Windows لاستخدام كلمات سر iCloud."
   },
   "downloadMessage_macos": {
-    "message": "يتطلب هذا الملحق تثبيت الإصدار التجريبي من macOS 14."
+    "message": "يتطلب هذا الملحق تثبيت macOS Sonoma."
   },
   "extDescription": {
     "message": "يسمح لك تطبيق كلمات سر iCloud بتعبئة كلمات السر من سلسلة مفاتيح iCloud عند تسجيل الدخول إلى المواقع الإلكترونية باستخدام Chrome."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "هذا الملحق مصمم للتشغيل على Windows 10 أو أحدث. إذا كنت تستخدم Mac، فستتم مزامنة كلمات السر تلقائيًا مع iPhone و iPad و Mac عند تسجيل الدخول إلى iCloud."
-  },
-  "unsupportedOS_macos": {
-    "message": "يتطلب هذا الملحق تشغيل الإصدار التجريبي من macOS 13 أو الإصدار التجريبي من Safari 16."
   },
   "divPINTitle": {
     "message": "تمكين التعبئة التلقائية لكلمات السر"

@@ -9,7 +9,7 @@
     "message": "Az iCloud-jelszavak használatához töltse le az iCloud Windowshoz appot."
   },
   "downloadMessage_macos": {
-    "message": "Ehhez a bővítményhez a macOS 14 bétaverziójának telepítve kell lennie."
+    "message": "Ehhez a bővítményhez telepíteni kell a macOS Sonoma rendszert."
   },
   "extDescription": {
     "message": "Az iCloud-jelszavak lehetővé teszi, hogy az iCloud-kulcskarikáról töltsön ki jelszavakat, amikor webhelyeken jelentkezik be a Chrome használatával."
@@ -25,9 +25,6 @@
   },
   "unsupportedOS_windows": {
     "message": "Ezt a bővítményt a Windows 10 vagy újabb rendszeren való használatra tervezték. Ha Macet használ, a jelszavai automatikusan szinkronizálva lesznek az iPhone-jával, iPadjével és Macjével, amikor bejelentkezik az iCloudba."
-  },
-  "unsupportedOS_macos": {
-    "message": "Ennek a bővítménynek a futtatásához a macOS 13 bétaverziója vagy a Safari 16 bétaverziója szükséges."
   },
   "divPINTitle": {
     "message": "Jelszó automatikus kitöltésének engedélyezése"
