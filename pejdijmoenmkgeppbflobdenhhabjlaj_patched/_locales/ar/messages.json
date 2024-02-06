@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "تمكين التعبئة التلقائية لكلمات السر"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "انقر على زر شريط الأدوات لتمكين ملحق كلمات سر iCloud لـ Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "انقر هنا لسماح لتطبيق كلمات سر iCloud بالتعبئة التلقائية لكلمات السر."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "انقر على زر كلمات سر iCloud في شريط الأدوات لتمكين التعبئة التلقائية لكلمات السر."
   },
   "optionsTitle": {
     "message": "خيارات كلمات سر iCloud"

@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "啟用密碼自動填寫"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "按一下工具列按鈕來啟用 Chrome 的「iCloud 密碼」延伸功能。"
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "按一下此處來允許「iCloud 密碼」自動填寫你的密碼。"
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "按一下「iCloud 密碼」工具列按鈕來啟用「密碼自動填寫」。"
   },
   "optionsTitle": {
     "message": "iCloud 密碼選項"

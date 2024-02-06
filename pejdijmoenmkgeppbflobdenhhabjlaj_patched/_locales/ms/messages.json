@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Dayakan Isi Auto Kata Laluan"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klik butang bar alat untuk mendayakan sambungan Kata Laluan iCloud bagi Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klik sini bagi membenarkan Kata Laluan iCloud untuk Isi Auto kata laluan anda."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klik butang bar alat Kata Laluan iCloud untuk mendayakan Isi Auto Kata Laluan."
   },
   "optionsTitle": {
     "message": "Pilihan Kata Laluan iCloud"

@@ -30,7 +30,7 @@
     "message": "Activar l‘autocompleció de contrasenyes"
   },
   "divPINMessage_windows": {
-    "message": "Has rebut una notificació de l’iCloud for Windows amb un codi de verificació. Introdueix-lo per continuar."
+    "message": "Has rebut una notificació de l’iCloud per a Windows amb un codi de verificació. Introdueix-lo per continuar."
   },
   "divPINMessage_macos": {
     "message": "S’ha generat un codi de verificació al Mac. Introdueix-lo per continuar."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Activar l‘autocompleció de contrasenyes"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Fes clic al botó de la barra d’eines per activar l’extensió de contrasenyes a l’iCloud per al Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Fes clic aquí per autocompletar les contrasenyes amb l’extensió de contrasenyes a l’iCloud."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Fes clic al botó de contrasenyes a l’iCloud de la barra d’eines per autocompletar les contrasenyes."
   },
   "optionsTitle": {
     "message": "Opcions de les contrasenyes a l’iCloud"

@@ -55,8 +55,8 @@
     }
 
     .completionList {
-        --separator-color: rgba(105, 105, 105, 0.6);
-        --table-cell-hover-color: rgba(100, 100, 100, 0.4);
+        --separator-color: rgba(106, 106, 106, 0.6);
+        --table-cell-hover-color: rgba(106, 106, 106, 0.4);
         --from-icloud-passwords-background-color: rgba(0, 0, 0, 0.1);
     }
 
@@ -78,6 +78,12 @@ body {
 }
 body.popup {
     width: 344px;
+}
+body.popup.popupWindow #fromiCloudPasswords, body.popup.popupWindow #dismiss {
+    display: none;
+}
+body.popup.popupWindow {
+    padding-top: 6px;
 }
 body.completionList {
     width: auto;
@@ -161,6 +167,10 @@ input::-webkit-inner-spin-button {
     user-select: none;
     cursor: default;
     justify-content: center;
+}
+
+a, img {
+    -webkit-user-drag: none;
 }
 
 #divPIN.box, .box.logo-is-present {

@@ -6,25 +6,25 @@
     "message": "Pobierz"
   },
   "downloadMessage_windows": {
-    "message": "Aby używać rozszerzenia Hasła iCloud, pobierz aplikację iCloud dla Windows."
+    "message": "Aby używać funkcji Hasła w iCloud, pobierz aplikację iCloud dla Windows."
   },
   "downloadMessage_macos": {
     "message": "To rozszerzenie wymaga systemu macOS Sonoma."
   },
   "extDescription": {
-    "message": "Rozszerzenie Hasła iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy iCloud."
+    "message": "Rozszerzenie Hasła w iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy iCloud."
   },
   "extName": {
-    "message": "Hasła iCloud"
+    "message": "Hasła w iCloud"
   },
   "openiCloudForWindowsButtonText": {
     "message": "Otwórz iCloud dla Windows"
   },
   "CheckEngineMessage": {
-    "message": "Aby używać rozszerzenia Hasła iCloud w Chrome, włącz Hasła w iCloud dla Windows."
+    "message": "Aby rozszerzenia funkcji Hasła w iCloud w przeglądarce Chrome, włącz opcję Hasła w aplikacji iCloud dla Windows."
   },
   "unsupportedOS_windows": {
-    "message": "To rozszerzenie zostało zaprojektowane dla systemu Windows 10 lub nowszego. Jeżeli używasz Maca, Twoje hasła będą automatycznie synchronizowane z Twoim iPhone’em, iPadem i Makiem, gdy zalogujesz się w iCloud."
+    "message": "To rozszerzenie zostało zaprojektowane dla systemu Windows 10 i nowszych. Jeżeli używasz Maca, Twoje hasła będą automatycznie synchronizowane z Twoim iPhone’em, iPadem i Makiem, gdy zalogujesz się w iCloud."
   },
   "divPINTitle": {
     "message": "Włącz wypełnianie haseł"
@@ -42,7 +42,7 @@
     "message": "Twoje hasła są synchronizowane z pękiem kluczy iCloud."
   },
   "divNoPasswordsMessage_windows": {
-    "message": "Zachowane hasła możesz wyświetlać i edytować w aplikacji Hasła iCloud."
+    "message": "Zachowane hasła możesz wyświetlać i edytować w aplikacji Hasła w iCloud."
   },
   "divNoPasswordsMessage_macos": {
     "message": "Aby wyszukiwać zachowane hasła lub nimi zarządzać, przejdź do ustawień haseł."
@@ -54,7 +54,7 @@
     "message": "Zachowanymi hasłami możesz zarządzać na karcie Hasła w preferencjach Safari."
   },
   "divDoNotRememberTitle": {
-    "message": "Twój wcześniejszy wybór to nigdy nie zachowywać haseł do tej witryny."
+    "message": "Do tej pory hasła tej witryny nie miały być zachowywane."
   },
   "divDoNotRememberMessage": {
     "message": "Aby to zmienić, usuń pozycję związaną z tą witryną z pęku kluczy iCloud i zaloguj się ponownie w tej witrynie."
@@ -75,10 +75,10 @@
     "message": "Chrome"
   },
   "totpVerificationCodeNameWithDomain": {
-    "message": "Kod weryfikacyjny \"$1\""
+    "message": "Kod weryfikacyjny „$1”"
   },
   "setupTOTPVerificationCodeNameWithDomain": {
-    "message": "Skonfiguruj kod weryfikacyjny dla \"$1\""
+    "message": "Skonfiguruj kod weryfikacyjny dla „$1”"
   },
   "totpVerificationCodeName": {
     "message": "Kod weryfikacyjny"
@@ -86,23 +86,26 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Włącz wypełnianie haseł"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Aby włączyć rozszerzenie Hasła iCloud dla przeglądarki Chrome, kliknij w przycisk na pasku narzędzi."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Kliknij tutaj, aby pozwolić na wypełnianie haseł przez rozszerzenie Hasła w iCloud."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Aby włączyć wypełnianie haseł, kliknij w przycisk Hasła w iCloud na pasku narzędzi."
   },
   "optionsTitle": {
-    "message": "Opcje Haseł iCloud"
+    "message": "Opcje Haseł w iCloud"
   },
   "enableInPageAutoFillCheckboxLabel": {
     "message": "Wypełnianie na stronie"
   },
   "enableInPageAutoFillCheckboxDetail": {
-    "message": "Pozwól funkcji Hasła iCloud oferować dane logowania w formie listy wyświetlanej na stronie. Wypełnianie haseł przy użyciu przycisku na pasku narzędzi Hasła iCloud jest możliwe zawsze, nawet gdy ta opcja jest wyłączona."
+    "message": "Pozwalaj rozszerzeniu Hasła w iCloud oferować dane logowania w formie listy wyświetlanej na stronie. Wypełnianie haseł przy użyciu przycisku na pasku narzędzi Hasła w iCloud jest możliwe zawsze, nawet gdy ta opcja jest wyłączona."
   },
   "allowExtensionToControlAutoFillLabel": {
     "message": "Wyłącz wypełnianie w Chrome"
   },
   "allowExtensionToControlAutoFillDetail": {
-    "message": "Aby unikać konfliktów między funkcją wypełniania na stronie Chrome oraz aplikacją Hasła iCloud, aplikacja ta może spróbować wyłączyć funkcję wypełniania przeglądarki w Twoim imieniu."
+    "message": "Aby unikać konfliktów między funkcją wypełniania na stronie Chrome oraz aplikacją Hasła w iCloud, aplikacja ta może spróbować wyłączyć funkcję wypełniania przeglądarki w Twoim imieniu."
   },
   "divTOTPTitle": {
     "message": "Skonfiguruj kod weryfikacyjny dla:"
@@ -111,7 +114,7 @@
     "message": "Skonfiguruj kod weryfikacyjny"
   },
   "strongPasswordSuggestion": {
-    "message": "Silne hasła możesz tworzyć w panelu Hasła w Ustawieniach lub w Safari."
+    "message": "Silne hasła możesz tworzyć w ustawieniach haseł lub w Safari."
   },
   "openThisPageInSafari": {
     "message": "Otwórz tę stronę w Safari…"

@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "암호 자동 완성 활성화"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Chrome용 iCloud 암호 확장 프로그램을 활성화하려면 도구 막대 버튼을 클릭하십시오."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "iCloud 암호가 사용자의 암호를 자동 완성하도록 허용하려면 여기를 클릭하십시오."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "암호 자동 완성을 활성화하려면 iCloud 암호 도구 모음 버튼을 클릭하십시오."
   },
   "optionsTitle": {
     "message": "iCloud 암호 옵션"

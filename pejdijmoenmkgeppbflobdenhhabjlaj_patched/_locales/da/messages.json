@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Slå Autoudfyld adgangskode til"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klik på knappen på værktøjslinjen for at slå udvidelsen iCloud-adgangskoder til i Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klik her for at tillade, at iCloud-adgangskoder autoudfylder dine adgangskoder."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klik på knappen iCloud-adgangskoder på værktøjslinjen for at slå Autoudfyld adgangskode til."
   },
   "optionsTitle": {
     "message": "Indstillinger til iCloud-adgangskode"

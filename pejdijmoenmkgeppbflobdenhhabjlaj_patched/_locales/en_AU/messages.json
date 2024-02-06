@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Enable Password AutoFill"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Click the toolbar button to enable the iCloud Passwords extension for Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Click here to allow iCloud Passwords to AutoFill your passwords."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Click the iCloud Passwords toolbar button to enable Password AutoFill."
   },
   "optionsTitle": {
     "message": "iCloud Passwords Options"

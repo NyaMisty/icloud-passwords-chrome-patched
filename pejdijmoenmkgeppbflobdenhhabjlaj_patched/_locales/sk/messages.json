@@ -75,7 +75,7 @@
     "message": "Chrome"
   },
   "totpVerificationCodeNameWithDomain": {
-    "message": "Overovací kód pre \"$1\""
+    "message": "Overovací kód pre „$1“"
   },
   "setupTOTPVerificationCodeNameWithDomain": {
     "message": "Nastaviť overovací kód pre „$1“"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Povoliť automatické vypĺňanie hesiel"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Kliknutím na tlačidlo panela s nástrojmi povoľte rozšírenie iCloud Heslá pre Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Kliknutím povolíte rozšíreniu iCloud Heslá automaticky vypĺňať vaše heslá."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Kliknutím na tlačidlo iCloud Heslá v paneli s nástrojmi povolíte automatické vypĺňanie hesiel."
   },
   "optionsTitle": {
     "message": "Možnosti rozšírenia iCloud Heslá"

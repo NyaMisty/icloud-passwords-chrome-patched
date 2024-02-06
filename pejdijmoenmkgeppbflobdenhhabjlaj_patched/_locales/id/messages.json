@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Aktifkan Isi-Auto Kata Sandi"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klik tombol bar alat untuk mengaktifkan ekstensi Kata Sandi iCloud untuk Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klik di sini untuk mengizinkan Kata Sandi iCloud untuk Mengisi-Auto kata sandi Anda."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klik tombol bar alat Kata Sandi iCloud untuk mengaktifkan Isi-Auto Kata Sandi."
   },
   "optionsTitle": {
     "message": "Pilihan Kata Sandi iCloud"

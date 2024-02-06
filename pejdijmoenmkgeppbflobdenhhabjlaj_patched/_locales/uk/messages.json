@@ -12,7 +12,7 @@
     "message": "Для цього розширення має бути інстальовано macOS Sonoma."
   },
   "extDescription": {
-    "message": "Завдяки Паролям iCloud можна вводити паролі з В’язки iCloud під час входу на вебсайти в Chrome."
+    "message": "Завдяки Паролям iCloud можна вводити паролі з Вʼязки iCloud під час входу на вебсайти в Chrome."
   },
   "extName": {
     "message": "Паролі iCloud"
@@ -39,7 +39,7 @@
     "message": "Виберіть збережений пароль для використання:"
   },
   "GenericPopupTitle": {
-    "message": "Ваші паролі синхронізуються з В’язкою iCloud"
+    "message": "Ваші паролі синхронізуються з Вʼязкою iCloud"
   },
   "divNoPasswordsMessage_windows": {
     "message": "Переглядати й редагувати збережені паролі можна в програмі «Паролі iCloud»."
@@ -57,7 +57,7 @@
     "message": "Раніше ви вказали, що не хочете зберігати паролі для цього вебсайту."
   },
   "divDoNotRememberMessage": {
-    "message": "Щоб змінити це, вилучіть запис про цей вебсайт зі своєї В’язки iCloud і авторизуйтеся на цьому сайті повторно."
+    "message": "Щоб змінити це, вилучіть запис про цей вебсайт зі своєї Вʼязки iCloud і авторизуйтеся на цьому сайті повторно."
   },
   "GettingPasswords": {
     "message": "Паролі завантажуються..."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Увімкнення автозаповнення паролів"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Натисніть кнопку на панелі інструментів, щоб увімкнути розширення «Паролі iCloud» для Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Клацніть тут, щоб дозволити Паролям iCloud автоматичне заповнення паролів."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Клацніть кнопку на панелі інструментів Паролів iCloud, щоб увімкнути автозаповнення паролів."
   },
   "optionsTitle": {
     "message": "Параметри Паролів iCloud"

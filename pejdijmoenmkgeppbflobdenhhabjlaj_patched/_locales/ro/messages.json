@@ -12,7 +12,7 @@
     "message": "Această extensie necesită instalarea macOS Sonoma."
   },
   "extDescription": {
-    "message": "Parole iCloud vă permite să completați parolele din Portchei iCloud atunci când vă autentificați pe site-urile web folosind Chrome."
+    "message": "Extensia Parole iCloud vă permite să completați parolele din Portchei iCloud atunci când vă autentificați pe site-urile web folosind Chrome."
   },
   "extName": {
     "message": "Parole iCloud"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Activați Auto-completare parole"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Faceți clic pe butonul din bara de instrumente pentru a activa extensia Parole iCloud pentru Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Faceți clic aici pentru a permite aplicației Parole iCloud să vă completeze automat parolele."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Faceți clic pe butonul Parole iCloud din bara de instrumente pentru a activa Auto‑completare parole."
   },
   "optionsTitle": {
     "message": "Opțiuni Parole iCloud"

@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Omogući Auto ispunu lozinke"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Kliknite tipku alatne trake za omogućavanje ekstenzije \"iCloud lozinke\" za Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Kliknite ovdje kako biste omogućili da iCloud lozinke automatski ispunjava vaše lozinke."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Kliknite tipku na alatnoj traci iCloud lozinke kako biste omogući Auto ispunu lozinke."
   },
   "optionsTitle": {
     "message": "Opcije za iCloud lozinke"

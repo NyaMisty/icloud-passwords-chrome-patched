@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "เปิดใช้งานการป้อนรหัสผ่านโดยอัตโนมัติ"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "คลิกปุ่มแถบเครื่องมือเพื่อเปิดใช้งานส่วนขยายของรหัสผ่าน iCloud สำหรับ Chrome"
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "คลิกที่นี่เพื่ออนุญาตให้รหัสผ่าน iCloud ป้อนรหัสผ่านของคุณโดยอัตโนมัติ"
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "คลิกปุ่มแถบเครื่องมือรหัสผ่าน iCloud เพื่อเปิดใช้งานการป้อนรหัสผ่านโดยอัตโนมัติ"
   },
   "optionsTitle": {
     "message": "ตัวเลือกรหัสผ่าน iCloud"

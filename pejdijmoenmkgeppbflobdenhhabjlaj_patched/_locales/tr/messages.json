@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Otomatik Parola Doldurma’yı Etkinleştirin"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Chrome için iCloud Parolaları genişletmesini etkinleştirmek istiyorsanız araç çubuğu düğmesini tıklayın."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "iCloud Parolaları’nın parolalarınızı otomatik doldurmasına izin vermek için burayı tıklayın."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Otomatik Parola Doldurma’yı etkinleştirmek için iCloud Parolaları araç çubuğu düğmesini tıklayın."
   },
   "optionsTitle": {
     "message": "iCloud Parolaları Seçenekleri"

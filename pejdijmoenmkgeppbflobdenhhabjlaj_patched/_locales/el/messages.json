@@ -21,7 +21,7 @@
     "message": "Άνοιγμα iCloud για Windows"
   },
   "CheckEngineMessage": {
-    "message": "Ενεργοποιήστε τα Συνθηματικά στο iCloud για Windows για να χρησιμοποιείτε τα Συνθηματικά iCloud με το Chrome."
+    "message": "Για χρήση των Συνθηματικών iCloud με το Chrome, ενεργοποιήστε τα Συνθηματικά στο iCloud για Windows."
   },
   "unsupportedOS_windows": {
     "message": "Αυτή η επέκταση έχει σχεδιαστεί για να εκτελείται σε Windows 10 ή μεταγενέστερη έκδοση. Αν χρησιμοποιείτε Mac, τα συνθηματικά σας θα συγχρονίζονται αυτόματα με το iPhone, το iPad και το Mac σας όταν συνδέεστε στο iCloud."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Ενεργοποίηση Αυτοσυμπλήρωσης συνθηματικών"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Κάντε κλικ στο κουμπί της γραμμής εργαλείων για να ενεργοποιήσετε την επέκταση «Συνθηματικά iCloud» για το Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Κάντε κλικ εδώ για να επιτρέψετε την Αυτοσυμπλήρωση των συνθηματικών σας από τα Συνθηματικά iCloud."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Κάντε κλικ στο κουμπί γραμμής εργαλείων «Συνθηματικά iCloud» για να ενεργοποιήσετε την Αυτοσυμπλήρωση συνθηματικών."
   },
   "optionsTitle": {
     "message": "Επιλογές των Συνθηματικών iCloud"

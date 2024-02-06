@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Ativar Preenchimento Automático de Senha"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Clique no botão da barra de ferramentas para ativar a extensão Senhas do iCloud para Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Clique aqui para permitir que as Senhas do iCloud usem o Preenchimento Automático para as suas senhas."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Clique no botão das Senhas do iCloud na barra de ferramentas para ativar o Preenchimento Automático de Senha."
   },
   "optionsTitle": {
     "message": "Opções das Senhas do iCloud"

@@ -21,7 +21,7 @@
     "message": "Az iCloud Windowshoz app megnyitása"
   },
   "CheckEngineMessage": {
-    "message": "Engedélyezze a jelszavakat az iCloud Windowshoz alkalmazásban, ha az iCloud-jelszavakat a Chrome-mal szeretné használni."
+    "message": "Az iCloud-jelszavak Chrome-mal való használatához engedélyezze a jelszavakat az iCloud Windowshoz appban."
   },
   "unsupportedOS_windows": {
     "message": "Ezt a bővítményt a Windows 10 vagy újabb rendszeren való használatra tervezték. Ha Macet használ, a jelszavai automatikusan szinkronizálva lesznek az iPhone-jával, iPadjével és Macjével, amikor bejelentkezik az iCloudba."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Jelszó automatikus kitöltésének engedélyezése"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Kattintson az eszköztárgombra az iCloud-jelszavak bővítmény Chrome-ban történő engedélyezéséhez."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Kattintson ide, ha engedélyezni szeretné, hogy az iCloud-jelszavak automatikusan kitöltse a jelszavakat."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "A Jelszó automatikus kitöltése funkció engedélyezéséhez kattintson az iCloud-jelszavak eszköztárgombra."
   },
   "optionsTitle": {
     "message": "Az iCloud-jelszavak beállításai"

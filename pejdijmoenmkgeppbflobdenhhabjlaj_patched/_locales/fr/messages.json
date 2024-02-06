@@ -24,7 +24,7 @@
     "message": "Activez « Mots de passe » dans iCloud pour Windows afin d’utiliser Mots de passe iCloud avec Chrome."
   },
   "unsupportedOS_windows": {
-    "message": "Cette extension est conçue pour être exécutée sur Windows 10 ou ultérieur. Si vous utilisez un Mac, vos mots de passe seront automatiquement synchronisés avec votre iPhone, iPad et and Mac lorsque vous vous connecterez à iCloud."
+    "message": "Cette extension est conçue pour être exécutée sur Windows 10 ou ultérieur. Si vous utilisez un Mac, vos mots de passe seront automatiquement synchronisés avec votre iPhone, iPad et Mac lorsque vous vous connecterez à iCloud."
   },
   "divPINTitle": {
     "message": "Activer le remplissage automatique des mots de passe"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Activer le remplissage automatique des mots de passe"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Cliquez sur le bouton dans la barre d’outils afin d’activer l’extension Mots de passe iCloud pour Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Cliquez ici pour autoriser Mots de passe iCloud à remplir automatiquement vos mots de passe."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Cliquez sur le bouton de la barre d’outils Mots de passe iCloud pour activer le remplissage automatique des mots de passe."
   },
   "optionsTitle": {
     "message": "Options de Mots de passe iCloud"
@@ -114,9 +117,9 @@
     "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
   },
   "openThisPageInSafari": {
-    "message": "Ouvrez cette page dans Safari…"
+    "message": "Ouvrir cette page dans Safari…"
   },
   "openPasswordsSettings": {
-    "message": "Ouvrez les réglages Mots de passe…"
+    "message": "Ouvrir les réglages Mots de passe…"
   }
 }

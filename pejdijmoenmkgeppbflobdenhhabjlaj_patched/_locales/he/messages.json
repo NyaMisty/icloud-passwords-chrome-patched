@@ -6,10 +6,10 @@
     "message": "הורדה"
   },
   "downloadMessage_windows": {
-    "message": "כדי להשתמש ב״סיסמאות iCloud״ יש להוריד את ״iCloud עבור Windows״."
+    "message": "כדי להשתמש ב״סיסמאות iCloud״, יש להוריד את ״iCloud עבור Windows״."
   },
   "downloadMessage_macos": {
-    "message": "ההרחבה הזו דורשת התקנה של macOS Sonoma."
+    "message": "להרחבה זו נדרשת התקנה של macOS Sonoma."
   },
   "extDescription": {
     "message": "בעזרת ״סיסמאות iCloud״ באפשרותך למלא סיסמאות מצרור המפתחות של iCloud בעת ההתחברות לאתרים דרך Chrome."
@@ -18,10 +18,10 @@
     "message": "סיסמאות iCloud"
   },
   "openiCloudForWindowsButtonText": {
-    "message": "פתיחת iCloud עבור Windows"
+    "message": "פתיחת ״iCloud עבור Windows״"
   },
   "CheckEngineMessage": {
-    "message": "אפשר את ״סיסמאות״ ב-iCloud עבור Windows כדי לאפשר שימוש ב״סיסמאות iCloud״ עם Chrome."
+    "message": "כדי להשתמש ב״סיסמאות iCloud״ בדפדפן Chrome, יש לאפשר סיסמאות ב-״iCloud עבור Windows״."
   },
   "unsupportedOS_windows": {
     "message": "הרחבה זו נועדה לפעול ב-Windows 10 ואילך. במקרה של שימוש ב-Mac, הסיסמאות שלך יסתנכרנו באופן אוטומטי עם ה-iPhone, ה-iPad וה-Mac שלך בעת ההתחברות אל iCloud."
@@ -54,10 +54,10 @@
     "message": "ניתן לנהל סיסמאות שמורות בכרטיסיה ״סיסמאות״ של העדפות Safari."
   },
   "divDoNotRememberTitle": {
-    "message": "בחרת בעבר אף פעם לא לשמור סיסמאות עבור אתר האינטרנט הזה."
+    "message": "בפעם הקודמת הגדרת לא לשמור אף פעם סיסמאות עבור אתר זה."
   },
   "divDoNotRememberMessage": {
-    "message": "כדי לשנות את ההגדרה, יש להסיר את הערך של אתר זה מ״צרור המפתחות של iCloud״ ולהתחבר מחדש לאתר זה."
+    "message": "לשינוי הגדרה זו, יש להסיר מ״צרור המפתחות של iCloud״ את הערך עבור אתר אינטרנט זה ואז להתחבר אל האתר מחדש."
   },
   "GettingPasswords": {
     "message": "טוען סיסמאות…"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "הפעלת ״מילוי אוטומטי של סיסמאות״"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "יש ללחוץ על כפתור סרגל הכלים כדי להפעיל את הרחבת ״סיסמאות iCloud״ עבור Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "לחץ כאן כדי לאפשר ל״סיסמאות iCloud״ למלא באופן אוטומטי את הסיסמאות שלך."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "לחץ על כפתור ״סיסמאות iCloud״ בסרגל הכלים להפעלת ״מילוי אוטומטי של סיסמאות״."
   },
   "optionsTitle": {
     "message": "אפשרויות ״סיסמאות iCloud״"
@@ -99,7 +102,7 @@
     "message": "אפשר ל״סיסמאות iCloud״ להציע מילוי של פרטי זיהוי מתוך רשימה ששמורה בעמוד עצמו. בכל מקרה, תמיד אפשר גם למלא סיסמאות במקום המיועד לכך בעזרת לחיצה על כפתור ״סיסמאות iCloud״ בסרגל הכלים, אפילו אם אפשרות זו כבויה."
   },
   "allowExtensionToControlAutoFillLabel": {
-    "message": "כבה את ״מילוי אוטומטי״ ב-Chrome"
+    "message": "כיבוי של ״מילוי אוטומטי״ ב-Chrome "
   },
   "allowExtensionToControlAutoFillDetail": {
     "message": "כדי למנוע התנגשויות בין מילוי הסיסמאות האוטומטי בעמודים של Chrome ובין ״סיסמאות iCloud״, ״סיסמאות iCloud״ יכול לנסות לכבות עבורך את המילוי האוטומטי דרך הגדרות הדפדפן."

@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Activar autorrelleno de contraseñas"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Haz clic en el botón de la barra de herramientas para activar la extensión Contraseñas en iCloud para Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Haz clic aquí para permitir que Contraseñas en iCloud autorrellene tus contraseñas."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Haz clic en el botón de Contraseñas en iCloud en la barra de herramientas para activar el autorrelleno de contraseñas."
   },
   "optionsTitle": {
     "message": "Opciones de Contraseñas en iCloud"

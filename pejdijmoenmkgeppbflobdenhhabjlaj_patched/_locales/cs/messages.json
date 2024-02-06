@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Automaticky vyplňovat hesla"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Kliknutím na tlačítko na panelu nástrojů zapněte rozšíření hesla na iCloudu pro Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Sem klikněte, chcete‑li zapnout automatické vyplňování hesel pomocí rozšíření Hesla na iCloudu."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Chcete‑li zapnout automatické vyplňování hesel, klikněte na tlačítko Hesla na iCloudu na panelu nástrojů."
   },
   "optionsTitle": {
     "message": "Volby hesel na iCloudu"

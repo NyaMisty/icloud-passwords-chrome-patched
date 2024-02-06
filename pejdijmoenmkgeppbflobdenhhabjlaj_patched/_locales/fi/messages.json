@@ -6,7 +6,7 @@
     "message": "Lataa"
   },
   "downloadMessage_windows": {
-    "message": "Lataa iCloud Windowsille, jotta voit käyttää iCloud-salasanoja."
+    "message": "Lataa Windowsin iCloud, jotta voit käyttää iCloud-salasanoja."
   },
   "downloadMessage_macos": {
     "message": "Tämä laajennus vaatii, että macOS Sonoma on asennettu."
@@ -18,10 +18,10 @@
     "message": "iCloud-salasanat"
   },
   "openiCloudForWindowsButtonText": {
-    "message": "Avaa iCloud Windowsille"
+    "message": "Avaa Windowsin iCloud"
   },
   "CheckEngineMessage": {
-    "message": "Ota Salasanat käyttöön iCloud Windowsille -apissa, jotta voit käyttää iCloud-salasanoja Chromessa."
+    "message": "Ota Salasanat käyttöön Windowsin iCloud -apissa, jotta voit käyttää iCloud-salasanoja Chromessa."
   },
   "unsupportedOS_windows": {
     "message": "Tämä laajennus on suunniteltu Windows 10:lle tai uudemmalle. Jos käytät Macia, salasanasi synkronoidaan automaattisesti iPhonen, iPadin ja Macin välillä, kun kirjaudut iCloudiin."
@@ -30,7 +30,7 @@
     "message": "Ota salasanojen automaattinen täyttö käyttöön"
   },
   "divPINMessage_windows": {
-    "message": "iCloud Windowsille lähetti sinulle ilmoituksen, jossa on vahvistuskoodi. Jatka syöttämällä koodi."
+    "message": "Windowsin iCloud lähetti sinulle ilmoituksen, jossa on vahvistuskoodi. Jatka syöttämällä koodi."
   },
   "divPINMessage_macos": {
     "message": "Mac on generoinut vahvistuskoodin. Jatka syöttämällä koodi."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Ota salasanojen automaattinen täyttö käyttöön"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Ota iCloud-salasanat-laajennus käyttöön Chromessa klikkaamalla työkalupalkin painiketta."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Salli salasanojen automaattinen täyttö iCloud-salasanoista klikkaamalla tähän."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Ota salasanojen automaattinen täyttö käyttöön klikkaamalla iCloud-salasanojen työkalupalkin painiketta."
   },
   "optionsTitle": {
     "message": "iCloud-salasanojen valinnat"

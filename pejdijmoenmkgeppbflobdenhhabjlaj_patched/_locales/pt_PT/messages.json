@@ -9,7 +9,7 @@
     "message": "Descarregue iCloud para Windows para usar Palavras-passe em iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Para usar esta extensão, é necessário ter o macOS Sonoma instalado."
+    "message": "Esta extensão requer a instalação do macOS Sonoma."
   },
   "extDescription": {
     "message": "Palavras-passe em iCloud permite preencher palavras-passe do Porta-chaves em iCloud ao iniciar sessão em sites através do Chrome."
@@ -54,7 +54,7 @@
     "message": "Pode gerir as palavras-passe guardadas no separador Palavras-passe das preferências do Safari."
   },
   "divDoNotRememberTitle": {
-    "message": "Indicou que, para este site, as palavras-passe nunca deviam ser guardadas."
+    "message": "Optou anteriormente por nunca guardar palavras-passe para este site."
   },
   "divDoNotRememberMessage": {
     "message": "Para alterar, remova do Porta-Chaves em iCloud a entrada relativa a este site e volte a iniciar sessão."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Ativar preenchimento automático de palavras-passe"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Clique no botão na barra de ferramentas para ativar a extensão Palavras-passe em iCloud para Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Clique aqui para permitir que Palavras‑passe em iCloud preencha as suas palavras‑passe automaticamente."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Clique no botão na barra de ferramentas de Palavras‑passe em iCloud para ativar o preenchimento automático de palavras‑passe."
   },
   "optionsTitle": {
     "message": "Opções de Palavras-passe em iCloud"

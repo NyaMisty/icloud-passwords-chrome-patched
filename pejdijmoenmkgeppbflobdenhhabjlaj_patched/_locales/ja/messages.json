@@ -6,7 +6,7 @@
     "message": "ダウンロード"
   },
   "downloadMessage_windows": {
-    "message": "iCloudパスワードを使用するにはiCloud for Windowsをダウンロードしてください。"
+    "message": "iCloudパスワードを使用するにはWindows用iCloudをダウンロードしてください。"
   },
   "downloadMessage_macos": {
     "message": "この拡張機能を使用するにはmacOS Sonomaがインストールされている必要があります。"
@@ -18,10 +18,10 @@
     "message": "iCloudパスワード"
   },
   "openiCloudForWindowsButtonText": {
-    "message": "iCloud for Windowsを開く"
+    "message": "Windows用iCloudを開く"
   },
   "CheckEngineMessage": {
-    "message": "iCloudパスワードをChromeで使用するにはiCloud for Windowsでパスワードを有効にしてください。"
+    "message": "iCloudパスワードをChromeで使用するにはWindows用iCloudでパスワードを有効にしてください。"
   },
   "unsupportedOS_windows": {
     "message": "この拡張機能は、Windows 10以降で動作するように設計されています。Macを使用している場合は、iPhone、iPad、MacでiCloudにサインインしているときにパスワードがすべてのデバイスで自動的に同期されます。"
@@ -30,7 +30,7 @@
     "message": "パスワードの自動入力を有効にする"
   },
   "divPINMessage_windows": {
-    "message": "iCloud for Windowsから確認コードを記載した通知が送信されました。続けるには、そのコードをしてください。"
+    "message": "Windows用iCloudから確認コードを記載した通知が送信されました。続けるには、そのコードをしてください。"
   },
   "divPINMessage_macos": {
     "message": "確認コードがMacで生成されました。続けるには、そのコードを入力してください。"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "パスワードの自動入力を有効にする"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Chrome用のiCloudパスワード拡張機能を有効にするには、ツールバーボタンをクリックしてください。"
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "iCloudパスワードを使ってパスワードを自動入力できるようにするには、ここをクリックしてください。"
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "パスワードの自動入力を有効にするには、“iCloudパスワード”ツールバーボタンをクリックしてください。"
   },
   "optionsTitle": {
     "message": "iCloudパスワードのオプション"

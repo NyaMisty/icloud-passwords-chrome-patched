@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Aktiver autoutfylling av passord"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klikk på knappen i verktøylinjen for å aktivere iCloud-passord-tillegget for Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klikk her for å tillate at iCloud-passord fyller ut passord automatisk."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klikk på iCloud-passord-knappen i verktøylinjen for å aktivere autoutfylling av passord."
   },
   "optionsTitle": {
     "message": "Valg for iCloud-passord"

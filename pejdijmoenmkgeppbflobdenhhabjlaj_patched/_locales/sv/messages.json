@@ -45,7 +45,7 @@
     "message": "Du kan visa och redigera sparade lösenord i appen iCloud-lösenord."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Du kan slå upp och hantera sparade lösenord i Lösenordsinställningar."
+    "message": "Du kan slå upp och hantera sparade lösenord i Lösenord-inställningar."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Du kan hantera sparade lösenord på panelen Lösenord i Systeminställningar."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Aktivera Autofyll lösenord"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Aktivera iCloud-lösenordstillägget för Chrome genom att klicka på knappen i verktygsfältet."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klicka här om du vill låta iCloud-lösenord autofylla dina lösenord."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klicka på knappen för iCloud-lösenord i verktygsfältet för att aktivera Autofyll lösenord."
   },
   "optionsTitle": {
     "message": "iCloud-lösenordsalternativ"
@@ -99,7 +102,7 @@
     "message": "Tillåt att iCloud-lösenord erbjuder inloggningsuppgifter från en lista på sidan. Du kan alltid fylla i lösenord från knappen i verktygsfältet för iCloud-lösenord, även om det här alternativet är avstängt."
   },
   "allowExtensionToControlAutoFillLabel": {
-    "message": "Stäng av Chromes Autofyll"
+    "message": "Stäng av Autofyll för Chrome"
   },
   "allowExtensionToControlAutoFillDetail": {
     "message": "iCloud-lösenord kan försöka att stänga av webbläsarens Autofyll-inställningar åt dig för att förhindra att Chromes Autofyll stör iCloud-lösenord."
@@ -111,12 +114,12 @@
     "message": "Ställ in verifieringskod"
   },
   "strongPasswordSuggestion": {
-    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
+    "message": "Du kan skapa ett starkt lösenord i Lösenord-inställningar eller i Safari."
   },
   "openThisPageInSafari": {
     "message": "Öppna den här sidan i Safari…"
   },
   "openPasswordsSettings": {
-    "message": "Öppna Lösenordsinställningar…"
+    "message": "Öppna Lösenord-inställningar…"
   }
 }

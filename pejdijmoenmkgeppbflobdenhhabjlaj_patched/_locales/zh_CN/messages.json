@@ -45,7 +45,7 @@
     "message": "你可以在 iCloud 密码 App 中查看和编辑已保存的密码。"
   },
   "divNoPasswordsMessage_macos": {
-    "message": "你可以在“密码”设置中查找和管理已保存的密码。"
+    "message": "你可以在“密码”设置中查找和管理已存储的密码。"
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "你可以在“系统偏好设置”的“密码”面板中管理已存储的密码。"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "启用密码自动填充"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "单击工具栏按钮以启用 Chrome 版 iCloud 密码扩展。"
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "单击此处以允许 iCloud 密码自动填充密码。"
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "单击 iCloud 密码工具栏按钮以启用“密码自动填充”。"
   },
   "optionsTitle": {
     "message": "iCloud 密码选项"

@@ -42,7 +42,7 @@
     "message": "Le password sono sincronizzate con il portachiavi iCloud"
   },
   "divNoPasswordsMessage_windows": {
-    "message": "Puoi visualizzare e modificare le password salvate nell'app Password di iCloud."
+    "message": "Puoi visualizzare e modificare le password salvate nell’app Password di iCloud."
   },
   "divNoPasswordsMessage_macos": {
     "message": "Puoi visualizzare e gestire le password salvate nelle impostazioni delle password."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Abilita inserimento automatico password"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Fai clic sul pulsante della barra strumenti per abilitare l'estensione “Password di iCloud” per Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Fai clic qui per consentire a Password di iCloud di inserire automaticamente le password."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Fai clic sul pulsante della barra strumenti di Password di iCloud per abilitare l’inserimento automatico delle password."
   },
   "optionsTitle": {
     "message": "Opzioni di Password di iCloud"
@@ -96,13 +99,13 @@
     "message": "Inserimento automatico integrato nelle pagine"
   },
   "enableInPageAutoFillCheckboxDetail": {
-    "message": "Consenti a Password di iCloud di offrire credenziali da un elenco nelle pagine. Puoi comunque riempire le password dal pulsante dalla barra strumenti di Password di iCloud, anche se l'opzione è disattivata."
+    "message": "Consenti a Password di iCloud di offrire credenziali da un elenco nelle pagine. Puoi comunque riempire le password dal pulsante dalla barra strumenti di Password di iCloud, anche se l’opzione è disattivata."
   },
   "allowExtensionToControlAutoFillLabel": {
-    "message": "Disattiva l'inserimento automatico di Chrome"
+    "message": "Disattiva l’inserimento automatico di Chrome"
   },
   "allowExtensionToControlAutoFillDetail": {
-    "message": "Per impedire all'inserimento automatico integrato nelle pagine di Chrome di interferire con Password di iCloud, Password di iCloud può tentare di disattivare l'opzione di inserimento automatico del browser."
+    "message": "Per impedire all’inserimento automatico integrato nelle pagine di Chrome di interferire con Password di iCloud, Password di iCloud può tentare di disattivare l’opzione di inserimento automatico del browser."
   },
   "divTOTPTitle": {
     "message": "Configura codice di verifica per:"

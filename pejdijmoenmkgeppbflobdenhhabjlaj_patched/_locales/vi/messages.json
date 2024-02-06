@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Bật Tự động điền mật khẩu"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Bấm vào nút thanh công cụ để bật phần mở rộng Mật khẩu iCloud cho Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Bấm vào đây để cho phép Mật khẩu iCloud tự động điền mật khẩu của bạn."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Bấm vào nút thanh công cụ Mật khẩu iCloud để bật Tự động điền mật khẩu."
   },
   "optionsTitle": {
     "message": "Tùy chọn Mật khẩu iCloud"

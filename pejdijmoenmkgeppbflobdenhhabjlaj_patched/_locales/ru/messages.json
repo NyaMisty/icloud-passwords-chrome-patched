@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Включить Автозаполнение паролей"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Нажмите кнопку в панели инструментов, чтобы включить расширение «Пароли iCloud» для Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Нажмите здесь, чтобы разрешить расширению «Пароли iCloud» автоматически заполнять пароли."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Чтобы включить автозаполнение паролей, нажмите кнопку «Пароли iCloud» в панели инструментов."
   },
   "optionsTitle": {
     "message": "Параметры расширения «Пароли iCloud»"

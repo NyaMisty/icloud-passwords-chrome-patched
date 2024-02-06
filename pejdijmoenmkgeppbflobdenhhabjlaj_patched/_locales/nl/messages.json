@@ -69,7 +69,7 @@
     "message": "Wachtwoorden beheren…"
   },
   "divOpenPasswordsSubtitle": {
-    "message": "Wachtwoorden opzoeken en aanmaken"
+    "message": "Wachtwoorden opzoeken en aanmaken."
   },
   "browserName": {
     "message": "Chrome"
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Automatisch invullen van wachtwoorden inschakelen"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klik op de knoppenbalkknop om de iCloud-wachtwoordenextensie voor Chrome in te schakelen."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klik hier om toe te staan dat iCloud-wachtwoorden automatisch je wachtwoorden invult."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klik op de knop iCloud-wachtwoorden in de knoppenbalk om het automatisch invullen van wachtwoorden in te schakelen."
   },
   "optionsTitle": {
     "message": "iCloud-wachtwoordenopties"
@@ -114,7 +117,7 @@
     "message": "Je kunt een sterk wachtwoord aanmaken in de wachtwoordinstellingen of in Safari."
   },
   "openThisPageInSafari": {
-    "message": "Open deze pagina in Safari…"
+    "message": "Deze pagina in Safari openen…"
   },
   "openPasswordsSettings": {
     "message": "Wachtwoordinstellingen openen…"

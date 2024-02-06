@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Automatisches Ausfüllen von Passwörtern aktivieren"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Klicke auf die Symbolleistentaste, um die Erweiterung „iCloud-Passwörter“ für Chrome zu aktivieren."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Klicke hier, um „iCloud-Passwörter“ das automatische Ausfüllen deiner Passwörter zu erlauben."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Klicke auf die iCloud-Passwörter-Taste in der Symbolleiste, um das automatische Ausfüllen von Passwörtern zu aktivieren."
   },
   "optionsTitle": {
     "message": "Optionen für „iCloud-Passwörter“"

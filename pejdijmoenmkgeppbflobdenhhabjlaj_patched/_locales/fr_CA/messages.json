@@ -6,13 +6,13 @@
     "message": "Télécharger"
   },
   "downloadMessage_windows": {
-    "message": "Téléchargez iCloud pour Windows pour utiliser « Mots de passe iCloud »."
+    "message": "Téléchargez iCloud pour Windows pour utiliser Mots de passe iCloud."
   },
   "downloadMessage_macos": {
     "message": "Cette extension requiert l’installation de macOS Sonoma."
   },
   "extDescription": {
-    "message": "« Mots de passe iCloud » vous permet d’utiliser les mots de passe du trousseau iCloud lorsque vous vous connectez à des sites Web dans Chrome."
+    "message": "Mots de passe iCloud vous permet d’utiliser les mots de passe du trousseau iCloud lorsque vous vous connectez à des sites Web dans Chrome."
   },
   "extName": {
     "message": "Mots de passe iCloud"
@@ -42,7 +42,7 @@
     "message": "Vos mots de passe sont synchronisés avec le trousseau iCloud"
   },
   "divNoPasswordsMessage_windows": {
-    "message": "Vous pouvez consulter et modifier les mots de passe enregistrés dans l’app « Mots de passe iCloud »."
+    "message": "Vous pouvez consulter et modifier les mots de passe enregistrés dans l’app Mots de passe iCloud."
   },
   "divNoPasswordsMessage_macos": {
     "message": "Vous pouvez rechercher et gérer les mots de passe enregistrés dans les réglages Mots de passe."
@@ -86,8 +86,11 @@
   "enableAutoFillPasswordsTitle": {
     "message": "Activer le remplissage automatique des mots de passe"
   },
-  "enableAutoFillPasswordsMessage": {
-    "message": "Cliquez sur le bouton de la barre d’outils pour activer l’extension Mots de passe iCloud pour Chrome."
+  "enableAutoFillPasswordsMessageActivateCompletionList": {
+    "message": "Cliquez ici pour autoriser Mots de passe iCloud à remplir automatiquement vos mots de passe."
+  },
+  "enableAutoFillPasswordsMessageToolbarButton": {
+    "message": "Cliquez sur le bouton Mots de passe iCloud dans la barre d’outils pour activer le remplissage automatique."
   },
   "optionsTitle": {
     "message": "Options de Mots de passe iCloud"
