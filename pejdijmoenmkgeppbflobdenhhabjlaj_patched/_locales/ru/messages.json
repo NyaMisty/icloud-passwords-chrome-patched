@@ -21,7 +21,7 @@
     "message": "Открыть iCloud для Windows"
   },
   "CheckEngineMessage": {
-    "message": "Включите параметр «Пароли» в iCloud для Windows, чтобы использовать Пароли iCloud в Chrome."
+    "message": "Чтобы использовать Пароли iCloud в Chrome, включите параметр «Пароли» в iCloud для Windows."
   },
   "unsupportedOS_windows": {
     "message": "Это расширение предназначено для Windows 10 или новее. Если Вы используете Mac, Ваши пароли будут автоматически синхронизироваться с iPhone, iPad и Mac, на которых Вы выполнили вход в iCloud."

@@ -12,7 +12,7 @@
     "message": "To rozszerzenie wymaga systemu macOS Sonoma."
   },
   "extDescription": {
-    "message": "Rozszerzenie Hasła w iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy iCloud."
+    "message": "Rozszerzenie Hasła w iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy w iCloud."
   },
   "extName": {
     "message": "Hasła w iCloud"
@@ -21,7 +21,7 @@
     "message": "Otwórz iCloud dla Windows"
   },
   "CheckEngineMessage": {
-    "message": "Aby rozszerzenia funkcji Hasła w iCloud w przeglądarce Chrome, włącz opcję Hasła w aplikacji iCloud dla Windows."
+    "message": "Aby używać rozszerzenia Hasła w iCloud w przeglądarce Chrome, włącz opcję Hasła w aplikacji iCloud dla Windows."
   },
   "unsupportedOS_windows": {
     "message": "To rozszerzenie zostało zaprojektowane dla systemu Windows 10 i nowszych. Jeżeli używasz Maca, Twoje hasła będą automatycznie synchronizowane z Twoim iPhone’em, iPadem i Makiem, gdy zalogujesz się w iCloud."
@@ -39,7 +39,7 @@
     "message": "Wybierz zachowane hasło, którego chcesz użyć:"
   },
   "GenericPopupTitle": {
-    "message": "Twoje hasła są synchronizowane z pękiem kluczy iCloud."
+    "message": "Twoje hasła są synchronizowane z pękiem kluczy w iCloud."
   },
   "divNoPasswordsMessage_windows": {
     "message": "Zachowane hasła możesz wyświetlać i edytować w aplikacji Hasła w iCloud."
@@ -57,7 +57,7 @@
     "message": "Do tej pory hasła tej witryny nie miały być zachowywane."
   },
   "divDoNotRememberMessage": {
-    "message": "Aby to zmienić, usuń pozycję związaną z tą witryną z pęku kluczy iCloud i zaloguj się ponownie w tej witrynie."
+    "message": "Aby to zmienić, usuń wpis dotyczący tej witryny z pęku kluczy w iCloud i zaloguj się ponownie w witrynie."
   },
   "GettingPasswords": {
     "message": "Wczytuję hasła…"

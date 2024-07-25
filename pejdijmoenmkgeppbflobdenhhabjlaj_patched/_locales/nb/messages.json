@@ -36,7 +36,7 @@
     "message": "En verifiseringskode er generert av Macen din. Skriv inn denne koden for å fortsette."
   },
   "divICsMessage": {
-    "message": "Velg et lagret passord:"
+    "message": "Velg et lagret passord du vil bruke:"
   },
   "GenericPopupTitle": {
     "message": "Passordene dine synkroniseres med iCloud-nøkkelring"
