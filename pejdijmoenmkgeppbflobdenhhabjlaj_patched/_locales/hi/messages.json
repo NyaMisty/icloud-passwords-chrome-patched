@@ -9,7 +9,7 @@
     "message": "iCloud पासवर्ड का उपयोग करने के लिए Windows के लिए iCloud डाउनलोड करें।"
   },
   "downloadMessage_macos": {
-    "message": "इस एक्सटेंशन को इंस्टॉल करने के लिए macOS Sonoma आवश्यक है।"
+    "message": "इस एक्सटेंशन के लिए macOS Sonoma या बाद का संस्करण इंस्टॉल करना होगा।"
   },
   "extDescription": {
     "message": "Chrome का उपयोग करके वेबसाइटों में साइन इन करते समय iCloud पासवर्ड आपको iCloud कीचेन से पासवर्ड भरने की अनुमति देता है।"
@@ -45,7 +45,13 @@
     "message": "आप iCloud पासवर्ड ऐप में सहेजे गए पासवर्ड देख और संपादित कर सकते हैं।"
   },
   "divNoPasswordsMessage_macos": {
-    "message": "पासवर्ड सेटिंग में, आप सहेजे गए पासवर्ड देख सकते हैं और उन्हें प्रबंधित कर सकते हैं।"
+    "message": "आप पासवर्ड ऐप में सहेजे गए पासवर्ड को तलाश सकते हैं और प्रबंधित कर सकते हैं।"
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में सहेजे गए पासवर्ड को तलाश सकते हैं और प्रबंधित कर सकते हैं।"
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में सहेजे गए पासवर्ड को तलाश सकते हैं और प्रबंधित कर सकते हैं।"
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "आप सिस्टम प्राथमिकता में पासवर्ड पेन में सहेजे गए पासवर्ड प्रबंधित कर सकते हैं।"
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "कोई यूज़र नेम नहीं है"
+  },
+  "divOpenPasswords_macos": {
+    "message": "पासवर्ड ऐप खोलें…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "पासवर्ड प्रबंधित करें…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "पासवर्ड प्रबंधित करें…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "पासवर्ड प्रबंधित करें…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "पासवर्ड प्रबंधित करें…"
   },
   "divOpenPasswords": {
     "message": "पासवर्ड प्रबंधित करें…"
@@ -114,12 +135,36 @@
     "message": "सत्यापन कोड सेटअप करें"
   },
   "strongPasswordSuggestion": {
-    "message": "आप पासवर्ड सेटिंग्ज़ या Safari में एक मज़बूत पासवर्ड बना सकते हैं।"
+    "message": "आप पासवर्ड ऐप में या Safari में मज़बूत पासवर्ड बना सकते हैं।"
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में या Safari में मज़बूत पासवर्ड बना सकते हैं।"
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में या Safari में मज़बूत पासवर्ड बना सकते हैं।"
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में या Safari में मज़बूत पासवर्ड बना सकते हैं।"
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "आप पासवर्ड सेटिंग्ज़ में या Safari में मज़बूत पासवर्ड बना सकते हैं।"
   },
   "openThisPageInSafari": {
     "message": "Safari में यह पृष्ठ खोलें…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "पासवर्ड ऐप खोलें…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "पासवर्ड सेटिंग्ज़ खोलें…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "पासवर्ड सेटिंग्ज़ खोलें…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "पासवर्ड सेटिंग्ज़ खोलें…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "पासवर्ड सेटिंग्ज़ खोलें…"
   }
 }

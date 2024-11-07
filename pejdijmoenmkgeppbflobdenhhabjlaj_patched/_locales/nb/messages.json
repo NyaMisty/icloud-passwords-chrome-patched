@@ -9,7 +9,7 @@
     "message": "Last ned iCloud for Windows for å bruke iCloud-passord."
   },
   "downloadMessage_macos": {
-    "message": "Dette tillegget krever at macOS Sonoma er installert."
+    "message": "Installering av dette tillegget krever macOS Sonoma eller nyere."
   },
   "extDescription": {
     "message": "Med iCloud-passord kan du logge på nettsteder i Chrome med passord fra iCloud-nøkkelring."
@@ -45,7 +45,13 @@
     "message": "Du kan vise og redigere lagrede passord i iCloud-passord-appen."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Du kan slå opp og administrere passord i Passord-innstillinger."
+    "message": "Lagrede passord kan slås opp og administreres i Passord-appen."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Lagrede passord kan slås opp og administreres i Passord-innstillinger."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Lagrede passord kan slås opp og administreres i Passord-innstillinger."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Lagrede passord kan administreres i Passord-panelet i Systemvalg."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "uten brukernavn"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Åpne Passord-appen…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Administrer passord…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Administrer passord…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Administrer passord…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Administrer passord…"
   },
   "divOpenPasswords": {
     "message": "Administrer passord…"
@@ -114,12 +135,36 @@
     "message": "Konfigurer verifiseringskode"
   },
   "strongPasswordSuggestion": {
+    "message": "Du kan opprette et sterkt passord i Passord-appen eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Du kan opprette et sterkt passord i Passord-innstillinger eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Du kan opprette et sterkt passord i Passord-innstillinger eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Du kan opprette et sterkt passord i Passord-innstillinger eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Du kan opprette et sterkt passord i Passord-innstillinger eller i Safari."
   },
   "openThisPageInSafari": {
     "message": "Åpne siden i Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Åpne Passord-appen…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Åpne Passord-innstillinger…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Åpne Passord-innstillinger…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Åpne Passord-innstillinger…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Åpne Passord-innstillinger…"
   }
 }

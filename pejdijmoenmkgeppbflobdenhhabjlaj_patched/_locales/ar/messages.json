@@ -9,7 +9,7 @@
     "message": "يرجى تنزيل iCloud لـ Windows لاستخدام كلمات سر iCloud."
   },
   "downloadMessage_macos": {
-    "message": "يتطلب هذا الملحق تثبيت macOS Sonoma."
+    "message": "يتطلب تثبيت هذا الملحق استخدام macOS Sonoma أو أحدث."
   },
   "extDescription": {
     "message": "يسمح لك تطبيق كلمات سر iCloud بتعبئة كلمات السر من سلسلة مفاتيح iCloud عند تسجيل الدخول إلى المواقع الإلكترونية باستخدام Chrome."
@@ -45,6 +45,12 @@
     "message": "يمكنك عرض وتعديل كلمات السر المحفوظة في تطبيق كلمات سر iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "يمكنك البحث في كلمات السر المحفوظة وإدارتها في تطبيق كلمات السر."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "يمكنك البحث في كلمات السر المحفوظة وإدارتها في إعدادات كلمات السر."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "يمكنك البحث في كلمات السر المحفوظة وإدارتها في إعدادات كلمات السر."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "لا يوجد اسم مستخدم"
+  },
+  "divOpenPasswords_macos": {
+    "message": "فتح تطبيق كلمات السر…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "إدارة كلمات السر…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "إدارة كلمات السر…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "إدارة كلمات السر…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "إدارة كلمات السر…"
   },
   "divOpenPasswords": {
     "message": "إدارة كلمات السر…"
@@ -114,12 +135,36 @@
     "message": "إعداد رمز التحقق"
   },
   "strongPasswordSuggestion": {
+    "message": "يمكنك إنشاء كلمة سر قوية في تطبيق كلمات السر أو في سفاري."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "يمكنك إنشاء كلمة سر قوية في إعدادات كلمات السر في سفاري."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "يمكنك إنشاء كلمة سر قوية في إعدادات كلمات السر في سفاري."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "يمكنك إنشاء كلمة سر قوية في إعدادات كلمات السر في سفاري."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "يمكنك إنشاء كلمة سر قوية في إعدادات كلمات السر في سفاري."
   },
   "openThisPageInSafari": {
     "message": "فتح هذه الصفحة في سفاري…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "فتح تطبيق كلمات السر…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "فتح إعدادات كلمات السر…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "فتح إعدادات كلمات السر…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "فتح إعدادات كلمات السر…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "فتح إعدادات كلمات السر…"
   }
 }

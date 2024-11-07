@@ -9,7 +9,7 @@
     "message": "下載 Windows 版 iCloud 以使用「iCloud 密碼」。"
   },
   "downloadMessage_macos": {
-    "message": "此延伸功能需要安裝 macOS Sonoma。"
+    "message": "此延伸功能需要安裝 macOS Sonoma 或較新版本。"
   },
   "extDescription": {
     "message": "「iCloud 密碼」讓可你在使用 Chrome 登入網站時填寫來自「iCloud 鑰匙圈」的密碼。"
@@ -45,6 +45,12 @@
     "message": "你可在「iCloud 密碼」App 中檢視和編輯已儲存的密碼。"
   },
   "divNoPasswordsMessage_macos": {
+    "message": "你可以在「密碼」App 中查詢和管理已儲存的密碼。"
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "你可以在「密碼」設定中查詢和管理已儲存的密碼。"
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "你可以在「密碼」設定中查詢和管理已儲存的密碼。"
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "沒有用户名稱"
+  },
+  "divOpenPasswords_macos": {
+    "message": "開啟「密碼」App⋯"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "管理密碼⋯"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "管理密碼⋯"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "管理密碼⋯"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "管理密碼⋯"
   },
   "divOpenPasswords": {
     "message": "管理密碼⋯"
@@ -114,12 +135,36 @@
     "message": "設定驗證碼"
   },
   "strongPasswordSuggestion": {
+    "message": "你可以在「密碼」App 或 Safari 中建立高強度密碼。"
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "你可以在「密碼設定」或 Safari 中建立高強度密碼。"
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "你可以在「密碼設定」或 Safari 中建立高強度密碼。"
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "你可以在「密碼設定」或 Safari 中建立高強度密碼。"
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "你可以在「密碼設定」或 Safari 中建立高強度密碼。"
   },
   "openThisPageInSafari": {
     "message": "在 Safari 中開啟此頁面⋯"
   },
-  "openPasswordsSettings": {
-    "message": "開啟密碼設定⋯"
+  "openPasswordsSettings_macos": {
+    "message": "開啟「密碼」App⋯"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "開啟「密碼」設定⋯"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "開啟「密碼」設定⋯"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "開啟「密碼」設定⋯"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "開啟「密碼」設定⋯"
   }
 }

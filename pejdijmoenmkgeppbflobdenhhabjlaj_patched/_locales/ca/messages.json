@@ -3,13 +3,13 @@
     "message": "ca"
   },
   "downloadButton": {
-    "message": "Descarregar"
+    "message": "Descarrega"
   },
   "downloadMessage_windows": {
     "message": "Per utilitzar l’extensió de contrasenyes a l’iCloud, descarrega’t l’iCloud per a Windows."
   },
   "downloadMessage_macos": {
-    "message": "Per poder fer servir l’extensió, cal que instal·lis el macOS Sonoma."
+    "message": "Per poder fer servir l’extensió, cal que instal·lis el macOS Sonoma o posterior."
   },
   "extDescription": {
     "message": "Autocompleta les contrasenyes desades al clauer de l’iCloud en iniciar sessió als llocs web amb el Chrome."
@@ -27,7 +27,7 @@
     "message": "L’extensió s’ha dissenyat per al Windows 10 i versions posteriors. Si tens un Mac, les contrasenyes se sincronitzaran automàticament entre l’iPhone, l’iPad i el Mac quan iniciïs sessió a l’iCloud."
   },
   "divPINTitle": {
-    "message": "Activar l‘autocompleció de contrasenyes"
+    "message": "Activa l’autocompleció de contrasenyes"
   },
   "divPINMessage_windows": {
     "message": "Has rebut una notificació de l’iCloud per a Windows amb un codi de verificació. Introdueix-lo per continuar."
@@ -45,6 +45,12 @@
     "message": "Per consultar i editar les contrasenyes desades, ves a l’app Contrasenyes a l’iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Per consultar i gestionar les contrasenyes desades, ves a l’app Contrasenyes."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Per consultar i gestionar les contrasenyes desades, ves a la configuració de les contrasenyes."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Per consultar i gestionar les contrasenyes desades, ves a la configuració de les contrasenyes."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -60,16 +66,31 @@
     "message": "Per canviar‑ho, elimina del clauer de l’iCloud l’entrada d’aquest lloc web i torna a iniciar sessió al lloc web."
   },
   "GettingPasswords": {
-    "message": "Carregant contrasenyes…"
+    "message": "Carregant les contrasenyes…"
   },
   "NoUserName": {
     "message": "cap nom d’usuari"
   },
+  "divOpenPasswords_macos": {
+    "message": "Obre l’app Contrasenyes…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gestiona les contrasenyes…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gestiona les contrasenyes…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gestiona les contrasenyes…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gestiona les contrasenyes…"
+  },
   "divOpenPasswords": {
-    "message": "Gestionar contrasenyes…"
+    "message": "Gestiona les contrasenyes…"
   },
   "divOpenPasswordsSubtitle": {
-    "message": "Buscar i crear contrasenyes."
+    "message": "Consulta les contrasenyes i crea’n de noves."
   },
   "browserName": {
     "message": "Chrome"
@@ -84,7 +105,7 @@
     "message": "Codi de verificació"
   },
   "enableAutoFillPasswordsTitle": {
-    "message": "Activar l‘autocompleció de contrasenyes"
+    "message": "Activa l’autocompleció de contrasenyes"
   },
   "enableAutoFillPasswordsMessageActivateCompletionList": {
     "message": "Fes clic aquí per autocompletar les contrasenyes amb l’extensió de contrasenyes a l’iCloud."
@@ -102,7 +123,7 @@
     "message": "Permet que l’extensió de contrasenyes a l’iCloud et suggereixi les credencials d’una llista integrada. Encara que l’opció estigui desactivada, podràs continuar emplenant les contrasenyes tocant el botó de contrasenyes a l’iCloud de la barra d’eines."
   },
   "allowExtensionToControlAutoFillLabel": {
-    "message": "Desactivar l’autocompleció al Chrome"
+    "message": "Desactiva l’autocompleció al Chrome"
   },
   "allowExtensionToControlAutoFillDetail": {
     "message": "Perquè l’autocompleció integrada del Chrome no interfereixi amb les contrasenyes a l’iCloud, l’extensió de contrasenyes a l’iCloud pot intentar desactivar la configuració d’autocompleció del navegador en lloc teu."
@@ -111,15 +132,39 @@
     "message": "Configura un codi de verificació per a:"
   },
   "divTOTPMenu": {
-    "message": "Configurar un codi de verificació"
+    "message": "Configura un codi de verificació"
   },
   "strongPasswordSuggestion": {
+    "message": "Crea una contrasenya segura a l’app Contrasenyes o al Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Crea una contrasenya segura a la configuració de les contrasenyes o al Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Crea una contrasenya segura a la configuració de les contrasenyes o al Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Crea una contrasenya segura a la configuració de les contrasenyes o al Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Crea una contrasenya segura a la configuració de les contrasenyes o al Safari."
   },
   "openThisPageInSafari": {
-    "message": "Obrir la pàgina al Safari…"
+    "message": "Obre la pàgina al Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Obrir la configuració de les contrasenyes…"
+  "openPasswordsSettings_macos": {
+    "message": "Obre l’app Contrasenyes…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Obre la configuració de les contrasenyes…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Obre la configuració de les contrasenyes…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Obre la configuració de les contrasenyes…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Obre la configuració de les contrasenyes…"
   }
 }

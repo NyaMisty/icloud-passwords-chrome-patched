@@ -9,7 +9,7 @@
     "message": "iCloud Parolaları’nı kullanmak üzere Windows için iCloud’u indirin."
   },
   "downloadMessage_macos": {
-    "message": "Bu genişletme, macOS Sonoma’nın yüklü olmasını gerektirir."
+    "message": "Bu genişletme için macOS Sonoma veya daha yenisi yüklü olmalıdır."
   },
   "extDescription": {
     "message": "iCloud Parolaları, Chrome’u kullanarak web sitelerine giriş yaparken parolaları iCloud Anahtar Zinciri’nden doldurmanızı sağlar."
@@ -45,7 +45,13 @@
     "message": "Kaydedilen parolaları iCloud Parolaları uygulamasında görüntüleyebilir ve düzenleyebilirsiniz."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Parolalar ayarlarında yönetilen parolalara bakabilir ve bunları yönetebilirsiniz."
+    "message": "Parolalar uygulamasında, kaydedilen parolalara bakabilir ve onları yönetebilirsiniz."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Parolalar ayarlarında, kaydedilen parolalara bakabilir ve onları yönetebilirsiniz."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Parolalar ayarlarında, kaydedilen parolalara bakabilir ve onları yönetebilirsiniz."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Kaydedilen parolaları Sistem Tercihleri’nin Parolalar bölümünde yönetebilirsiniz."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "kullanıcı adı yok"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Parolalar Uygulamasını Aç…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Parolaları Yönet…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Parolaları Yönet…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Parolaları Yönet…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Parolaları Yönet…"
   },
   "divOpenPasswords": {
     "message": "Parolaları Yönet…"
@@ -114,12 +135,36 @@
     "message": "Doğrulama Kodunu Ayarla"
   },
   "strongPasswordSuggestion": {
+    "message": "Parolalar uygulamasında veya Safari’de güçlü bir parola yaratabilirsiniz."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Parolalar ayarlarında veya Safari’de güçlü bir parola yaratabilirsiniz."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Parolalar ayarlarında veya Safari’de güçlü bir parola yaratabilirsiniz."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Parolalar ayarlarında veya Safari’de güçlü bir parola yaratabilirsiniz."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Parolalar ayarlarında veya Safari’de güçlü bir parola yaratabilirsiniz."
   },
   "openThisPageInSafari": {
     "message": "Bu Sayfayı Safari’de Aç…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Parolalar Uygulamasını Aç…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Parolalar Ayarlarını Aç…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Parolalar Ayarlarını Aç…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Parolalar Ayarlarını Aç…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Parolalar Ayarlarını Aç…"
   }
 }

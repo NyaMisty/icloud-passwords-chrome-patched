@@ -9,7 +9,7 @@
     "message": "Download iCloud for Windows to use iCloud Passwords."
   },
   "downloadMessage_macos": {
-    "message": "This extension requires macOS Sonoma to be installed."
+    "message": "This extension requires macOS Sonoma or later to be installed."
   },
   "extDescription": {
     "message": "iCloud Passwords lets you fill passwords from iCloud Keychain when signing in to websites using Chrome."
@@ -45,6 +45,12 @@
     "message": "You can view and edit saved passwords in the iCloud Passwords app."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "You can look up and manage saved passwords in the Passwords app."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "You can look up and manage saved passwords in Passwords settings."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "You can look up and manage saved passwords in Passwords settings."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "no user name"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Open Passwords App…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Manage Passwords…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Manage Passwords…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Manage Passwords…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Manage Passwords…"
   },
   "divOpenPasswords": {
     "message": "Manage Passwords…"
@@ -114,12 +135,36 @@
     "message": "Set Up Verification Code"
   },
   "strongPasswordSuggestion": {
+    "message": "You can create a strong password in the Passwords app or in Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "You can create a strong password in Passwords Settings or in Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "You can create a strong password in Passwords Settings or in Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "You can create a strong password in Passwords Settings or in Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "You can create a strong password in Passwords Settings or in Safari."
   },
   "openThisPageInSafari": {
     "message": "Open This Page in Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Open Passwords App…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Open Passwords Settings…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Open Passwords Settings…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Open Passwords Settings…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Open Passwords Settings…"
   }
 }

@@ -9,7 +9,7 @@
     "message": "Download iCloud voor Windows om iCloud-wachtwoorden te gebruiken."
   },
   "downloadMessage_macos": {
-    "message": "Voor deze extensie moet macOS Sonoma zijn geïnstalleerd."
+    "message": "Voor deze extensie moet macOS Sonoma of nieuwer zijn geïnstalleerd."
   },
   "extDescription": {
     "message": "Met iCloud-wachtwoorden kun je wachtwoorden invullen vanuit de iCloud-sleutelhanger wanneer je je aanmeldt bij websites in Chrome."
@@ -45,7 +45,13 @@
     "message": "Je kunt opgeslagen wachtwoorden bekijken en bewerken in de app iCloud-wachtwoorden."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Je kunt opgeslagen wachtwoorden openen en beheren in de wachtwoordinstellingen."
+    "message": "Je kunt opgeslagen wachtwoorden openen en beheren in de app Wachtwoorden."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Je kunt opgeslagen wachtwoorden opzoeken en beheren in de instellingen van Wachtwoorden."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Je kunt opgeslagen wachtwoorden opzoeken en beheren in de instellingen van Wachtwoorden."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Je kunt opgeslagen wachtwoorden beheren in het paneel Wachtwoorden in Systeemvoorkeuren."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "geen gebruikersnaam"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Open Wachtwoorden-app…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Wachtwoorden beheren…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Wachtwoorden beheren…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Wachtwoorden beheren…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Wachtwoorden beheren…"
   },
   "divOpenPasswords": {
     "message": "Wachtwoorden beheren…"
@@ -114,12 +135,36 @@
     "message": "Verificatiecode configureren"
   },
   "strongPasswordSuggestion": {
-    "message": "Je kunt een sterk wachtwoord aanmaken in de wachtwoordinstellingen of in Safari."
+    "message": "Je kunt een sterk wachtwoord aanmaken in de app Wachtwoorden of in Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Je kunt een sterk wachtwoord aanmaken in de instellingen van Wachtwoorden of in Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Je kunt een sterk wachtwoord aanmaken in de instellingen van Wachtwoorden of in Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Je kunt een sterk wachtwoord aanmaken in de instellingen van Wachtwoorden of in Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Je kunt een sterk wachtwoord aanmaken in de instellingen van Wachtwoorden of in Safari."
   },
   "openThisPageInSafari": {
     "message": "Deze pagina in Safari openen…"
   },
-  "openPasswordsSettings": {
-    "message": "Wachtwoordinstellingen openen…"
+  "openPasswordsSettings_macos": {
+    "message": "Open Wachtwoorden-app…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Instellingen van Wachtwoorden openen…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Instellingen van Wachtwoorden openen…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Instellingen van Wachtwoorden openen…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Instellingen van Wachtwoorden openen…"
   }
 }

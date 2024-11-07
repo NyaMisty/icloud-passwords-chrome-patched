@@ -9,7 +9,7 @@
     "message": "Lataa Windowsin iCloud, jotta voit käyttää iCloud-salasanoja."
   },
   "downloadMessage_macos": {
-    "message": "Tämä laajennus vaatii, että macOS Sonoma on asennettu."
+    "message": "Tämä laajennus vaatii, että macOS Sonoma tai uudempi on asennettu."
   },
   "extDescription": {
     "message": "iCloud-salasanat mahdollistaa salasanojen automaattisen täyttämisen iCloud-avainnipusta, kun kirjaudutaan sivustoille Chromella."
@@ -45,6 +45,12 @@
     "message": "Voit katsella ja muokata tallennettuja salasanoja iCloud-salasanat-sovelluksessa."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Voit etsiä ja hallita tallennettuja salasanoja Salasanat-apissa."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Voit etsiä ja hallita tallennettuja salasanoja Salasanat-asetuksissa."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Voit etsiä ja hallita tallennettuja salasanoja Salasanat-asetuksissa."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "ei käyttäjätunnusta"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Avaa Salasanat-appi…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Hallitse salasanoja…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Hallitse salasanoja…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Hallitse salasanoja…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Hallitse salasanoja…"
   },
   "divOpenPasswords": {
     "message": "Hallitse salasanoja…"
@@ -114,12 +135,36 @@
     "message": "Ota vahvistuskoodi käyttöön"
   },
   "strongPasswordSuggestion": {
+    "message": "Voit luoda vahvan salasanan Salasanat-apissa tai Safarissa."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Voit luoda vahvan salasanan Salasanat-asetuksissa tai Safarissa."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Voit luoda vahvan salasanan Salasanat-asetuksissa tai Safarissa."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Voit luoda vahvan salasanan Salasanat-asetuksissa tai Safarissa."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Voit luoda vahvan salasanan Salasanat-asetuksissa tai Safarissa."
   },
   "openThisPageInSafari": {
     "message": "Avaa tämä sivu Safarissa…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Avaa Salasanat-appi…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Avaa Salasanat-asetukset…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Avaa Salasanat-asetukset…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Avaa Salasanat-asetukset…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Avaa Salasanat-asetukset…"
   }
 }

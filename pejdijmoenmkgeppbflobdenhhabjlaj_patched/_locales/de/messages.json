@@ -9,7 +9,7 @@
     "message": "Lade „iCloud für Windows“, um „iCloud-Passwörter“ verwenden zu können."
   },
   "downloadMessage_macos": {
-    "message": "Für diese Erweiterung muss macOS Sonoma installiert sein."
+    "message": "Für die Installation dieser Erweiterung ist macOS Sonoma (oder neuer) erforderlich."
   },
   "extDescription": {
     "message": "Verwende mit „iCloud-Passwörter“ bei der Anmeldung auf Websites in Chrome Passwörter aus dem iCloud-Schlüsselbund."
@@ -45,7 +45,13 @@
     "message": "Du kannst gespeicherte Passwörter in der App „iCloud-Passwörter“ sehen und bearbeiten."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Du kannst gespeicherte Passwörter in den Einstellungen für Passwörter nachschlagen und verwalten."
+    "message": "Du kannst gesicherte Passwörter in der App „Passwörter“ nachschlagen und verwalten."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Du kannst gesicherte Passwörter in den Einstellungen für „Passwörter“ nachschlagen und verwalten."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Du kannst gesicherte Passwörter in den Einstellungen für „Passwörter“ nachschlagen und verwalten."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Du kannst gespeicherte Passwörter im Tab „Passwörter“ der Systemeinstellungen verwalten."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "kein Benutzername"
+  },
+  "divOpenPasswords_macos": {
+    "message": "App „Passwörter“ öffnen …"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Passwörter verwalten …"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Passwörter verwalten …"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Passwörter verwalten …"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Passwörter verwalten …"
   },
   "divOpenPasswords": {
     "message": "Passwörter verwalten …"
@@ -114,12 +135,36 @@
     "message": "Bestätigungscode konfigurieren"
   },
   "strongPasswordSuggestion": {
-    "message": "Du kannst ein starkes Passwort in den Einstellungen für Passwörter oder in Safari erstellen."
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für „Passwörter“ oder in Safari erstellen."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für „Passwörter“ oder in Safari erstellen."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für „Passwörter“ oder in Safari erstellen."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für „Passwörter“ oder in Safari erstellen."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Du kannst ein starkes Passwort in den Einstellungen für „Passwörter“ oder in Safari erstellen."
   },
   "openThisPageInSafari": {
     "message": "Diese Seite in Safari öffnen …"
   },
-  "openPasswordsSettings": {
-    "message": "Einstellungen für Passwörter öffnen …"
+  "openPasswordsSettings_macos": {
+    "message": "App „Passwörter“ öffnen …"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Einstellungen für „Passwörter“ öffnen …"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Einstellungen für „Passwörter“ öffnen …"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Einstellungen für „Passwörter“ öffnen …"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Einstellungen für „Passwörter“ öffnen …"
   }
 }

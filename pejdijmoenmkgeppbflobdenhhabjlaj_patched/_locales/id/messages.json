@@ -9,7 +9,7 @@
     "message": "Unduh iCloud untuk Windows untuk menggunakan Kata Sandi iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Ekstensi ini memerlukan diinstalnya macOS Sonoma."
+    "message": "Ekstensi ini memerlukan diinstalnya macOS Sonoma atau lebih baru."
   },
   "extDescription": {
     "message": "Kata Sandi iCloud memungkinkan Anda untuk mengisi kata sandi dari Rantai Kunci iCloud saat masuk ke situs web menggunakan Chrome."
@@ -45,6 +45,12 @@
     "message": "Anda dapat melihat dan mengedit kata sandi yang disimpan di app Kata Sandi iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Anda dapat mencari dan mengelola kata sandi yang disimpan di app Kata Sandi."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Anda dapat mencari dan mengelola kata sandi yang disimpan di pengaturan Kata Sandi."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Anda dapat mencari dan mengelola kata sandi yang disimpan di pengaturan Kata Sandi."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "tidak ada nama pengguna"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Buka App Kata Sandi…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Kelola Kata Sandi…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Kelola Kata Sandi…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Kelola Kata Sandi…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Kelola Kata Sandi…"
   },
   "divOpenPasswords": {
     "message": "Kelola Kata Sandi…"
@@ -114,12 +135,36 @@
     "message": "Atur Kode Verifikasi"
   },
   "strongPasswordSuggestion": {
+    "message": "Anda dapat membuat kata sandi kuat di app Kata Sandi atau di Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Anda dapat membuat kata sandi kuat di Pengaturan Kata Sandi atau di Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Anda dapat membuat kata sandi kuat di Pengaturan Kata Sandi atau di Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Anda dapat membuat kata sandi kuat di Pengaturan Kata Sandi atau di Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Anda dapat membuat kata sandi kuat di Pengaturan Kata Sandi atau di Safari."
   },
   "openThisPageInSafari": {
     "message": "Buka Halaman Ini di Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Buka App Kata Sandi…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Buka Pengaturan Kata Sandi…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Buka Pengaturan Kata Sandi…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Buka Pengaturan Kata Sandi…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Buka Pengaturan Kata Sandi…"
   }
 }

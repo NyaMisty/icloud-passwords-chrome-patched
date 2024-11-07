@@ -9,7 +9,7 @@
     "message": "Λήψη του iCloud για Windows για χρήση των Συνθηματικών iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Αυτή η επέκταση απαιτεί την εγκατάσταση του macOS Sonoma."
+    "message": "Αυτή η επέκταση απαιτεί να είναι εγκατεστημένο το macOS Sonoma ή μεταγενέστερη έκδοση."
   },
   "extDescription": {
     "message": "Τα Συνθηματικά iCloud επιτρέπουν τη συμπλήρωση συνθηματικών από την Κλειδοθήκη iCloud κατά τη σύνδεση σε ιστότοπους στο Chrome."
@@ -45,7 +45,13 @@
     "message": "Μπορείτε να προβάλετε και να επεξεργαστείτε τα αποθηκευμένα συνθηματικά στην εφαρμογή «Συνθηματικά iCloud»."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Μπορείτε να αναζητήσετε και να διαχειριστείτε τα αποθηκευμένα συνθηματικά στις ρυθμίσεις Συνθηματικών."
+    "message": "Μπορείτε να αναζητήσετε και να διαχειριστείτε αποθηκευμένα συνθηματικά στην εφαρμογή «Συνθηματικά»."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Μπορείτε να αναζητήσετε και να διαχειριστείτε αποθηκευμένα συνθηματικά στις ρυθμίσεις Συνθηματικών."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Μπορείτε να αναζητήσετε και να διαχειριστείτε αποθηκευμένα συνθηματικά στις ρυθμίσεις Συνθηματικών."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Μπορείτε να διαχειριστείτε τα αποθηκευμένα συνθηματικά στο τμήμα «Συνθηματικά» στις Προτιμήσεις συστήματος."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "κανένα όνομα χρήστη"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Άνοιγμα της εφαρμογής «Συνθηματικά»…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Διαχείριση συνθηματικών…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Διαχείριση συνθηματικών…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Διαχείριση συνθηματικών…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Διαχείριση συνθηματικών…"
   },
   "divOpenPasswords": {
     "message": "Διαχείριση συνθηματικών…"
@@ -114,12 +135,36 @@
     "message": "Διαμόρφωση κωδικού επαλήθευσης"
   },
   "strongPasswordSuggestion": {
+    "message": "Μπορείτε να δημιουργήσετε ένα ισχυρό συνθηματικό στην εφαρμογή «Συνθηματικά» ή στο Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Μπορείτε να δημιουργήσετε ένα ισχυρό συνθηματικό στις ρυθμίσεις Συνθηματικών ή στο Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Μπορείτε να δημιουργήσετε ένα ισχυρό συνθηματικό στις ρυθμίσεις Συνθηματικών ή στο Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Μπορείτε να δημιουργήσετε ένα ισχυρό συνθηματικό στις ρυθμίσεις Συνθηματικών ή στο Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Μπορείτε να δημιουργήσετε ένα ισχυρό συνθηματικό στις ρυθμίσεις Συνθηματικών ή στο Safari."
   },
   "openThisPageInSafari": {
     "message": "Άνοιγμα αυτής της σελίδας στο Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Άνοιγμα των ρυθμίσεων Συνθηματικών…"
+  "openPasswordsSettings_macos": {
+    "message": "Άνοιγμα της εφαρμογής «Συνθηματικά»…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Άνοιγμα ρυθμίσεων Συνθηματικών…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Άνοιγμα ρυθμίσεων Συνθηματικών…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Άνοιγμα ρυθμίσεων Συνθηματικών…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Άνοιγμα ρυθμίσεων Συνθηματικών…"
   }
 }

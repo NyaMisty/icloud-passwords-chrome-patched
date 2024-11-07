@@ -9,7 +9,7 @@
     "message": "Scarica iCloud per Windows per utilizzare Password di iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Questa estensione richiede che sul computer sia installato macOS Sonoma."
+    "message": "Questa estensione richiede che sul computer sia installato macOS Sonoma o versioni successive."
   },
   "extDescription": {
     "message": "Password di iCloud ti consente di inserire le password dal portachiavi iCloud quando accedi ai siti web utilizzando Chrome."
@@ -45,6 +45,12 @@
     "message": "Puoi visualizzare e modificare le password salvate nell’app Password di iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Puoi visualizzare e gestire le password salvate nell’app Password."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Puoi visualizzare e gestire le password salvate nelle impostazioni delle password."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Puoi visualizzare e gestire le password salvate nelle impostazioni delle password."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "nessun nome utente"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Apri l’app Password…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gestisci le password…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gestisci le password…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gestisci le password…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gestisci le password…"
   },
   "divOpenPasswords": {
     "message": "Gestisci password…"
@@ -114,12 +135,36 @@
     "message": "Configura codice di verifica"
   },
   "strongPasswordSuggestion": {
+    "message": "Puoi creare una password sicura nell’app Password o in Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Puoi creare una password sicura nelle impostazioni delle password o in Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Puoi creare una password sicura nelle impostazioni delle password o in Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Puoi creare una password sicura nelle impostazioni delle password o in Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Puoi creare una password sicura nelle impostazioni delle password o in Safari."
   },
   "openThisPageInSafari": {
     "message": "Apri la pagina in Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Apri le impostazioni delle password…"
+  "openPasswordsSettings_macos": {
+    "message": "Apri l’app Password…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Apri la impostazioni di Password…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Apri la impostazioni di Password…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Apri la impostazioni di Password…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Apri la impostazioni di Password…"
   }
 }

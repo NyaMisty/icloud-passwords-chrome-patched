@@ -9,7 +9,7 @@
     "message": "下载 Windows 版 iCloud 来使用 iCloud 密码。"
   },
   "downloadMessage_macos": {
-    "message": "此扩展需要安装 macOS Sonoma。"
+    "message": "此扩展需要安装 macOS Sonoma 或更高版本。"
   },
   "extDescription": {
     "message": "iCloud 密码可让你在 Chrome 中登录网站时，从 iCloud 钥匙串填充密码。"
@@ -45,7 +45,13 @@
     "message": "你可以在 iCloud 密码 App 中查看和编辑已保存的密码。"
   },
   "divNoPasswordsMessage_macos": {
-    "message": "你可以在“密码”设置中查找和管理已存储的密码。"
+    "message": "你可以在密码 App 中查询和管理已存密码。"
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "你可以在“密码”设置中查询和管理已存密码。"
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "你可以在“密码”设置中查询和管理已存密码。"
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "你可以在“系统偏好设置”的“密码”面板中管理已存储的密码。"
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "无用户名称"
+  },
+  "divOpenPasswords_macos": {
+    "message": "打开密码 App…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "管理密码…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "管理密码…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "管理密码…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "管理密码…"
   },
   "divOpenPasswords": {
     "message": "管理密码…"
@@ -114,12 +135,36 @@
     "message": "设置验证码"
   },
   "strongPasswordSuggestion": {
-    "message": "你可以在“密码设置”或 Safari 浏览器中创建强密码。"
+    "message": "你可以在密码 App 或 Safari 浏览器中创建强密码。"
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "你可以在“密码”设置或 Safari 浏览器中创建强密码。"
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "你可以在“密码”设置或 Safari 浏览器中创建强密码。"
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "你可以在“密码”设置或 Safari 浏览器中创建强密码。"
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "你可以在“密码”设置或 Safari 浏览器中创建强密码。"
   },
   "openThisPageInSafari": {
     "message": "在 Safari 浏览器中打开此页面…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "打开密码 App…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "打开密码设置…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "打开密码设置…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "打开密码设置…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "打开密码设置…"
   }
 }

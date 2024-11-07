@@ -9,7 +9,7 @@
     "message": "Hämta iCloud för Windows om du vill använda iCloud-lösenord."
   },
   "downloadMessage_macos": {
-    "message": "Det här tillägget kräver att macOS Sonoma är installerat."
+    "message": "Det här tillägget kräver att macOS Sonoma eller senare är installerat."
   },
   "extDescription": {
     "message": "Med iCloud-lösenord kan du fylla i lösenord från iCloud-nyckelring när du loggar in på webbplatser med Chrome."
@@ -45,7 +45,13 @@
     "message": "Du kan visa och redigera sparade lösenord i appen iCloud-lösenord."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Du kan slå upp och hantera sparade lösenord i Lösenord-inställningar."
+    "message": "Du kan slå upp och hantera sparade lösenord i appen Lösenord."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Du kan slå upp och hantera sparade lösenord i Lösenordsinställningar."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Du kan slå upp och hantera sparade lösenord i Lösenordsinställningar."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Du kan hantera sparade lösenord på panelen Lösenord i Systeminställningar."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "inget användarnamn"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Öppna appen Lösenord…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Hantera lösenord…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Hantera lösenord…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Hantera lösenord…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Hantera lösenord…"
   },
   "divOpenPasswords": {
     "message": "Hantera lösenord…"
@@ -114,12 +135,36 @@
     "message": "Ställ in verifieringskod"
   },
   "strongPasswordSuggestion": {
-    "message": "Du kan skapa ett starkt lösenord i Lösenord-inställningar eller i Safari."
+    "message": "Du kan skapa ett starkt lösenord i appen Lösenord eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Du kan skapa ett starkt lösenord i Lösenordsinställningar eller i Safari."
   },
   "openThisPageInSafari": {
     "message": "Öppna den här sidan i Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Öppna Lösenord-inställningar…"
+  "openPasswordsSettings_macos": {
+    "message": "Öppna appen Lösenord…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Öppna Lösenordsinställningar…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Öppna Lösenordsinställningar…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Öppna Lösenordsinställningar…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Öppna Lösenordsinställningar…"
   }
 }

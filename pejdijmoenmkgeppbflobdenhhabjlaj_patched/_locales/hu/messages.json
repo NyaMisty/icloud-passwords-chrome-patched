@@ -9,7 +9,7 @@
     "message": "Az iCloud-jelszavak használatához töltse le az iCloud Windowshoz appot."
   },
   "downloadMessage_macos": {
-    "message": "Ehhez a bővítményhez telepíteni kell a macOS Sonoma rendszert."
+    "message": "Ehhez a bővítményhez macOS Sonoma vagy újabb operációs rendszer telepítése szükséges."
   },
   "extDescription": {
     "message": "Az iCloud-jelszavak lehetővé teszi, hogy az iCloud-kulcskarikáról töltsön ki jelszavakat, amikor webhelyeken jelentkezik be a Chrome használatával."
@@ -45,7 +45,13 @@
     "message": "A mentett jelszavakat az iCloud-jelszavak appban tekintheti meg és kezelheti."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "A mentett jelszavakat a Jelszóbeállításokban tekintheti meg és kezelheti."
+    "message": "A Jelszavak appban megtekintheti és kezelheti a mentett jelszavait."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "A Jelszavak beállításaiban megtekintheti és kezelheti a mentett jelszavait."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "A Jelszavak beállításaiban megtekintheti és kezelheti a mentett jelszavait."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "A mentett jelszavakat a Rendszerbeállítások Jelszavak paneljén kezelheti."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "nincs felhasználói név"
+  },
+  "divOpenPasswords_macos": {
+    "message": "A Jelszavak app megnyitása…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Jelszavak kezelése…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Jelszavak kezelése…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Jelszavak kezelése…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Jelszavak kezelése…"
   },
   "divOpenPasswords": {
     "message": "Jelszavak kezelése…"
@@ -114,12 +135,36 @@
     "message": "Ellenőrzőkód beállítása"
   },
   "strongPasswordSuggestion": {
-    "message": "Erős jelszavakat létrehozhat a Jelszóbeállításokban vagy a Safariban."
+    "message": "A Jelszavak appban vagy a Safariban létrehozhat egy erős jelszót."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "A Jelszavak beállításaiban vagy a Safariban létrehozhat egy erős jelszót."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "A Jelszavak beállításaiban vagy a Safariban létrehozhat egy erős jelszót."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "A Jelszavak beállításaiban vagy a Safariban létrehozhat egy erős jelszót."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "A Jelszavak beállításaiban vagy a Safariban létrehozhat egy erős jelszót."
   },
   "openThisPageInSafari": {
     "message": "Az oldal megnyitása a Safariban…"
   },
-  "openPasswordsSettings": {
-    "message": "Jelszóbeállítások megnyitása…"
+  "openPasswordsSettings_macos": {
+    "message": "A Jelszavak app megnyitása…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "A Jelszavak beállításainak megnyitása…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "A Jelszavak beállításainak megnyitása…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "A Jelszavak beállításainak megnyitása…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "A Jelszavak beállításainak megnyitása…"
   }
 }

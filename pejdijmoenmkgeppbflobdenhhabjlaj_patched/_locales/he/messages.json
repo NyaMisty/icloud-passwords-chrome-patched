@@ -9,7 +9,7 @@
     "message": "כדי להשתמש ב״סיסמאות iCloud״, יש להוריד את ״iCloud עבור Windows״."
   },
   "downloadMessage_macos": {
-    "message": "להרחבה זו נדרשת התקנה של macOS Sonoma."
+    "message": "כדי להתקין הרחבה זו יש צורך במערכת ההפעלה macOS Sonoma ואילך."
   },
   "extDescription": {
     "message": "בעזרת ״סיסמאות iCloud״ באפשרותך למלא סיסמאות מצרור המפתחות של iCloud בעת ההתחברות לאתרים דרך Chrome."
@@ -45,6 +45,12 @@
     "message": "ניתן להציג ולערוך סיסמאות שמורות ביישום ״סיסמאות iCloud״."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "ניתן לחפש ולנהל סיסמאות שמורות ביישום ״סיסמאות״."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "ניתן לחפש ולנהל סיסמאות שמורות בהגדרות ״סיסמאות״."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "ניתן לחפש ולנהל סיסמאות שמורות בהגדרות ״סיסמאות״."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -65,6 +71,21 @@
   "NoUserName": {
     "message": "אין שם משתמש"
   },
+  "divOpenPasswords_macos": {
+    "message": "פתיחת היישום ״סיסמאות״"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "ניהול סיסמאות…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "ניהול סיסמאות…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "ניהול סיסמאות…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "ניהול סיסמאות…"
+  },
   "divOpenPasswords": {
     "message": "ניהול סיסמאות…"
   },
@@ -75,10 +96,10 @@
     "message": "Chrome"
   },
   "totpVerificationCodeNameWithDomain": {
-    "message": "קוד אימות עבור “$1”"
+    "message": "קוד אימות עבור ״$1״"
   },
   "setupTOTPVerificationCodeNameWithDomain": {
-    "message": "הגדרת קוד אימות עבור “$1”"
+    "message": "הגדרת קוד אימות עבור ״$1״"
   },
   "totpVerificationCodeName": {
     "message": "קוד אימות"
@@ -87,10 +108,10 @@
     "message": "הפעלת ״מילוי אוטומטי של סיסמאות״"
   },
   "enableAutoFillPasswordsMessageActivateCompletionList": {
-    "message": "לחץ כאן כדי לאפשר ל״סיסמאות iCloud״ למלא באופן אוטומטי את הסיסמאות שלך."
+    "message": "ניתן ללחוץ כאן כדי לאפשר ל״סיסמאות iCloud״ למלא באופן אוטומטי את הסיסמאות שלך."
   },
   "enableAutoFillPasswordsMessageToolbarButton": {
-    "message": "לחץ על כפתור ״סיסמאות iCloud״ בסרגל הכלים להפעלת ״מילוי אוטומטי של סיסמאות״."
+    "message": "יש ללחוץ על הכפתור ״סיסמאות iCloud״ בסרגל הכלים להפעלת ״מילוי אוטומטי של סיסמאות״."
   },
   "optionsTitle": {
     "message": "אפשרויות ״סיסמאות iCloud״"
@@ -99,7 +120,7 @@
     "message": "מילוי אוטומטי בתוך העמוד"
   },
   "enableInPageAutoFillCheckboxDetail": {
-    "message": "אפשר ל״סיסמאות iCloud״ להציע מילוי של פרטי זיהוי מתוך רשימה ששמורה בעמוד עצמו. בכל מקרה, תמיד אפשר גם למלא סיסמאות במקום המיועד לכך בעזרת לחיצה על כפתור ״סיסמאות iCloud״ בסרגל הכלים, אפילו אם אפשרות זו כבויה."
+    "message": "ניתן לאפשר ל״סיסמאות iCloud״ להציע מילוי של פרטי זיהוי מתוך רשימה ששמורה בעמוד עצמו. בכל מקרה, תמיד אפשר גם למלא סיסמאות במקום המיועד לכך בעזרת לחיצה על כפתור ״סיסמאות iCloud״ בסרגל הכלים, אפילו אם אפשרות זו כבויה."
   },
   "allowExtensionToControlAutoFillLabel": {
     "message": "כיבוי של ״מילוי אוטומטי״ ב-Chrome "
@@ -114,12 +135,36 @@
     "message": "הגדרת קוד אימות"
   },
   "strongPasswordSuggestion": {
-    "message": "ניתן ליצור סיסמה חזקה בהגדרות ״סיסמאות״ או ב-Safari."
+    "message": "ניתן ליצור סיסמה חזקה ביישום ״סיסמאות״ או ב-Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "ניתן ליצור סיסמה חזקה ב״הגדרות סיסמאות״ או ב-Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "ניתן ליצור סיסמה חזקה ב״הגדרות סיסמאות״ או ב-Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "ניתן ליצור סיסמה חזקה ב״הגדרות סיסמאות״ או ב-Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "ניתן ליצור סיסמה חזקה ב״הגדרות סיסמאות״ או ב-Safari."
   },
   "openThisPageInSafari": {
     "message": "פתיחת עמוד זה ב-Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "פתיחת הגדרות ״סיסמאות״…"
+  "openPasswordsSettings_macos": {
+    "message": "פתיחת היישום ״סיסמאות״"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "פתיחת ״הגדרות סיסמאות״…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "פתיחת ״הגדרות סיסמאות״…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "פתיחת ״הגדרות סיסמאות״…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "פתיחת ״הגדרות סיסמאות״…"
   }
 }

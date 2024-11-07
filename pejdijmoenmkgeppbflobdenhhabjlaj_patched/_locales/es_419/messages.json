@@ -9,10 +9,10 @@
     "message": "Descarga iCloud para Windows para usar Contraseñas en iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensión requiere macOS Sonoma para poder instalarse."
+    "message": "Para instalar esta extensión, se requiere macOS Sonoma o posterior."
   },
   "extDescription": {
-    "message": "Contraseñas en iCloud te permite rellenar tus contraseñas del llavero de iCloud al iniciar sesión en sitios web desde Chrome."
+    "message": "Contraseñas en iCloud te permite rellenar tus contraseñas del llavero de iCloud al iniciar sesión en sitios web en Chrome."
   },
   "extName": {
     "message": "Contraseñas en iCloud"
@@ -45,6 +45,12 @@
     "message": "Puedes consultar y editar las contraseñas guardadas en la app Contraseñas en iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Puedes consultar y administrar las contraseñas guardadas desde la app Contraseñas."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Puedes consultar y administrar las contraseñas guardadas desde la configuración de Contraseñas."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Puedes consultar y administrar las contraseñas guardadas desde la configuración de Contraseñas."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "sin nombre de usuario"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Abrir la app Contraseñas…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Administrar contraseñas…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Administrar contraseñas…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Administrar contraseñas…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Administrar contraseñas…"
   },
   "divOpenPasswords": {
     "message": "Administrar contraseñas…"
@@ -96,16 +117,16 @@
     "message": "Opciones de Contraseñas en iCloud"
   },
   "enableInPageAutoFillCheckboxLabel": {
-    "message": "Autorrelleno en la página"
+    "message": "Autorrelleno integrado"
   },
   "enableInPageAutoFillCheckboxDetail": {
     "message": "Permite que Contraseñas en iCloud ofrezca credenciales de una lista en la página. Siempre puedes rellenar las contraseñas desde el botón de la barra de herramientas de Contraseñas en iCloud, incluso si esta opción está desactivada."
   },
   "allowExtensionToControlAutoFillLabel": {
-    "message": "Desactivar Autorrelleno en Chrome"
+    "message": "Desactivar autorrelleno de Chrome"
   },
   "allowExtensionToControlAutoFillDetail": {
-    "message": "Para impedir que la función Autorrelleno en la página en Chrome interfiera con Contraseñas en iCloud, Contraseñas en iCloud puede intentar desactivar la configuración de Autorrelleno en el navegador por ti."
+    "message": "Para impedir que la función de autorrelleno integrada de Chrome interfiera con Contraseñas en iCloud, la extensión puede intentar desactivar la configuración de autorrelleno en el navegador por ti."
   },
   "divTOTPTitle": {
     "message": "Configurar código de verificación para:"
@@ -114,12 +135,36 @@
     "message": "Configurar código de verificación"
   },
   "strongPasswordSuggestion": {
+    "message": "Puedes crear una contraseña segura desde la app Contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Puedes crear una contraseña segura desde la configuración de Contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Puedes crear una contraseña segura desde la configuración de Contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Puedes crear una contraseña segura desde la configuración de Contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Puedes crear una contraseña segura desde la configuración de Contraseñas o en Safari."
   },
   "openThisPageInSafari": {
     "message": "Abrir esta página en Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Abrir la app Contraseñas…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Abrir la configuración de Contraseñas…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Abrir la configuración de Contraseñas…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Abrir la configuración de Contraseñas…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Abrir la configuración de Contraseñas…"
   }
 }

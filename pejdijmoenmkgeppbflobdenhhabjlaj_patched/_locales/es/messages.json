@@ -9,7 +9,7 @@
     "message": "Descarga iCloud para Windows para usar “Contraseñas en iCloud”."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensión precisa la instalación de macOS Sonoma."
+    "message": "Esta extensión requiere la instalación de macOS Sonoma o versiones posteriores."
   },
   "extDescription": {
     "message": "Contraseñas en iCloud te permite rellenar las contraseñas desde el llavero de iCloud al iniciar sesión en sitios web en Chrome."
@@ -39,13 +39,19 @@
     "message": "Selecciona la contraseña guardada a usar:"
   },
   "GenericPopupTitle": {
-    "message": "Tus contraseñas se han sincronizado con el llavero de iCloud."
+    "message": "Tus contraseñas se han sincronizado con el llavero de iCloud"
   },
   "divNoPasswordsMessage_windows": {
     "message": "Puedes ver y editar las contraseñas guardadas en la app Contraseñas en iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Puedes buscar y gestionar las contraseñas guardadas en los ajustes de contraseñas."
+    "message": "Puedes consultar y gestionar las contraseñas guardadas en la app Contraseñas."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Puedes consultar y gestionar las contraseñas guardadas en los ajustes de contraseñas."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Puedes consultar y gestionar las contraseñas guardadas en los ajustes de contraseñas."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Puedes gestionar las contraseñas guardadas en el panel Contraseñas de Preferencias del Sistema."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "sin nombre de usuario"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Abrir la app Contraseñas…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gestionar contraseñas…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gestionar contraseñas…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gestionar contraseñas…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gestionar contraseñas…"
   },
   "divOpenPasswords": {
     "message": "Gestionar contraseñas…"
@@ -114,12 +135,36 @@
     "message": "Configurar código de verificación"
   },
   "strongPasswordSuggestion": {
+    "message": "Puedes crear una contraseña segura en la app Contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Puedes crear una contraseña segura en los ajustes de contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Puedes crear una contraseña segura en los ajustes de contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Puedes crear una contraseña segura en los ajustes de contraseñas o en Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Puedes crear una contraseña segura en los ajustes de contraseñas o en Safari."
   },
   "openThisPageInSafari": {
     "message": "Abrir esta página en Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Abrir ajustes de contraseñas…"
+  "openPasswordsSettings_macos": {
+    "message": "Abrir la app Contraseñas…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Abrir los ajustes de contraseñas…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Abrir los ajustes de contraseñas…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Abrir los ajustes de contraseñas…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Abrir los ajustes de contraseñas…"
   }
 }

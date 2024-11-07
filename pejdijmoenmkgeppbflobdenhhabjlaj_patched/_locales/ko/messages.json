@@ -9,10 +9,10 @@
     "message": "iCloud 암호를 사용하려면 Windows용 iCloud를 다운로드하십시오."
   },
   "downloadMessage_macos": {
-    "message": "이 확장 프로그램은 macOS Sonoma를 설치해야 합니다."
+    "message": "이 확장 프로그램을 사용하려면 macOS Sonoma 이상이 설치되어야 합니다."
   },
   "extDescription": {
-    "message": "iCloud 암호는 Chrome을 사용하여 웹 사이트에 로그인할 때 iCloud 키체인에서 암호를 채울 수 있게 해줍니다."
+    "message": "iCloud 암호는 Chrome을 사용하여 웹사이트에 로그인할 때 iCloud 키체인에서 암호를 채울 수 있게 해줍니다."
   },
   "extName": {
     "message": "iCloud 암호"
@@ -45,7 +45,13 @@
     "message": "iCloud 암호 앱에서 저장된 암호를 보고 편집할 수 있습니다."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "암호 설정에서 저장된 암호를 찾고 관리할 수 있습니다."
+    "message": "저장된 암호는 암호 앱에서 찾아보고 관리할 수 있습니다."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "저장된 암호는 암호 설정에서 찾아보고 관리할 수 있습니다."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "저장된 암호는 암호 설정에서 찾아보고 관리할 수 있습니다."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "시스템 환경설정의 암호 패널에서 저장된 암호를 관리할 수 있습니다."
@@ -54,16 +60,31 @@
     "message": "Safari의 환경설정에 있는 암호 탭에서 저장된 암호를 관리할 수 있습니다."
   },
   "divDoNotRememberTitle": {
-    "message": "이전에 이 웹 사이트에 대해 암호를 저장하지 않도록 지정했습니다."
+    "message": "이전에 이 웹사이트에 대해 암호를 저장하지 않도록 지정했습니다."
   },
   "divDoNotRememberMessage": {
-    "message": "이 항목을 변경하려면 iCloud 키체인에서 이 웹 사이트에 입력한 내용을 제거하고 이 웹 사이트에 다시 로그인하십시오."
+    "message": "이 항목을 변경하려면 iCloud 키체인에서 이 웹사이트에 입력한 내용을 제거하고 이 웹사이트에 다시 로그인하십시오."
   },
   "GettingPasswords": {
     "message": "암호 로드 중…"
   },
   "NoUserName": {
     "message": "사용자 이름 없음"
+  },
+  "divOpenPasswords_macos": {
+    "message": "암호 앱 열기…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "암호 관리…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "암호 관리…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "암호 관리…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "암호 관리…"
   },
   "divOpenPasswords": {
     "message": "암호 관리…"
@@ -114,12 +135,36 @@
     "message": "확인 코드 설정"
   },
   "strongPasswordSuggestion": {
+    "message": "암호 앱 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "암호 설정 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "암호 설정 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "암호 설정 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "암호 설정 또는 Safari에서 강력한 암호를 생성할 수 있습니다."
   },
   "openThisPageInSafari": {
     "message": "Safari에서 이 페이지 열기…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "암호 앱 열기…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "암호 설정 열기…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "암호 설정 열기…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "암호 설정 열기…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "암호 설정 열기…"
   }
 }

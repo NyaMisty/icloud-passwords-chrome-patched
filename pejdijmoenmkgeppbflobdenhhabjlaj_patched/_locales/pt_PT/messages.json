@@ -9,7 +9,7 @@
     "message": "Descarregue iCloud para Windows para usar Palavras-passe em iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Esta extensão requer a instalação do macOS Sonoma."
+    "message": "É necessário ter o macOS Sonoma ou posterior para instalar esta extensão."
   },
   "extDescription": {
     "message": "Palavras-passe em iCloud permite preencher palavras-passe do Porta-chaves em iCloud ao iniciar sessão em sites através do Chrome."
@@ -45,7 +45,13 @@
     "message": "Pode ver e editar as palavras-passe guardadas na aplicação Palavras-passe em iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Pode procurar e gerir as palavras-passe guardadas nas definições de Palavras-passe."
+    "message": "Pode procurar e gerir palavras-passe guardadas na aplicação Palavras-passe."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Pode procurar e gerir palavras-passe guardadas nas definições de Palavras-passe."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Pode procurar e gerir palavras-passe guardadas nas definições de Palavras-passe."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Pode gerir as palavras-passe guardadas no painel Palavras-passe das Preferências do Sistema."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "nenhum nome de utilizador"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Abrir aplicação Palavras-passe…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gerir palavras-passe…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gerir palavras-passe…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gerir palavras-passe…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gerir palavras-passe…"
   },
   "divOpenPasswords": {
     "message": "Gerir palavras-passe…"
@@ -114,12 +135,36 @@
     "message": "Configurar código de confirmação"
   },
   "strongPasswordSuggestion": {
-    "message": "Pode criar uma palavra-passe segura nas definições de Palavras-passe ou no Safari."
+    "message": "Pode criar uma palavra-passe forte na aplicação Palavras-passe ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Pode criar uma palavra-passe forte nas definições de Palavras-passe ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Pode criar uma palavra-passe forte nas definições de Palavras-passe ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Pode criar uma palavra-passe forte nas definições de Palavras-passe ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Pode criar uma palavra-passe forte nas definições de Palavras-passe ou no Safari."
   },
   "openThisPageInSafari": {
     "message": "Abrir esta página no Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Abrir as definições de Palavras-passe…"
+  "openPasswordsSettings_macos": {
+    "message": "Abrir aplicação Palavras-passe…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Abrir definições de Palavras-passe…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Abrir definições de Palavras-passe…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Abrir definições de Palavras-passe…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Abrir definições de Palavras-passe…"
   }
 }

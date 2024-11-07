@@ -9,7 +9,7 @@
     "message": "iCloudパスワードを使用するにはWindows用iCloudをダウンロードしてください。"
   },
   "downloadMessage_macos": {
-    "message": "この拡張機能を使用するにはmacOS Sonomaがインストールされている必要があります。"
+    "message": "この拡張機能を使用するにはmacOS Sonoma以降がインストールされている必要があります。"
   },
   "extDescription": {
     "message": "iCloudパスワードを使用すると、ChromeでWebサイトにサインインするときにiCloudキーチェーンからパスワードを入力できます。"
@@ -45,6 +45,12 @@
     "message": "iCloudパスワードアプリで、保存済みのパスワードを表示/編集できます。"
   },
   "divNoPasswordsMessage_macos": {
+    "message": "パスワードアプリで、保存されているパスワードを調べたり管理したりできます。"
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "“パスワード”設定で、保存されているパスワードを調べたり管理したりできます。"
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "“パスワード”設定で、保存されているパスワードを調べたり管理したりできます。"
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "ユーザ名が入力されていません"
+  },
+  "divOpenPasswords_macos": {
+    "message": "パスワードアプリを開く…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "パスワードを管理…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "パスワードを管理…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "パスワードを管理…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "パスワードを管理…"
   },
   "divOpenPasswords": {
     "message": "パスワードを管理…"
@@ -114,12 +135,36 @@
     "message": "確認コードを設定"
   },
   "strongPasswordSuggestion": {
+    "message": "パスワードアプリまたはSafariで強力なパスワードを作成することができます。"
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "“パスワード”設定またはSafariで強力なパスワードを作成することができます。"
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "“パスワード”設定またはSafariで強力なパスワードを作成することができます。"
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "“パスワード”設定またはSafariで強力なパスワードを作成することができます。"
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "“パスワード”設定またはSafariで強力なパスワードを作成することができます。"
   },
   "openThisPageInSafari": {
     "message": "このページをSafariで開く…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "パスワードアプリを開く…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "“パスワード”設定を開く…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "“パスワード”設定を開く…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "“パスワード”設定を開く…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "“パスワード”設定を開く…"
   }
 }

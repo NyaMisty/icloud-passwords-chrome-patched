@@ -45,7 +45,13 @@
     "message": "Você pode visualizar e editar as senhas salvas no app Senhas do iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Você pode pesquisar e gerenciar as senhas salvas nos ajustes de Senhas."
+    "message": "Você pode pesquisar e gerenciar senhas salvas no app Senhas."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Você pode pesquisar e gerenciar senhas salvas nos ajustes de Senhas."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Você pode pesquisar e gerenciar senhas salvas nos ajustes de Senhas."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Você pode gerenciar as senhas salvas no painel de Senhas nas Preferências do Sistema."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "nenhum nome de usuário"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Abrir o App Senhas…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gerenciar Senhas…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gerenciar Senhas…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gerenciar Senhas…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gerenciar Senhas…"
   },
   "divOpenPasswords": {
     "message": "Gerenciar Senhas…"
@@ -114,12 +135,36 @@
     "message": "Configurar Código de Verificação"
   },
   "strongPasswordSuggestion": {
+    "message": "Você pode criar uma senha forte no app Senhas ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Você pode criar uma senha forte nos Ajustes de Senhas ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Você pode criar uma senha forte nos Ajustes de Senhas ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Você pode criar uma senha forte nos Ajustes de Senhas ou no Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Você pode criar uma senha forte nos Ajustes de Senhas ou no Safari."
   },
   "openThisPageInSafari": {
     "message": "Abrir Esta Página no Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Abrir Ajustes de Senhas…"
+  "openPasswordsSettings_macos": {
+    "message": "Abrir o App Senhas…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Abrir os Ajustes de Senhas…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Abrir os Ajustes de Senhas…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Abrir os Ajustes de Senhas…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Abrir os Ajustes de Senhas…"
   }
 }

@@ -9,7 +9,7 @@
     "message": "Hent iCloud til Windows for at bruge iCloud-adgangskoder."
   },
   "downloadMessage_macos": {
-    "message": "Denne udvidelse kræver macOS Sonoma, før den kan installeres."
+    "message": "Denne udvidelse kan kun installeres på macOS Sonoma og nyere versioner."
   },
   "extDescription": {
     "message": "iCloud-adgangskoder gør det muligt at udfylde adgangskoder fra iCloud-nøglering, når du logger ind på websteder i Chrome."
@@ -45,6 +45,12 @@
     "message": "Du kan se og redigere gemte adgangskoder i appen iCloud-adgangskoder."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Du kan slå gemte adgangskoder op og administrere dem i appen Adgangskoder."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Du kan slå gemte adgangskoder op og administrere dem i indstillingerne til Adgangskoder."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Du kan slå gemte adgangskoder op og administrere dem i indstillingerne til Adgangskoder."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "intet brugernavn"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Åbn appen Adgangskoder…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Administrer adgangskoder…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Administrer adgangskoder…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Administrer adgangskoder…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Administrer adgangskoder…"
   },
   "divOpenPasswords": {
     "message": "Administrer adgangskoder…"
@@ -114,12 +135,36 @@
     "message": "Indstil bekræftelseskode"
   },
   "strongPasswordSuggestion": {
+    "message": "Du kan oprette en stærk adgangskode i appen Adgangskoder eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Du kan oprette en stærk adgangskode i indstillingerne til Adgangskoder eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Du kan oprette en stærk adgangskode i indstillingerne til Adgangskoder eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Du kan oprette en stærk adgangskode i indstillingerne til Adgangskoder eller i Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Du kan oprette en stærk adgangskode i indstillingerne til Adgangskoder eller i Safari."
   },
   "openThisPageInSafari": {
     "message": "Åbn denne side i Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Åbn appen Adgangskoder…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Åbn indstillingerne til Adgangskoder…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Åbn indstillingerne til Adgangskoder…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Åbn indstillingerne til Adgangskoder…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Åbn indstillingerne til Adgangskoder…"
   }
 }

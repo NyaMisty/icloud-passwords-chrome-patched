@@ -9,7 +9,7 @@
     "message": "Muat turun iCloud untuk Windows bagi menggunakan Kata Laluan iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Sambungan ini memerlukan macOS Sonoma untuk dipasang."
+    "message": "Sambungan ini memerlukan macOS Sonoma atau lebih baharu untuk dipasang."
   },
   "extDescription": {
     "message": "Kata Laluan iCloud mengisi kata laluan daripada Rantai Kunci iCloud apabila daftar masuk ke tapak web menggunakan Chrome."
@@ -45,6 +45,12 @@
     "message": "Anda boleh melihat dan mengedit kata laluan disimpan dalam app Kata Laluan iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Anda boleh mencari dan mengurus kata laluan disimpan dalam app Kata Laluan."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Anda boleh mencari dan mengurus kata laluan disimpan dalam seting Kata Laluan."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Anda boleh mencari dan mengurus kata laluan disimpan dalam seting Kata Laluan."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "tiada nama pengguna"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Buka App Kata Laluan…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Urus Kata Laluan…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Urus Kata Laluan…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Urus Kata Laluan…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Urus Kata Laluan…"
   },
   "divOpenPasswords": {
     "message": "Urus Kata Laluan…"
@@ -114,12 +135,36 @@
     "message": "Sediakan Kod Pengesahan"
   },
   "strongPasswordSuggestion": {
+    "message": "Anda boleh mencipta kata laluan kukuh dalam app Kata Laluan atau dalam Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Anda boleh mencipta kata laluan kukuh dalam Seting Kata Laluan atau dalam Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Anda boleh mencipta kata laluan kukuh dalam Seting Kata Laluan atau dalam Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Anda boleh mencipta kata laluan kukuh dalam Seting Kata Laluan atau dalam Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Anda boleh mencipta kata laluan kukuh dalam Seting Kata Laluan atau dalam Safari."
   },
   "openThisPageInSafari": {
     "message": "Buka Halaman Ini dalam Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Buka App Kata Laluan…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Buka Seting Kata Laluan…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Buka Seting Kata Laluan…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Buka Seting Kata Laluan…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Buka Seting Kata Laluan…"
   }
 }

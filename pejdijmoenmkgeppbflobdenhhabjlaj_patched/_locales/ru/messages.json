@@ -9,7 +9,7 @@
     "message": "Загрузите iCloud для Windows, чтобы использовать Пароли iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Для установки этого расширения требуется macOS Sonoma."
+    "message": "Для установки этого расширения требуется macOS Sonoma или новее."
   },
   "extDescription": {
     "message": "Расширение «Пароли iCloud» позволяет автоматически заполнять пароли из связки ключей iCloud при входе на сайты в Chrome."
@@ -45,7 +45,13 @@
     "message": "Сохраненные пароли можно просматривать и удалять в приложении «Пароли iCloud»."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Просматривать сохраненные пароли и управлять ими можно в разделе настроек «Пароли»."
+    "message": "В приложении «Пароли» можно находить сохраненные пароли и управлять ими."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "В настройках приложения «Пароли» можно находить сохраненные пароли и управлять ими."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "В настройках приложения «Пароли» можно находить сохраненные пароли и управлять ими."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Сохраненными паролями можно управлять на вкладке «Пароли» в Системных настройках."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "отсутствует имя пользователя"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Открыть приложение «Пароли»…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Управление паролями…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Управление паролями…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Управление паролями…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Управление паролями…"
   },
   "divOpenPasswords": {
     "message": "Управление паролями…"
@@ -114,12 +135,36 @@
     "message": "Настроить код проверки"
   },
   "strongPasswordSuggestion": {
-    "message": "Надежный пароль можно создать в разделе настроек «Пароли» или в Safari."
+    "message": "Надежный пароль можно создать в приложении «Пароли» или в Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Надежный пароль можно создать в настройках приложения «Пароли» или в Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Надежный пароль можно создать в настройках приложения «Пароли» или в Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Надежный пароль можно создать в настройках приложения «Пароли» или в Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Надежный пароль можно создать в настройках приложения «Пароли» или в Safari."
   },
   "openThisPageInSafari": {
     "message": "Открыть эту страницу в Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Открыть приложение «Пароли»…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Открыть настройки паролей…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Открыть настройки паролей…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Открыть настройки паролей…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Открыть настройки паролей…"
   }
 }

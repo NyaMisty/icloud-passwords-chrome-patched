@@ -9,7 +9,7 @@
     "message": "Tải về iCloud cho Windows để sử dụng Mật khẩu iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Phần mở rộng này yêu cầu cài đặt macOS Sonoma."
+    "message": "Phần mở rộng này yêu cầu cài đặt macOS Sonoma trở lên."
   },
   "extDescription": {
     "message": "Mật khẩu iCloud cho phép bạn điền mật khẩu từ Chuỗi khóa iCloud khi đăng nhập vào các trang web bằng Chrome."
@@ -45,7 +45,13 @@
     "message": "Bạn có thể xem và sửa các mật khẩu đã lưu trong ứng dụng Mật khẩu iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Bạn có thể tra cứu và quản lý các mật khẩu đã lưu trong cài đặt Mật khẩu."
+    "message": "Bạn có thể tìm kiếm và quản lý các mật khẩu đã lưu trong ứng dụng Mật khẩu."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Bạn có thể tìm kiếm và quản lý các mật khẩu đã lưu trong cài đặt Mật khẩu."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Bạn có thể tìm kiếm và quản lý các mật khẩu đã lưu trong cài đặt Mật khẩu."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Bạn có thể quản lý các mật khẩu đã lưu trong khung Mật khẩu trong Tùy chọn hệ thống."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "không có tên người dùng"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Mở ứng dụng Mật khẩu…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Quản lý mật khẩu…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Quản lý mật khẩu…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Quản lý mật khẩu…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Quản lý mật khẩu…"
   },
   "divOpenPasswords": {
     "message": "Quản lý mật khẩu…"
@@ -114,12 +135,36 @@
     "message": "Thiết lập mã xác minh"
   },
   "strongPasswordSuggestion": {
-    "message": "Bạn có thể tạo một mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
+    "message": "Bạn có thể tạo mật khẩu mạnh trong ứng dụng Mật khẩu hoặc trong Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Bạn có thể tạo mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Bạn có thể tạo mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Bạn có thể tạo mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Bạn có thể tạo mật khẩu mạnh trong cài đặt Mật khẩu hoặc trong Safari."
   },
   "openThisPageInSafari": {
     "message": "Mở trang này trong Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Mở ứng dụng Mật khẩu…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Mở cài đặt Mật khẩu…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Mở cài đặt Mật khẩu…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Mở cài đặt Mật khẩu…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Mở cài đặt Mật khẩu…"
   }
 }

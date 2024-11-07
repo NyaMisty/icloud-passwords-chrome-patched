@@ -9,7 +9,7 @@
     "message": "Preuzmite iCloud za Windows za uporabu iCloud lozinki."
   },
   "downloadMessage_macos": {
-    "message": "Ova ekstenzija zahtijeva instaliranje sustava macOS Sonoma."
+    "message": "Za instaliranje ove ekstenzije potreban je macOS Sonoma ili noviji."
   },
   "extDescription": {
     "message": "Omogućuje ispunjavanje lozinki iz iCloud privjeska ključeva prilikom prijavljivanja na web stranice Chromeom."
@@ -45,7 +45,13 @@
     "message": "Spremljene lozinke možete pogledati i urediti u aplikaciji iCloud lozinke."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "U postavkama Lozinke možete potražiti i upravljati spremljenim lozinkama."
+    "message": "Možete potražiti i upravljati spremljenim lozinkama u aplikaciji Lozinke."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Možete potražiti i upravljati spremljenim lozinkama u postavkama Lozinke."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Možete potražiti i upravljati spremljenim lozinkama u postavkama Lozinke."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Spremljenim lozinkama možete upravljati u prozoru Lozinke unutar Postavki sustava."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "bez korisničkog imena"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Otvori aplikaciju Lozinke…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Upravljanje lozinkama…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Upravljanje lozinkama…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Upravljanje lozinkama…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Upravljanje lozinkama…"
   },
   "divOpenPasswords": {
     "message": "Upravljanje lozinkama…"
@@ -114,12 +135,36 @@
     "message": "Podesi verifikacijski kôd"
   },
   "strongPasswordSuggestion": {
-    "message": "Snažnu lozinku možete izraditi u postavkama Lozinke ili u Safariju."
+    "message": "Možete izraditi snažnu lozinku u aplikaciji Lozinke ili u Safariju."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Možete izraditi snažnu lozinku u postavkama Lozinke ili u Safariju."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Možete izraditi snažnu lozinku u postavkama Lozinke ili u Safariju."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Možete izraditi snažnu lozinku u postavkama Lozinke ili u Safariju."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Možete izraditi snažnu lozinku u postavkama Lozinke ili u Safariju."
   },
   "openThisPageInSafari": {
     "message": "Otvori ovu stranicu u Safariju…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Otvori aplikaciju Lozinke…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Otvori postavke Lozinke…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Otvori postavke Lozinke…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Otvori postavke Lozinke…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Otvori postavke Lozinke…"
   }
 }

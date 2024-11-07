@@ -9,7 +9,7 @@
     "message": "ดาวน์โหลด iCloud สำหรับ Windows เพื่อใช้รหัสผ่าน iCloud"
   },
   "downloadMessage_macos": {
-    "message": "ส่วนขยายนี้ต้องติดตั้ง macOS Sonoma"
+    "message": "ส่วนขยายนี้ต้องติดตั้ง macOS Sonoma ขึ้นไป"
   },
   "extDescription": {
     "message": "รหัสผ่าน iCloud ช่วยให้คุณป้อนรหัสผ่านจากพวงกุญแจ iCloud ได้เมื่อคุณลงชื่อเข้าเว็บไซต์โดยใช้ Chrome"
@@ -45,7 +45,13 @@
     "message": "คุณสามารถดูและแก้ไขรหัสผ่านที่บันทึกไว้ได้ในแอปรหัสผ่าน iCloud"
   },
   "divNoPasswordsMessage_macos": {
-    "message": "คุณสามารถค้นดูและจัดการรหัสผ่านที่บันทึกไว้ได้ในการตั้งค่ารหัสผ่าน"
+    "message": "คุณสามารถค้นหาและจัดการรหัสผ่านที่บันทึกไว้ได้ในแอปรหัสผ่าน"
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "คุณสามารถค้นหาและจัดการรหัสผ่านที่บันทึกไว้ได้ในการตั้งค่ารหัสผ่าน"
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "คุณสามารถค้นหาและจัดการรหัสผ่านที่บันทึกไว้ได้ในการตั้งค่ารหัสผ่าน"
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "คุณสามารถจัดการรหัสผ่านที่บันทึกไว้ได้ในบานหน้าต่างรหัสผ่านในการตั้งค่าระบบ"
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "ไม่มีชื่อผู้ใช้"
+  },
+  "divOpenPasswords_macos": {
+    "message": "เปิดแอปรหัสผ่าน…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "จัดการรหัสผ่าน…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "จัดการรหัสผ่าน…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "จัดการรหัสผ่าน…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "จัดการรหัสผ่าน…"
   },
   "divOpenPasswords": {
     "message": "จัดการรหัสผ่าน…"
@@ -114,12 +135,36 @@
     "message": "ตั้งค่ารหัสการตรวจสอบยืนยัน"
   },
   "strongPasswordSuggestion": {
+    "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในแอปรหัสผ่านหรือใน Safari"
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในการตั้งค่ารหัสผ่านหรือใน Safari"
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในการตั้งค่ารหัสผ่านหรือใน Safari"
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในการตั้งค่ารหัสผ่านหรือใน Safari"
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "คุณสามารถสร้างรหัสผ่านที่ปลอดภัยสูงได้ในการตั้งค่ารหัสผ่านหรือใน Safari"
   },
   "openThisPageInSafari": {
     "message": "เปิดหน้านี้ใน Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "เปิดแอปรหัสผ่าน…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "เปิดการตั้งค่ารหัสผ่าน…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "เปิดการตั้งค่ารหัสผ่าน…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "เปิดการตั้งค่ารหัสผ่าน…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "เปิดการตั้งค่ารหัสผ่าน…"
   }
 }

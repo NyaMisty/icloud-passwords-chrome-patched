@@ -9,7 +9,7 @@
     "message": "Pentru a utiliza Parole iCloud, descărcați iCloud pentru Windows."
   },
   "downloadMessage_macos": {
-    "message": "Această extensie necesită instalarea macOS Sonoma."
+    "message": "Această extensie necesită instalarea macOS Sonoma sau a unei versiuni ulterioare."
   },
   "extDescription": {
     "message": "Extensia Parole iCloud vă permite să completați parolele din Portchei iCloud atunci când vă autentificați pe site-urile web folosind Chrome."
@@ -45,7 +45,13 @@
     "message": "Puteți vedea și edita parolele salvate în aplicația Parole iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Puteți căuta și gestiona parolele salvate în configurările Parole."
+    "message": "Puteți căuta și gestiona parolele salvate în aplicația Parole."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Puteți căuta și gestiona parolele salvate în aplicația Parole."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Puteți căuta și gestiona parolele salvate în aplicația Parole."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Puteți gestiona parolele salvate în fila Parole din Preferințe sistem."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "niciun nume de utilizator"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Deschidere aplicație Parole…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gestionare parole…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gestionare parole…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gestionare parole…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gestionare parole…"
   },
   "divOpenPasswords": {
     "message": "Gestionare parole…"
@@ -116,10 +137,34 @@
   "strongPasswordSuggestion": {
     "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
   },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Puteți crea o parolă puternică în configurările Parole sau în Safari."
+  },
   "openThisPageInSafari": {
     "message": "Deschidere pagină în Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Deschidere aplicație Parole…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Deschidere configurări Parole…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Deschidere configurări Parole…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Deschidere configurări Parole…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Deschidere configurări Parole…"
   }
 }

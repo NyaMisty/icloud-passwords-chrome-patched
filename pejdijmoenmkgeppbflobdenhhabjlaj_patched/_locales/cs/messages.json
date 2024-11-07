@@ -9,7 +9,7 @@
     "message": "Chcete‑li používat Hesla na iCloudu, stáhněte si iCloud pro Windows."
   },
   "downloadMessage_macos": {
-    "message": "Toto rozšíření vyžaduje instalaci macOS Sonoma."
+    "message": "Toto rozšíření vyžaduje instalaci systému macOS Sonoma nebo novějšího."
   },
   "extDescription": {
     "message": "Rozšíření Hesla na iCloudu vám umožňuje vyplňovat hesla z Klíčenky na iCloudu při přihlašování k webovým stránkám v Chromu."
@@ -45,7 +45,13 @@
     "message": "Uložená hesla můžete zobrazit a upravit v aplikaci Hesla na iCloudu."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Uložená hesla můžete vyhledat a spravovat v nastavení Hesla."
+    "message": "Uložená hesla můžete vyhledávat a spravovat v aplikaci Hesla."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Uložená hesla můžete vyhledávat a spravovat v nastavení Hesla."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Uložená hesla můžete vyhledávat a spravovat v nastavení Hesla."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Uložená hesla můžete spravovat na panelu Hesla v Předvolbách systému."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "žádné uživatelské jméno"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Otevřít aplikaci Hesla…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Spravovat hesla…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Spravovat hesla…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Spravovat hesla…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Spravovat hesla…"
   },
   "divOpenPasswords": {
     "message": "Spravovat hesla…"
@@ -114,12 +135,36 @@
     "message": "Nastavit ověřovací kód"
   },
   "strongPasswordSuggestion": {
-    "message": "V nastavení Hesla nebo v Safari můžete vytvořit silné heslo."
+    "message": "Silná hesla je možné vytvářet v aplikaci Hesla nebo v Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Silná hesla je možné vytvářet v nastavení aplikace Hesla nebo v Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Silná hesla je možné vytvářet v nastavení aplikace Hesla nebo v Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Silná hesla je možné vytvářet v nastavení aplikace Hesla nebo v Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Silná hesla je možné vytvářet v nastavení aplikace Hesla nebo v Safari."
   },
   "openThisPageInSafari": {
     "message": "Otevřít stránku v Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Otevřít aplikaci Hesla…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Otevřít nastavení Hesla…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Otevřít nastavení Hesla…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Otevřít nastavení Hesla…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Otevřít nastavení Hesla…"
   }
 }

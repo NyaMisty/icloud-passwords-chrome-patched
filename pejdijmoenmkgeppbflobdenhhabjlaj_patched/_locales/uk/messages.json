@@ -9,7 +9,7 @@
     "message": "Викачайте iCloud для Windows, щоб користуватися Паролями iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Для цього розширення має бути інстальовано macOS Sonoma."
+    "message": "Для цього розширення має бути інстальовано macOS Sonoma чи новіше."
   },
   "extDescription": {
     "message": "Завдяки Паролям iCloud можна вводити паролі з Вʼязки iCloud під час входу на вебсайти в Chrome."
@@ -45,7 +45,13 @@
     "message": "Переглядати й редагувати збережені паролі можна в програмі «Паролі iCloud»."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Переглядати збережені паролі та керувати ними можна в параметрах Паролів."
+    "message": "У програмі «Паролі» можна шукати збережені паролі й керувати ними."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Шукати збережені паролі й керувати ними можна в Параметрах паролів."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Шукати збережені паролі й керувати ними можна в Параметрах паролів."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Керувати збереженими паролями можна на панелі «Паролі» у меню «Системні параметри»."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "немає імені користувача"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Відкрити програму «Паролі»…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Керувати паролями…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Керувати паролями…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Керувати паролями…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Керувати паролями…"
   },
   "divOpenPasswords": {
     "message": "Керувати паролями..."
@@ -114,12 +135,36 @@
     "message": "Налаштувати код перевірки"
   },
   "strongPasswordSuggestion": {
-    "message": "Створити надійний пароль можна в меню «Параметри паролів» або в Safari."
+    "message": "Створити надійний пароль можна у програмі «Паролі» або в Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Створити надійний пароль можна в Параметрах паролів або в Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Створити надійний пароль можна в Параметрах паролів або в Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Створити надійний пароль можна в Параметрах паролів або в Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Створити надійний пароль можна в Параметрах паролів або в Safari."
   },
   "openThisPageInSafari": {
     "message": "Відкрити цю сторінку в Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Відкрийте меню «Параметри паролів»…"
+  "openPasswordsSettings_macos": {
+    "message": "Відкрити програму «Паролі»…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Відкрити Параметри паролів…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Відкрити Параметри паролів…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Відкрити Параметри паролів…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Відкрити Параметри паролів…"
   }
 }

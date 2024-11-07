@@ -9,7 +9,7 @@
     "message": "Téléchargez iCloud pour Windows pour utiliser Mots de passe iCloud."
   },
   "downloadMessage_macos": {
-    "message": "Lʼinstallation de cette extension requiert macOS Sonoma."
+    "message": "Lʼinstallation de cette extension requiert macOS Sonoma ou ultérieur."
   },
   "extDescription": {
     "message": "Avec Mots de passe iCloud, utilisez les mots de passe du trousseau iCloud pour les sites web consultés via Chrome."
@@ -45,6 +45,12 @@
     "message": "Vous pouvez afficher et modifier des mots de passe enregistrés dans lʼapp Mots de passe iCloud."
   },
   "divNoPasswordsMessage_macos": {
+    "message": "Vous pouvez rechercher et gérer des mots de passe enregistrés dans l’app Mots de passe."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Vous pouvez rechercher et gérer des mots de passe enregistrés dans les réglages Mots de passe."
+  },
+  "divNoPasswordsMessage_macos_13": {
     "message": "Vous pouvez rechercher et gérer des mots de passe enregistrés dans les réglages Mots de passe."
   },
   "divNoPasswordsMessage_macos_12": {
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "aucun nom d’utilisateur"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Ouvrir l’app Mots de passe…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Gérer les mots de passe…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Gérer les mots de passe…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Gérer les mots de passe…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Gérer les mots de passe…"
   },
   "divOpenPasswords": {
     "message": "Gérer les mots de passe…"
@@ -114,12 +135,36 @@
     "message": "Configurer un code de validation"
   },
   "strongPasswordSuggestion": {
+    "message": "Vous pouvez créer un mot de passe robuste dans l’app Mots de passe ou dans Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
     "message": "Vous pouvez créer un mot de passe robuste dans les réglages Mots de passe ou dans Safari."
   },
   "openThisPageInSafari": {
     "message": "Ouvrir cette page dans Safari…"
   },
-  "openPasswordsSettings": {
+  "openPasswordsSettings_macos": {
+    "message": "Ouvrir l’app Mots de passe…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Ouvrir les réglages Mots de passe…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Ouvrir les réglages Mots de passe…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Ouvrir les réglages Mots de passe…"
+  },
+  "openPasswordsSettings_macos_11": {
     "message": "Ouvrir les réglages Mots de passe…"
   }
 }

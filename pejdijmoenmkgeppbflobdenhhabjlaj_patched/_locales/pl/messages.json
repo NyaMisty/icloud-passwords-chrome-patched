@@ -9,7 +9,7 @@
     "message": "Aby używać funkcji Hasła w iCloud, pobierz aplikację iCloud dla Windows."
   },
   "downloadMessage_macos": {
-    "message": "To rozszerzenie wymaga systemu macOS Sonoma."
+    "message": "Do zainstalowania tego rozszerzenia wymagany jest system macOS Sonoma lub nowszy."
   },
   "extDescription": {
     "message": "Rozszerzenie Hasła w iCloud pozwala wypełniać pola formularzy logowania się w witrynach odwiedzanych w przeglądarce Chrome, używając haseł z pęku kluczy w iCloud."
@@ -45,7 +45,13 @@
     "message": "Zachowane hasła możesz wyświetlać i edytować w aplikacji Hasła w iCloud."
   },
   "divNoPasswordsMessage_macos": {
-    "message": "Aby wyszukiwać zachowane hasła lub nimi zarządzać, przejdź do ustawień haseł."
+    "message": "Zachowane hasła możesz wyszukiwać i zarządzać nimi w aplikacji Hasła."
+  },
+  "divNoPasswordsMessage_macos_14": {
+    "message": "Zachowane hasła możesz wyszukiwać i zarządzać nimi w Ustawieniach aplikacji Hasła."
+  },
+  "divNoPasswordsMessage_macos_13": {
+    "message": "Zachowane hasła możesz wyszukiwać i zarządzać nimi w Ustawieniach aplikacji Hasła."
   },
   "divNoPasswordsMessage_macos_12": {
     "message": "Zachowanymi hasłami możesz zarządzać w panelu Hasła w Preferencjach systemowych."
@@ -64,6 +70,21 @@
   },
   "NoUserName": {
     "message": "brak nazwy użytkownika"
+  },
+  "divOpenPasswords_macos": {
+    "message": "Otwórz aplikację Hasła…"
+  },
+  "divOpenPasswords_macos_14": {
+    "message": "Zarządzaj hasłami…"
+  },
+  "divOpenPasswords_macos_13": {
+    "message": "Zarządzaj hasłami…"
+  },
+  "divOpenPasswords_macos_12": {
+    "message": "Zarządzaj hasłami…"
+  },
+  "divOpenPasswords_macos_11": {
+    "message": "Zarządzaj hasłami…"
   },
   "divOpenPasswords": {
     "message": "Zarządzaj hasłami…"
@@ -114,12 +135,36 @@
     "message": "Skonfiguruj kod weryfikacyjny"
   },
   "strongPasswordSuggestion": {
-    "message": "Silne hasła możesz tworzyć w ustawieniach haseł lub w Safari."
+    "message": "Silne hasło możesz utworzyć w aplikacji Hasła lub w Safari."
+  },
+  "strongPasswordSuggestion_macos_14": {
+    "message": "Silne hasło możesz utworzyć w Ustawieniach aplikacji Hasła lub w Safari."
+  },
+  "strongPasswordSuggestion_macos_13": {
+    "message": "Silne hasło możesz utworzyć w Ustawieniach aplikacji Hasła lub w Safari."
+  },
+  "strongPasswordSuggestion_macos_12": {
+    "message": "Silne hasło możesz utworzyć w Ustawieniach aplikacji Hasła lub w Safari."
+  },
+  "strongPasswordSuggestion_macos_11": {
+    "message": "Silne hasło możesz utworzyć w Ustawieniach aplikacji Hasła lub w Safari."
   },
   "openThisPageInSafari": {
     "message": "Otwórz tę stronę w Safari…"
   },
-  "openPasswordsSettings": {
-    "message": "Otwórz ustawienia haseł…"
+  "openPasswordsSettings_macos": {
+    "message": "Otwórz aplikację Hasła…"
+  },
+  "openPasswordsSettings_macos_14": {
+    "message": "Otwórz Ustawienia w aplikacji Hasła…"
+  },
+  "openPasswordsSettings_macos_13": {
+    "message": "Otwórz Ustawienia w aplikacji Hasła…"
+  },
+  "openPasswordsSettings_macos_12": {
+    "message": "Otwórz Ustawienia w aplikacji Hasła…"
+  },
+  "openPasswordsSettings_macos_11": {
+    "message": "Otwórz Ustawienia w aplikacji Hasła…"
   }
 }
